@@ -82,6 +82,8 @@
 <wire x1="-27.46" y1="20.52" x2="-27.46" y2="4.94" width="0.15" layer="94"/>
 <wire x1="-27.46" y1="4.94" x2="-34.54" y2="4.94" width="0.15" layer="94"/>
 <wire x1="-34.54" y1="4.94" x2="-34.54" y2="20.52" width="0.15" layer="94"/>
+<pin name="1" x="-35.56" y="12.7" length="middle" rot="R180"/>
+<pin name="3" x="-25.4" y="12.7" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>

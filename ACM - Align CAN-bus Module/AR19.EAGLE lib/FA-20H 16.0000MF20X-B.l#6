@@ -76,14 +76,14 @@
 </packages>
 <symbols>
 <symbol name="FA-20H">
-<pin name="1" x="-96" y="-17.5" length="short" rot="R180"/>
-<pin name="3" x="-93" y="-17.5" length="short"/>
-<wire x1="-96" y1="-12" x2="-96" y2="-23" width="0.15" layer="94"/>
-<wire x1="-93" y1="-23" x2="-93" y2="-12" width="0.15" layer="94"/>
-<wire x1="-95.5" y1="-12.5" x2="-93.5" y2="-12.5" width="0.15" layer="94"/>
-<wire x1="-93.5" y1="-12.5" x2="-93.5" y2="-23" width="0.15" layer="94"/>
-<wire x1="-93.5" y1="-23" x2="-95.5" y2="-23" width="0.15" layer="94"/>
-<wire x1="-95.5" y1="-23" x2="-95.5" y2="-12.5" width="0.15" layer="94"/>
+<pin name="1" x="-9.64" y="7.9" length="short" rot="R180"/>
+<pin name="3" x="-6.64" y="7.9" length="short"/>
+<wire x1="-9.64" y1="13.4" x2="-9.64" y2="2.4" width="0.15" layer="94"/>
+<wire x1="-6.64" y1="2.4" x2="-6.64" y2="13.4" width="0.15" layer="94"/>
+<wire x1="-9.14" y1="12.9" x2="-7.14" y2="12.9" width="0.15" layer="94"/>
+<wire x1="-7.14" y1="12.9" x2="-7.14" y2="2.4" width="0.15" layer="94"/>
+<wire x1="-7.14" y1="2.4" x2="-9.14" y2="2.4" width="0.15" layer="94"/>
+<wire x1="-9.14" y1="2.4" x2="-9.14" y2="12.9" width="0.15" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>

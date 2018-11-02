@@ -93,6 +93,10 @@
 </gates>
 <devices>
 <device name="" package="FA-20H">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
