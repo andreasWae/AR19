@@ -2973,6 +2973,9 @@ Source: AVX .. aphvc.pdf</description>
 <label x="314.96" y="101.6" size="1.778" layer="95" rot="R180"/>
 <wire x1="320.04" y1="99.06" x2="320.04" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="101.6" x2="314.96" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="1"/>
+<wire x1="320.04" y1="101.6" x2="322.58" y2="101.6" width="0.1524" layer="91"/>
+<junction x="320.04" y="101.6"/>
 </segment>
 </net>
 <net name="MCU_OSC2" class="0">
@@ -2986,6 +2989,9 @@ Source: AVX .. aphvc.pdf</description>
 <label x="350.52" y="101.6" size="1.778" layer="95" rot="MR180"/>
 <wire x1="345.44" y1="99.06" x2="345.44" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="101.6" x2="350.52" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="3"/>
+<wire x1="339.09" y1="101.6" x2="345.44" y2="101.6" width="0.1524" layer="91"/>
+<junction x="345.44" y="101.6"/>
 </segment>
 </net>
 <net name="CAN_OSC1" class="0">
@@ -2999,6 +3005,9 @@ Source: AVX .. aphvc.pdf</description>
 <label x="314.96" y="68.58" size="1.778" layer="95" rot="R180"/>
 <wire x1="320.04" y1="66.04" x2="320.04" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="68.58" x2="314.96" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="1"/>
+<wire x1="322.58" y1="68.58" x2="320.04" y2="68.58" width="0.1524" layer="91"/>
+<junction x="320.04" y="68.58"/>
 </segment>
 </net>
 <net name="CAN_OSC2" class="0">
@@ -3012,6 +3021,9 @@ Source: AVX .. aphvc.pdf</description>
 <label x="350.52" y="68.58" size="1.778" layer="95" rot="MR180"/>
 <wire x1="345.44" y1="66.04" x2="345.44" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="68.58" x2="350.52" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="3"/>
+<wire x1="339.09" y1="68.58" x2="345.44" y2="68.58" width="0.1524" layer="91"/>
+<junction x="345.44" y="68.58"/>
 </segment>
 </net>
 </nets>
