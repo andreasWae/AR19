@@ -2716,12 +2716,6 @@ Source: &lt;a href="http://www.littelfuse.com/~/media/electronics/datasheets/fus
 <wire x1="101.6" y1="160.02" x2="111.76" y2="160.02" width="0.1524" layer="91"/>
 <label x="111.76" y="160.02" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="(PCINT3/OC2A/MOSI)_PB3"/>
-<wire x1="88.9" y1="-55.88" x2="45.72" y2="-55.88" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="-55.88" x2="45.72" y2="-43.18" width="0.1524" layer="91"/>
-<label x="88.9" y="-55.88" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="MISO" class="0">
 <segment>
@@ -2730,12 +2724,6 @@ Source: &lt;a href="http://www.littelfuse.com/~/media/electronics/datasheets/fus
 <wire x1="83.82" y1="162.56" x2="76.2" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="162.56" x2="76.2" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="165.1" x2="71.12" y2="165.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="(PCINT4/MISO)_PB4"/>
-<wire x1="48.26" y1="-43.18" x2="48.26" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="-50.8" x2="88.9" y2="-50.8" width="0.1524" layer="91"/>
-<label x="88.9" y="-50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RESET_MCU" class="0">
@@ -2823,6 +2811,12 @@ Source: &lt;a href="http://www.littelfuse.com/~/media/electronics/datasheets/fus
 <label x="198.12" y="73.66" size="1.778" layer="95" rot="R180"/>
 <wire x1="203.2" y1="73.66" x2="198.12" y2="73.66" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="(PCINT4/MISO)_PB4"/>
+<wire x1="48.26" y1="-43.18" x2="48.26" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="-50.8" x2="88.9" y2="-50.8" width="0.1524" layer="91"/>
+<label x="88.9" y="-50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CAN_MOSI" class="0">
 <segment>
@@ -2830,6 +2824,12 @@ Source: &lt;a href="http://www.littelfuse.com/~/media/electronics/datasheets/fus
 <label x="198.12" y="76.2" size="1.778" layer="95" rot="R180"/>
 <wire x1="205.74" y1="68.58" x2="205.74" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="76.2" x2="198.12" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="(PCINT3/OC2A/MOSI)_PB3"/>
+<wire x1="88.9" y1="-55.88" x2="45.72" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-55.88" x2="45.72" y2="-43.18" width="0.1524" layer="91"/>
+<label x="88.9" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TXCAN" class="0">
@@ -2852,15 +2852,6 @@ Source: &lt;a href="http://www.littelfuse.com/~/media/electronics/datasheets/fus
 <wire x1="205.74" y1="17.78" x2="205.74" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="15.24" x2="190.5" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="40.64" x2="190.5" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="CS_DOTS" class="0">
-<segment>
-<pinref part="DOTSTAR" gate="G$1" pin="DIN"/>
-<wire x1="193.04" y1="-55.88" x2="185.42" y2="-55.88" width="0.1524" layer="91"/>
-<label x="172.72" y="-50.8" size="1.778" layer="95" rot="MR0"/>
-<wire x1="185.42" y1="-55.88" x2="185.42" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="-50.8" x2="172.72" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN_INIT" class="0">
@@ -3053,6 +3044,13 @@ Source: &lt;a href="http://www.littelfuse.com/~/media/electronics/datasheets/fus
 <wire x1="38.1" y1="-43.18" x2="38.1" y2="-66.04" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-66.04" x2="88.9" y2="-66.04" width="0.1524" layer="91"/>
 <label x="88.9" y="-66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DOTSTAR" gate="G$1" pin="DIN"/>
+<wire x1="193.04" y1="-55.88" x2="185.42" y2="-55.88" width="0.1524" layer="91"/>
+<label x="172.72" y="-50.8" size="1.778" layer="95" rot="MR0"/>
+<wire x1="185.42" y1="-55.88" x2="185.42" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="-50.8" x2="172.72" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
