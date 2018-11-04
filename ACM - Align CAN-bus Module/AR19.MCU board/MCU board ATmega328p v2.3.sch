@@ -2348,8 +2348,6 @@ Source: &lt;a href="http://www.vishay.com/docs/20035/dcrcwe3.pdf"&gt; Datasheet 
 <part name="C4" library="T491A106K016AT" deviceset="T491A106K016AT" device="" value="10uF"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="CAN_H" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1"/>
-<part name="CAN_L" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1"/>
 <part name="C5" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="C0603" package3d_urn="urn:adsk.eagle:package:13262/1" value="0.1uF"/>
 <part name="R2" library="CPF0201D10KC1" deviceset="CPF0201D10KC1" device="" value="10KΩ"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -2551,14 +2549,6 @@ Source: &lt;a href="http://www.vishay.com/docs/20035/dcrcwe3.pdf"&gt; Datasheet 
 </instance>
 <instance part="GND6" gate="1" x="-30.48" y="142.24" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="-27.94" y="139.7" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="CAN_H" gate="1" x="238.76" y="5.08" smashed="yes" rot="R180">
-<attribute name="NAME" x="239.903" y="8.3058" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="239.903" y="8.382" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="CAN_L" gate="1" x="238.76" y="2.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="239.903" y="0.6858" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="239.903" y="5.842" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C5" gate="G$1" x="162.56" y="43.18" smashed="yes">
 <attribute name="NAME" x="164.084" y="43.561" size="1.778" layer="95"/>
@@ -2983,7 +2973,7 @@ Source: &lt;a href="http://www.vishay.com/docs/20035/dcrcwe3.pdf"&gt; Datasheet 
 <pinref part="IC3" gate="G$1" pin="CANL"/>
 <wire x1="210.82" y1="17.78" x2="210.82" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="2.54" x2="236.22" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="CAN_L" gate="1" pin="P"/>
+<label x="236.22" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I/O1" class="0">
@@ -3020,7 +3010,7 @@ Source: &lt;a href="http://www.vishay.com/docs/20035/dcrcwe3.pdf"&gt; Datasheet 
 <pinref part="IC3" gate="G$1" pin="CANH"/>
 <wire x1="213.36" y1="17.78" x2="213.36" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="5.08" x2="213.36" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="CAN_H" gate="1" pin="P"/>
+<label x="236.22" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I/O3" class="0">

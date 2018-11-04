@@ -2230,6 +2230,69 @@ Source: &lt;a href="https://www.rohm.com/datasheet/SML-A12DT(J)/sml-a1x-e"&gt; D
 </deviceset>
 </devicesets>
 </library>
+<library name="CRCW040295R3FKED(0402)">
+<description>&lt;RESISTOR, 0402 95.3 Ohms 1% 0.063 W&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="RESC1005X40N">
+<description>&lt;b&gt;CRCW0402&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.55" y="0" dx="0.75" dy="0.6" layer="1"/>
+<smd name="2" x="0.55" y="0" dx="0.75" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.175" y1="0.55" x2="1.175" y2="0.55" width="0.05" layer="51"/>
+<wire x1="1.175" y1="0.55" x2="1.175" y2="-0.55" width="0.05" layer="51"/>
+<wire x1="1.175" y1="-0.55" x2="-1.175" y2="-0.55" width="0.05" layer="51"/>
+<wire x1="-1.175" y1="-0.55" x2="-1.175" y2="0.55" width="0.05" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CRCW040295R3FKED">
+<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CRCW040295R3FKED" prefix="R">
+<description>&lt;b&gt;RESISTOR, 0402 95.3 Ohms 1% 0.063 W&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.vishay.com/docs/20035/dcrcwe3.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CRCW040295R3FKED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1005X40N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="CRCW040295R3FKED" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/crcw040295r3fked/vishay" constant="no"/>
+<attribute name="DESCRIPTION" value="RESISTOR, 0402 95.3 Ohms 1% 0.063 W" constant="no"/>
+<attribute name="HEIGHT" value="0.4mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW040295R3FKED" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2312,6 +2375,7 @@ Source: &lt;a href="https://www.rohm.com/datasheet/SML-A12DT(J)/sml-a1x-e"&gt; D
 <part name="F1" library="0154005(Fuseholder)DRT" deviceset="0154005.DRT" device=""/>
 <part name="LED1" library="SML-A12DTT86" deviceset="SML-A12DTT86" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R3" library="CRCW040295R3FKED(0402)" deviceset="CRCW040295R3FKED" device="" value="500Ohm"/>
 </parts>
 <sheets>
 <sheet>
@@ -2568,6 +2632,10 @@ Source: &lt;a href="https://www.rohm.com/datasheet/SML-A12DT(J)/sml-a1x-e"&gt; D
 </instance>
 <instance part="GND1" gate="1" x="-78.74" y="152.4" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="-76.2" y="149.86" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="R3" gate="G$1" x="-55.88" y="162.56" smashed="yes">
+<attribute name="NAME" x="-49.53" y="168.91" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="-49.53" y="166.37" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -3200,6 +3268,15 @@ Source: &lt;a href="https://www.rohm.com/datasheet/SML-A12DT(J)/sml-a1x-e"&gt; D
 <wire x1="-30.48" y1="162.56" x2="-30.48" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="162.56" x2="-30.48" y2="162.56" width="0.1524" layer="91"/>
 <junction x="-30.48" y="162.56"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="-38.1" y1="162.56" x2="-30.48" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="LED1" gate="G$1" pin="K"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="-60.96" y1="162.56" x2="-55.88" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
