@@ -1238,7 +1238,7 @@ design rules under a new name.</description>
 <signal name="VCC">
 <contactref element="P_VCC" pad="1"/>
 <contactref element="F1" pad="1"/>
-<wire x1="0" y1="34.29" x2="8.8773" y2="34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="8.8773" y1="34.29" x2="0" y2="34.29" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CANL">
 <contactref element="P_CANL" pad="1"/>
