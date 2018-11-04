@@ -572,6 +572,54 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SML-A12DTT86">
+<description>&lt;Mini-mold side view chip LED : ROHM's chip LED lineup consists of standard type,top-view type, side-view type and reverse-mount type.&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="LEDC1606X125N">
+<description>&lt;b&gt;SML-A1x-4&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.85" y="0" dx="0.75" dy="0.7" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="0.75" dy="0.7" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.65" y1="0.825" x2="1.65" y2="0.825" width="0.05" layer="51"/>
+<wire x1="1.65" y1="0.825" x2="1.65" y2="-0.825" width="0.05" layer="51"/>
+<wire x1="1.65" y1="-0.825" x2="-1.65" y2="-0.825" width="0.05" layer="51"/>
+<wire x1="-1.65" y1="-0.825" x2="-1.65" y2="0.825" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="0.275" x2="0.8" y2="0.275" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.275" x2="0.8" y2="-0.275" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.275" x2="-0.8" y2="-0.275" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.275" x2="-0.8" y2="0.275" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.092" x2="-0.617" y2="0.275" width="0.1" layer="51"/>
+<wire x1="0.85" y1="0.725" x2="-1.55" y2="0.725" width="0.2" layer="21"/>
+<wire x1="-1.55" y1="0.725" x2="-1.55" y2="-0.725" width="0.2" layer="21"/>
+<wire x1="-1.55" y1="-0.725" x2="0.85" y2="-0.725" width="0.2" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="CRCW040295R3FKED(0402)">
+<description>&lt;RESISTOR, 0402 95.3 Ohms 1% 0.063 W&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="RESC1005X40N">
+<description>&lt;b&gt;CRCW0402&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.55" y="0" dx="0.75" dy="0.6" layer="1"/>
+<smd name="2" x="0.55" y="0" dx="0.75" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.175" y1="0.55" x2="1.175" y2="0.55" width="0.05" layer="51"/>
+<wire x1="1.175" y1="0.55" x2="1.175" y2="-0.55" width="0.05" layer="51"/>
+<wire x1="1.175" y1="-0.55" x2="-1.175" y2="-0.55" width="0.05" layer="51"/>
+<wire x1="-1.175" y1="-0.55" x2="-1.175" y2="0.55" width="0.05" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.1" layer="51"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1043,6 +1091,32 @@ design rules under a new name.</description>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/2196260P" x="7.62" y="35.56" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="10.6813" y="53.728" size="1.27" layer="27" align="center"/>
 </element>
+<element name="LED1" library="SML-A12DTT86" package="LEDC1606X125N" value="SML-A12DTT86" x="-34.29" y="-59.69" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70522054" x="-34.29" y="-59.69" size="1.778" layer="27" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/rohm-semiconductor-sml-a12dtt86/70522054/" x="-34.29" y="-59.69" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PART_NUMBER" value="SML-A12DTT86" x="-34.29" y="-59.69" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7008008P" x="-34.29" y="-59.69" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Mini-mold side view chip LED : ROHM's chip LED lineup consists of standard type,top-view type, side-view type and reverse-mount type." x="-34.29" y="-59.69" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.25mm" x="-34.29" y="-59.69" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ROHM Semiconductor" x="-34.29" y="-59.69" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SML-A12DTT86" x="-34.29" y="-59.69" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-34.29" y="-59.69" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="7008008P" x="-34.29" y="-59.69" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7008008P" x="-34.29" y="-59.69" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-34.29" y="-59.69" size="1.27" layer="27" align="center"/>
+</element>
+<element name="R3" library="CRCW040295R3FKED(0402)" package="RESC1005X40N" value="500Ohm" x="-36.83" y="-62.23" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CRCW040295R3FKED" x="-36.83" y="-62.23" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/crcw040295r3fked/vishay" x="-36.83" y="-62.23" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="RESISTOR, 0402 95.3 Ohms 1% 0.063 W" x="-36.83" y="-62.23" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.4mm" x="-36.83" y="-62.23" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="-36.83" y="-62.23" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW040295R3FKED" x="-36.83" y="-62.23" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-36.83" y="-62.23" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="-36.83" y="-62.23" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="-36.83" y="-62.23" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-36.83" y="-62.23" size="1.27" layer="27" align="center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -1066,25 +1140,27 @@ design rules under a new name.</description>
 <contactref element="C3" pad="1"/>
 <contactref element="C9" pad="1"/>
 <contactref element="C10" pad="1"/>
-<wire x1="-3.305" y1="-48.26" x2="-8.385" y2="-48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-7.405" y1="-36.83" x2="-8.385" y2="-48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-7.405" y1="-31.75" x2="-7.405" y2="-36.83" width="0" layer="19" extent="1-1"/>
-<wire x1="-7.405" y1="-26.67" x2="-7.405" y2="-31.75" width="0" layer="19" extent="1-1"/>
-<wire x1="-7.405" y1="-19.05" x2="-7.405" y2="-26.67" width="0" layer="19" extent="1-1"/>
-<wire x1="-30.48" y1="-4.445" x2="-7.405" y2="-19.05" width="0" layer="19" extent="1-1"/>
-<wire x1="-9.525" y1="9.525" x2="-30.48" y2="-4.445" width="0" layer="19" extent="1-1"/>
-<wire x1="42.855" y1="-8.845" x2="-9.525" y2="9.525" width="0" layer="19" extent="1-1"/>
+<contactref element="LED1" pad="2"/>
+<wire x1="81.41" y1="-5.715" x2="95.12" y2="1.27" width="0" layer="19" extent="1-1"/>
+<wire x1="67.945" y1="-3.73" x2="81.41" y2="-5.715" width="0" layer="19" extent="1-1"/>
+<wire x1="42.855" y1="-8.845" x2="67.945" y2="-3.73" width="0" layer="19" extent="1-1"/>
 <wire x1="41.955" y1="-7.945" x2="42.855" y2="-8.845" width="0" layer="19" extent="1-1"/>
 <wire x1="40.655" y1="-7.945" x2="41.955" y2="-7.945" width="0" layer="19" extent="1-1"/>
 <wire x1="40.005" y1="-7.945" x2="40.655" y2="-7.945" width="0" layer="19" extent="1-1"/>
 <wire x1="37.155" y1="-8.845" x2="40.005" y2="-7.945" width="0" layer="19" extent="1-1"/>
-<wire x1="6.085" y1="46.875" x2="42.855" y2="-8.845" width="0" layer="19" extent="1-1"/>
-<wire x1="15.265" y1="34.29" x2="37.155" y2="-8.845" width="0" layer="19" extent="1-1"/>
-<wire x1="18.415" y1="42.545" x2="6.085" y2="46.875" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.405" y1="-19.05" x2="37.155" y2="-8.845" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.405" y1="-26.67" x2="-7.405" y2="-19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.405" y1="-31.75" x2="-7.405" y2="-26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.405" y1="-36.83" x2="-7.405" y2="-31.75" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.385" y1="-48.26" x2="-7.405" y2="-36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.305" y1="-48.26" x2="-8.385" y2="-48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.48" y1="-4.445" x2="-7.405" y2="-19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.525" y1="9.525" x2="-30.48" y2="-4.445" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.44" y1="-59.69" x2="-8.385" y2="-48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="15.265" y1="34.29" x2="-9.525" y2="9.525" width="0" layer="19" extent="1-1"/>
+<wire x1="18.415" y1="42.545" x2="15.265" y2="34.29" width="0" layer="19" extent="1-1"/>
 <wire x1="29.13" y1="42.545" x2="18.415" y2="42.545" width="0" layer="19" extent="1-1"/>
-<wire x1="67.945" y1="-3.73" x2="37.155" y2="-8.845" width="0" layer="19" extent="1-1"/>
-<wire x1="81.41" y1="-5.715" x2="67.945" y2="-3.73" width="0" layer="19" extent="1-1"/>
-<wire x1="95.12" y1="1.27" x2="81.41" y2="-5.715" width="0" layer="19" extent="1-1"/>
+<wire x1="6.085" y1="46.875" x2="18.415" y2="42.545" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
 <contactref element="J1" pad="2"/>
@@ -1296,8 +1372,15 @@ design rules under a new name.</description>
 <contactref element="F1" pad="2"/>
 <contactref element="C4" pad="2"/>
 <contactref element="IC2" pad="1"/>
+<contactref element="R3" pad="2"/>
+<wire x1="10.8077" y1="35.56" x2="-36.28" y2="-62.23" width="0" layer="19" extent="1-1"/>
 <wire x1="15.265" y1="36.59" x2="10.8077" y2="35.56" width="0" layer="19" extent="1-1"/>
 <wire x1="31.83" y1="42.545" x2="15.265" y2="36.59" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$3">
+<contactref element="LED1" pad="1"/>
+<contactref element="R3" pad="1"/>
+<wire x1="-35.14" y1="-59.69" x2="-37.38" y2="-62.23" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
