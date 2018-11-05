@@ -308,17 +308,33 @@
 </package>
 <package name="2,15/1,0(HALFHOLE)">
 <description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
-<wire x1="0.508" y1="-1.143" x2="0.508" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="-1.143" x2="0" y2="-1.143" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="0.635" x2="0.508" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="0.508" y1="1.143" x2="0" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="1.143" x2="-1.778" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="1.143" x2="-1.778" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="-0.635" x2="-1.778" y2="-1.143" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="-1.143" x2="-1.27" y2="-1.143" width="0.1524" layer="21"/>
-<pad name="1" x="2.54" y="0" drill="1.016" diameter="2.159" shape="octagon"/>
-<text x="1.397" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<pad name="P$1" x="-0.635" y="0" drill="1.27" diameter="2.032" shape="square"/>
+<wire x1="1.143" y1="-1.143" x2="1.143" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="-1.143" x2="0.635" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="0.635" x2="1.143" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="1.143" x2="0.635" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.143" x2="-1.143" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="1.143" x2="-1.143" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="-0.635" x2="-1.143" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="-1.143" x2="-0.635" y2="-1.143" width="0.1524" layer="21"/>
+<pad name="1" x="0" y="0.762" drill="0.0254" diameter="0.508" shape="octagon"/>
+<text x="-1.143" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="1.778" y="1.254" size="0.0254" layer="27">&gt;VALUE</text>
+<hole x="0" y="0" drill="1.016"/>
+</package>
+<package name="2,54/2,0(HALFHOLE)H+V">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<wire x1="1.778" y1="0.635" x2="1.778" y2="1.778" width="0.254" layer="21"/>
+<wire x1="1.778" y1="1.778" x2="0.635" y2="1.778" width="0.254" layer="21"/>
+<wire x1="-0.635" y1="1.778" x2="-1.778" y2="1.778" width="0.254" layer="21"/>
+<wire x1="-1.778" y1="1.778" x2="-1.778" y2="0.635" width="0.254" layer="21"/>
+<text x="-1.778" y="2.032" size="0.762" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.032" y="-3.191" size="0.762" layer="27">&gt;VALUE</text>
+<hole x="0" y="0" drill="2.032"/>
+<pad name="P$1" x="0" y="0" drill="2.032" diameter="3.048" rot="R90"/>
+<wire x1="-1.778" y1="-0.635" x2="-1.778" y2="-1.778" width="0.254" layer="21"/>
+<wire x1="-1.778" y1="-1.778" x2="-0.635" y2="-1.778" width="0.254" layer="21"/>
+<wire x1="0.635" y1="-1.778" x2="1.778" y2="-1.778" width="0.254" layer="21"/>
+<wire x1="1.778" y1="-1.778" x2="1.778" y2="-0.635" width="0.254" layer="21"/>
 </package>
 </packages>
 <packages3d>
