@@ -2219,6 +2219,7 @@ Source: &lt;a href="http://www.littelfuse.com/~/media/electronics/datasheets/fus
 <part name="I/O_CANH" library="wirepad_edit" deviceset="2,15/1,0(HALFHOLE)H+V" device=""/>
 <part name="I/O_CANL" library="wirepad_edit" deviceset="2,15/1,0(HALFHOLE)H+V" device=""/>
 <part name="I/O_D2_INT" library="wirepad_edit" deviceset="2,15/1,0(HALFHOLE)H+V" device=""/>
+<part name="GND" library="wirepad_edit" deviceset="2,15/1,0(HALFHOLE)H+V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2482,6 +2483,10 @@ Source: &lt;a href="http://www.littelfuse.com/~/media/electronics/datasheets/fus
 <attribute name="NAME" x="-6.477" y="56.5658" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-6.223" y="52.578" size="1.778" layer="96"/>
 </instance>
+<instance part="GND" gate="1" x="-50.8" y="139.7" rot="R90">
+<attribute name="NAME" x="-52.6542" y="138.557" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-47.498" y="138.557" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2607,6 +2612,10 @@ Source: &lt;a href="http://www.littelfuse.com/~/media/electronics/datasheets/fus
 <pinref part="C4" gate="G$1" pin="K"/>
 <wire x1="-33.02" y1="147.32" x2="-33.02" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="-33.02" y1="147.32" x2="-50.8" y2="147.32" width="0.1524" layer="91"/>
+<junction x="-33.02" y="147.32"/>
+<pinref part="GND" gate="1" pin="P"/>
+<wire x1="-50.8" y1="147.32" x2="-50.8" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="DOTSTAR" gate="G$1" pin="GND"/>
@@ -3081,6 +3090,25 @@ Source: &lt;a href="http://www.littelfuse.com/~/media/electronics/datasheets/fus
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,193.04,45.72,IC3,VDD,5V,,,"/>
+<approved hash="104,1,226.06,45.72,IC3,VDDA,5V,,,"/>
+<approved hash="104,1,226.06,43.18,IC3,VSS,GND,,,"/>
+<approved hash="113,1,187.928,151.133,RES_PAD1,,,,,"/>
+<approved hash="113,1,203.232,153.667,RES_PAD2,,,,,"/>
+<approved hash="113,1,95.3744,78.74,I/O_D1_TX,,,,,"/>
+<approved hash="113,1,95.5173,73.66,I/O_D0_RX,,,,,"/>
+<approved hash="113,1,97.0748,63.5,I/O_AD5_SCL,,,,,"/>
+<approved hash="113,1,97.2132,58.42,I/O_AD4_SDA,,,,,"/>
+<approved hash="113,1,93.8883,53.34,I/O_AD3,,,,,"/>
+<approved hash="113,1,93.8883,48.26,I/O_AD2,,,,,"/>
+<approved hash="113,1,93.8883,43.18,I/O_AD1,,,,,"/>
+<approved hash="113,1,93.8883,38.1,I/O_AD0,,,,,"/>
+<approved hash="113,1,-72.3925,172.999,12V,,,,,"/>
+<approved hash="113,1,242.337,5.08,I/O_CANH,,,,,"/>
+<approved hash="113,1,242.128,2.54,I/O_CANL,,,,,"/>
+<approved hash="113,1,-9.43842,55.88,I/O_D2_INT,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
