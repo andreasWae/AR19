@@ -162,6 +162,7 @@
 <wire x1="31.73" y1="0" x2="31.73" y2="30.785" width="0" layer="20"/>
 <wire x1="31.73" y1="30.785" x2="-1.524" y2="30.785" width="0" layer="20"/>
 <wire x1="-1.524" y1="30.785" x2="-1.524" y2="0" width="0" layer="20"/>
+<hole x="-5.842" y="1.524" drill="0.35"/>
 </plain>
 <libraries>
 <library name="T491A106K016AT">
