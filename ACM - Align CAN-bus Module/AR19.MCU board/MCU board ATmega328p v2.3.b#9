@@ -1057,9 +1057,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="38.227" y="1.397" size="0.508" layer="25" ratio="10"/>
 <attribute name="VALUE" x="39.37" y="1" size="0.0254" layer="27"/>
 </element>
-<element name="I/O_D1_TX_H" library="wirepad_edit" package="2,15/1,0(HALFHOLE)" value="" x="-16.51" y="-5.715" smashed="yes">
-<attribute name="NAME" x="-17.653" y="-4.318" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-14.732" y="-4.461" size="0.0254" layer="27"/>
+<element name="I/O_D1_TX_H" library="wirepad_edit" package="2,15/1,0(HALFHOLE)" value="" x="3.81" y="0.635" smashed="yes">
+<attribute name="NAME" x="2.667" y="2.032" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="5.588" y="1.889" size="0.0254" layer="27"/>
 </element>
 <element name="I/O_D0_RX_H" library="wirepad_edit" package="2,15/1,0(HALFHOLE)" value="" x="-16.51" y="-10.16" smashed="yes">
 <attribute name="NAME" x="-17.653" y="-8.763" size="1.27" layer="25" ratio="10"/>

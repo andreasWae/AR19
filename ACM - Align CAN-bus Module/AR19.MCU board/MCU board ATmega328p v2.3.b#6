@@ -852,10 +852,6 @@ design rules under a new name.</description>
 <attribute name="RS_PRICE-STOCK" value="" x="23.495" y="-34.925" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-13.335" y="24.13" size="0.508" layer="27" align="center"/>
 </element>
-<element name="12V" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="-10.414" y="27.432" smashed="yes">
-<attribute name="NAME" x="-21.717" y="24.384" size="0.508" layer="25" ratio="10"/>
-<attribute name="VALUE" x="-10.414" y="28.432" size="0.0254" layer="27"/>
-</element>
 <element name="R1" library="CPF0201D10KC1" package="RESC0603X28N" value="10KΩ" x="6.985" y="13.97" smashed="yes" rot="R270">
 <attribute name="ARROW_PART_NUMBER" value="CPF0201D10KC1" x="-45.085" y="-11.43" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7549833" x="-45.085" y="-11.43" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1016,14 +1012,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="5.207" y="7.112" size="0.508" layer="25" ratio="10"/>
 <attribute name="VALUE" x="6.35" y="6.715" size="0.0254" layer="27"/>
 </element>
-<element name="I/O_CANH" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="41.91" y="17.78" smashed="yes">
-<attribute name="NAME" x="40.767" y="19.177" size="0.508" layer="25" ratio="10"/>
-<attribute name="VALUE" x="41.91" y="18.78" size="0.0254" layer="27"/>
-</element>
-<element name="I/O_CANL" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="39.37" y="0" smashed="yes">
-<attribute name="NAME" x="38.227" y="1.397" size="0.508" layer="25" ratio="10"/>
-<attribute name="VALUE" x="39.37" y="1" size="0.0254" layer="27"/>
-</element>
 <element name="I/O_D1_TX" library="wirepad_edit" package="2,54/2,0(HALFHOLE)H+V" value="" x="-27.686" y="1.778" smashed="yes">
 <attribute name="NAME" x="-29.464" y="3.81" size="0.762" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-29.718" y="-1.413" size="0.762" layer="27"/>
@@ -1055,6 +1043,18 @@ design rules under a new name.</description>
 <element name="I/O_AD0" library="wirepad_edit" package="2,54/2,0(HALFHOLE)H+V" value="" x="-61.468" y="1.778" smashed="yes">
 <attribute name="NAME" x="-63.246" y="3.81" size="0.762" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-63.5" y="-1.413" size="0.762" layer="27"/>
+</element>
+<element name="12V" library="wirepad_edit" package="2,54/2,0(HALFHOLE)H+V" value="" x="-66.548" y="1.778" smashed="yes">
+<attribute name="NAME" x="-68.326" y="3.81" size="0.762" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-68.58" y="-1.413" size="0.762" layer="27"/>
+</element>
+<element name="I/O_CANH" library="wirepad_edit" package="2,54/2,0(HALFHOLE)H+V" value="" x="-73.152" y="1.778" smashed="yes">
+<attribute name="NAME" x="-74.93" y="3.81" size="0.762" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-75.184" y="-1.413" size="0.762" layer="27"/>
+</element>
+<element name="I/O_CANL" library="wirepad_edit" package="2,54/2,0(HALFHOLE)H+V" value="" x="-77.978" y="1.778" smashed="yes">
+<attribute name="NAME" x="-79.756" y="3.81" size="0.762" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-80.01" y="-1.413" size="0.762" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -1273,16 +1273,16 @@ design rules under a new name.</description>
 <wire x1="27.432" y1="15.113" x2="27.305" y2="14.986" width="0.2032" layer="1"/>
 <wire x1="27.305" y1="14.986" x2="26.36" y2="14.986" width="0.2032" layer="1"/>
 <wire x1="26.36" y1="14.986" x2="26.345" y2="15.001" width="0.2032" layer="1"/>
-<contactref element="I/O_CANL" pad="1"/>
-<wire x1="39.37" y1="0" x2="26.36" y2="14.986" width="0" layer="19" extent="1-1"/>
+<contactref element="I/O_CANL" pad="P$1"/>
+<wire x1="26.345" y1="15.001" x2="-77.978" y2="1.778" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CANH">
 <contactref element="IC3" pad="13"/>
 <via x="27.686" y="16.383" extent="1-4" drill="0.508"/>
 <wire x1="26.345" y1="15.651" x2="26.954" y2="15.651" width="0.2032" layer="1"/>
 <wire x1="26.954" y1="15.651" x2="27.686" y2="16.383" width="0.2032" layer="1"/>
-<contactref element="I/O_CANH" pad="1"/>
-<wire x1="41.91" y1="17.78" x2="26.345" y2="15.651" width="0" layer="19" extent="1-1"/>
+<contactref element="I/O_CANH" pad="P$1"/>
+<wire x1="26.345" y1="15.651" x2="-73.152" y2="1.778" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_CS">
 <contactref element="IC3" pad="1"/>
@@ -1566,10 +1566,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="12V_UNFUSED">
 <contactref element="F1" pad="1"/>
-<contactref element="12V" pad="1"/>
 <wire x1="3.4163" y1="26.289" x2="-0.635" y2="26.289" width="0.2032" layer="1"/>
 <wire x1="-0.635" y1="26.289" x2="-0.6604" y2="26.3144" width="0.2032" layer="1"/>
-<wire x1="-0.6604" y1="26.3144" x2="-10.414" y2="27.432" width="0" layer="19" extent="1-1"/>
+<contactref element="12V" pad="P$1"/>
+<wire x1="-0.635" y1="26.289" x2="-66.548" y2="1.778" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
