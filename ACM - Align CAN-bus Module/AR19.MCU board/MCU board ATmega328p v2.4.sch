@@ -2105,17 +2105,6 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/CRCW120610K0FK
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB5_(SCK/PCINT5)"/>
-<wire x1="76.2" y1="-2.54" x2="81.28" y2="-2.54" width="0.1524" layer="91"/>
-<label x="88.9" y="-45.72" size="1.778" layer="95"/>
-<wire x1="88.9" y1="-45.72" x2="86.36" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-45.72" x2="81.28" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="-45.72" x2="81.28" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="-83.82" x2="86.36" y2="-45.72" width="0.1524" layer="91"/>
-<junction x="86.36" y="-45.72"/>
-</segment>
-<segment>
 <pinref part="DOTSTAR" gate="G$1" pin="CIN"/>
 <wire x1="193.04" y1="-58.42" x2="172.72" y2="-58.42" width="0.1524" layer="91"/>
 <label x="172.72" y="-58.42" size="1.778" layer="95" rot="MR0"/>
@@ -2125,6 +2114,12 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/CRCW120610K0FK
 <label x="198.12" y="78.74" size="1.778" layer="95" rot="R180"/>
 <wire x1="208.28" y1="68.58" x2="208.28" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="78.74" x2="198.12" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="-101.6" x2="86.36" y2="-106.68" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-106.68" x2="91.44" y2="-106.68" width="0.1524" layer="91"/>
+<label x="91.44" y="-106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CANL" class="0">
@@ -2166,14 +2161,10 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/CRCW120610K0FK
 <wire x1="203.2" y1="73.66" x2="198.12" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="(PCINT4/MISO)_PB4"/>
-<wire x1="48.26" y1="-43.18" x2="48.26" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="-50.8" x2="78.74" y2="-50.8" width="0.1524" layer="91"/>
-<label x="88.9" y="-50.8" size="1.778" layer="95"/>
-<wire x1="78.74" y1="-50.8" x2="88.9" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="-83.82" x2="78.74" y2="-50.8" width="0.1524" layer="91"/>
-<junction x="78.74" y="-50.8"/>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="-101.6" x2="78.74" y2="-111.76" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-111.76" x2="91.44" y2="-111.76" width="0.1524" layer="91"/>
+<label x="91.44" y="-111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CAN_MOSI" class="0">
@@ -2184,14 +2175,10 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/CRCW120610K0FK
 <wire x1="205.74" y1="76.2" x2="198.12" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="(PCINT3/OC2A/MOSI)_PB3"/>
-<wire x1="88.9" y1="-55.88" x2="71.12" y2="-55.88" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="-55.88" x2="45.72" y2="-55.88" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="-55.88" x2="45.72" y2="-43.18" width="0.1524" layer="91"/>
-<label x="88.9" y="-55.88" size="1.778" layer="95"/>
-<wire x1="71.12" y1="-83.82" x2="71.12" y2="-55.88" width="0.1524" layer="91"/>
-<junction x="71.12" y="-55.88"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="-101.6" x2="71.12" y2="-116.84" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-116.84" x2="91.44" y2="-116.84" width="0.1524" layer="91"/>
+<label x="91.44" y="-116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TXCAN" class="0">
@@ -2426,43 +2413,56 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/CRCW120610K0FK
 </net>
 <net name="PROG_MISO" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="-101.6" x2="78.74" y2="-111.76" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="-111.76" x2="91.44" y2="-111.76" width="0.1524" layer="91"/>
-<label x="91.44" y="-111.76" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="1"/>
 <label x="71.12" y="165.1" size="1.778" layer="95" rot="MR0"/>
 <wire x1="83.82" y1="162.56" x2="76.2" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="162.56" x2="76.2" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="165.1" x2="71.12" y2="165.1" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="(PCINT4/MISO)_PB4"/>
+<wire x1="48.26" y1="-43.18" x2="48.26" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="-50.8" x2="78.74" y2="-50.8" width="0.1524" layer="91"/>
+<label x="88.9" y="-50.8" size="1.778" layer="95"/>
+<wire x1="78.74" y1="-50.8" x2="88.9" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="-83.82" x2="78.74" y2="-50.8" width="0.1524" layer="91"/>
+<junction x="78.74" y="-50.8"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+</segment>
 </net>
 <net name="PROG_MOSI" class="0">
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="-101.6" x2="71.12" y2="-116.84" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="-116.84" x2="91.44" y2="-116.84" width="0.1524" layer="91"/>
-<label x="91.44" y="-116.84" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="101.6" y1="160.02" x2="111.76" y2="160.02" width="0.1524" layer="91"/>
 <label x="111.76" y="160.02" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="(PCINT3/OC2A/MOSI)_PB3"/>
+<wire x1="88.9" y1="-55.88" x2="71.12" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-55.88" x2="45.72" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="-55.88" x2="45.72" y2="-43.18" width="0.1524" layer="91"/>
+<label x="88.9" y="-55.88" size="1.778" layer="95"/>
+<wire x1="71.12" y1="-83.82" x2="71.12" y2="-55.88" width="0.1524" layer="91"/>
+<junction x="71.12" y="-55.88"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+</segment>
 </net>
 <net name="PROG_SCK" class="0">
-<segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="-101.6" x2="86.36" y2="-106.68" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="-106.68" x2="91.44" y2="-106.68" width="0.1524" layer="91"/>
-<label x="91.44" y="-106.68" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
 <wire x1="83.82" y1="160.02" x2="73.66" y2="160.02" width="0.1524" layer="91"/>
 <label x="73.66" y="160.02" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PB5_(SCK/PCINT5)"/>
+<wire x1="76.2" y1="-2.54" x2="81.28" y2="-2.54" width="0.1524" layer="91"/>
+<label x="88.9" y="-45.72" size="1.778" layer="95"/>
+<wire x1="88.9" y1="-45.72" x2="86.36" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="-45.72" x2="81.28" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="-45.72" x2="81.28" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="-83.82" x2="86.36" y2="-45.72" width="0.1524" layer="91"/>
+<junction x="86.36" y="-45.72"/>
 </segment>
 </net>
 </nets>
