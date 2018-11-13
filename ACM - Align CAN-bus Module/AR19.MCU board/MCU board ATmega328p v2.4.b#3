@@ -1078,18 +1078,6 @@ design rules under a new name.</description>
 </element>
 <element name="U$1" library="FA-20H 16.0000MF20X-B" package="FA-20H" value="FA-20H" x="-41.91" y="30.48" smashed="yes"/>
 <element name="U$2" library="FA-20H 16.0000MF20X-B" package="FA-20H" value="FA-20H" x="-46.99" y="30.48" smashed="yes"/>
-<element name="R3" library="CRCW1206499RFKEAHP(499ohm resistor)" package="RESC3116X65N" value="500Ohm" x="-44.45" y="-2.54" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="CRCW1206499RFKEAHP" x="-44.45" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/crcw1206499rfkeahp/vishay" x="-44.45" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Standard Thick Film Chip Resistors value VALUE1 ohm." x="-44.45" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.65mm" x="-44.45" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" x="-44.45" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW1206499RFKEAHP" x="-44.45" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-44.45" y="-2.54" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="-44.45" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="-44.45" y="-2.54" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-44.45" y="-2.54" size="1.27" layer="27" align="center"/>
-</element>
 <element name="R4" library="CRCW1206499RFKEAHP(499ohm resistor)" package="RESC3116X65N" value="500Ohm" x="-50.8" y="-5.08" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="CRCW1206499RFKEAHP" x="-50.8" y="-5.08" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/crcw1206499rfkeahp/vishay" x="-50.8" y="-5.08" size="1.778" layer="27" display="off"/>
@@ -1114,17 +1102,17 @@ design rules under a new name.</description>
 <attribute name="RS_PRICE-STOCK" value="" x="-57.15" y="-7.62" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-57.15" y="-7.62" size="1.27" layer="27" align="center"/>
 </element>
-<element name="R6" library="CRCW1206499RFKEAHP(499ohm resistor)" package="RESC3116X65N" value="500Ohm" x="-63.5" y="-10.16" smashed="yes">
-<attribute name="ARROW_PART_NUMBER" value="CRCW1206499RFKEAHP" x="-63.5" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/crcw1206499rfkeahp/vishay" x="-63.5" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="Standard Thick Film Chip Resistors value VALUE1 ohm." x="-63.5" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.65mm" x="-63.5" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" x="-63.5" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW1206499RFKEAHP" x="-63.5" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-63.5" y="-10.16" size="1.27" layer="25" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="-63.5" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="-63.5" y="-10.16" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-63.5" y="-10.16" size="1.27" layer="27" align="center"/>
+<element name="R3" library="CRCW1206499RFKEAHP(499ohm resistor)" package="RESC3116X65N" value="500Ohm" x="-63.5" y="-12.7" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="CRCW1206499RFKEAHP" x="-63.5" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/crcw1206499rfkeahp/vishay" x="-63.5" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Standard Thick Film Chip Resistors value VALUE1 ohm." x="-63.5" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.65mm" x="-63.5" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="-63.5" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW1206499RFKEAHP" x="-63.5" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-63.5" y="-12.7" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="-63.5" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="-63.5" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-63.5" y="-12.7" size="1.27" layer="27" align="center"/>
 </element>
 </elements>
 <signals>
@@ -1218,12 +1206,6 @@ design rules under a new name.</description>
 <wire x1="-45.85" y1="40.64" x2="-45.85" y2="43.18" width="0" layer="19" extent="1-1"/>
 <wire x1="-42.04" y1="36.83" x2="-45.85" y2="40.64" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MOSI">
-<contactref element="J1" pad="4"/>
-</signal>
-<signal name="MISO">
-<contactref element="J1" pad="1"/>
-</signal>
 <signal name="RESET_MCU">
 <contactref element="J1" pad="5"/>
 <contactref element="RES_PAD1" pad="1"/>
@@ -1234,14 +1216,12 @@ design rules under a new name.</description>
 <wire x1="-13.97" y1="3.81" x2="-24.13" y2="2.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCK">
-<contactref element="J1" pad="3"/>
 <contactref element="IC1" pad="15"/>
 <contactref element="DOTSTAR" pad="2"/>
 <contactref element="IC3" pad="26"/>
 <contactref element="R3" pad="2"/>
-<wire x1="-40.02" y1="6.66" x2="-43" y2="-2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.02" y1="6.66" x2="-62.05" y2="-12.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-37.32" y1="12.62" x2="-40.02" y2="6.66" width="0" layer="19" extent="1-1"/>
-<wire x1="-26.67" y1="2.54" x2="-40.02" y2="6.66" width="0" layer="19" extent="1-1"/>
 <wire x1="-19.95" y1="36.83" x2="-37.32" y2="12.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CANL">
@@ -1385,17 +1365,20 @@ design rules under a new name.</description>
 <contactref element="12V" pad="P$1"/>
 <wire x1="-22.2377" y1="21.59" x2="-35.56" y2="31.75" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$1">
-<contactref element="R3" pad="1"/>
-</signal>
-<signal name="N$2">
+<signal name="PROG_MISO">
 <contactref element="R4" pad="1"/>
+<contactref element="J1" pad="1"/>
+<wire x1="-29.21" y1="2.54" x2="-52.25" y2="-5.08" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$3">
+<signal name="PROG_MOSI">
 <contactref element="R5" pad="1"/>
+<contactref element="J1" pad="4"/>
+<wire x1="-26.67" y1="5.08" x2="-58.6" y2="-7.62" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$4">
-<contactref element="R6" pad="1"/>
+<signal name="PROG_SCK">
+<contactref element="R3" pad="1"/>
+<contactref element="J1" pad="3"/>
+<wire x1="-26.67" y1="2.54" x2="-64.95" y2="-12.7" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
