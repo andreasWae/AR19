@@ -593,69 +593,6 @@ Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/137c/090076
 </deviceset>
 </devicesets>
 </library>
-<library name="CPF0201D10KC1">
-<description>&lt;TE Connectivity CPF Series Thin Film Surface Mount Fixed Resistor 0201 Case 10k 0.5% 0.031W 50ppm/C&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="RESC0603X28N">
-<description>&lt;b&gt;CPF0201&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-0.412" y="0" dx="0.625" dy="0.4" layer="1"/>
-<smd name="2" x="0.412" y="0" dx="0.625" dy="0.4" layer="1"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-0.975" y1="0.45" x2="0.975" y2="0.45" width="0.05" layer="51"/>
-<wire x1="0.975" y1="0.45" x2="0.975" y2="-0.45" width="0.05" layer="51"/>
-<wire x1="0.975" y1="-0.45" x2="-0.975" y2="-0.45" width="0.05" layer="51"/>
-<wire x1="-0.975" y1="-0.45" x2="-0.975" y2="0.45" width="0.05" layer="51"/>
-<wire x1="-0.29" y1="0.145" x2="0.29" y2="0.145" width="0.1" layer="51"/>
-<wire x1="0.29" y1="0.145" x2="0.29" y2="-0.145" width="0.1" layer="51"/>
-<wire x1="0.29" y1="-0.145" x2="-0.29" y2="-0.145" width="0.1" layer="51"/>
-<wire x1="-0.29" y1="-0.145" x2="-0.29" y2="0.145" width="0.1" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="CPF0201D10KC1">
-<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CPF0201D10KC1" prefix="R">
-<description>&lt;b&gt;TE Connectivity CPF Series Thin Film Surface Mount Fixed Resistor 0201 Case 10k 0.5% 0.031W 50ppm/C&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&amp;DocId=Data Sheet1773200-1ApdfEnglishENG_DS_1773200-1_A.pdf4-2176215-6"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="CPF0201D10KC1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RESC0603X28N">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARROW_PART_NUMBER" value="CPF0201D10KC1" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7549833" constant="no"/>
-<attribute name="DESCRIPTION" value="TE Connectivity CPF Series Thin Film Surface Mount Fixed Resistor 0201 Case 10k 0.5% 0.031W 50ppm/C" constant="no"/>
-<attribute name="HEIGHT" value="0.28mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="TE Connectivity" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CPF0201D10KC1" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="7549833" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7549833" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="APA102–2020">
 <description>&lt;SparkFun Accessories SMD LED - RGB APA102-2020&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -1468,6 +1405,72 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="CRCW120610K0FKEAHP(10K Ohm)">
+<description>&lt;Thick Film Resistors - SMD 1/2watt 10Kohms 1% 100ppm High Power&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="RESC3116X65N">
+<description>&lt;b&gt;CRCW1206HP&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.45" y="0" dx="1.8" dy="1.1" layer="1" rot="R90"/>
+<smd name="2" x="1.45" y="0" dx="1.8" dy="1.1" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.25" y1="1.15" x2="2.25" y2="1.15" width="0.05" layer="51"/>
+<wire x1="2.25" y1="1.15" x2="2.25" y2="-1.15" width="0.05" layer="51"/>
+<wire x1="2.25" y1="-1.15" x2="-2.25" y2="-1.15" width="0.05" layer="51"/>
+<wire x1="-2.25" y1="-1.15" x2="-2.25" y2="1.15" width="0.05" layer="51"/>
+<wire x1="-1.55" y1="0.8" x2="1.55" y2="0.8" width="0.1" layer="51"/>
+<wire x1="1.55" y1="0.8" x2="1.55" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="1.55" y1="-0.8" x2="-1.55" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-1.55" y1="-0.8" x2="-1.55" y2="0.8" width="0.1" layer="51"/>
+<wire x1="0" y1="0.7" x2="0" y2="-0.7" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CRCW120610K0FKEAHP">
+<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CRCW120610K0FKEAHP" prefix="R">
+<description>&lt;b&gt;Thick Film Resistors - SMD 1/2watt 10Kohms 1% 100ppm High Power&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/CRCW120610K0FKEAHP.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="CRCW120610K0FKEAHP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC3116X65N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ALLIED_NUMBER" value="70615931" constant="no"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/vishay-dale-crcw120610k0fkeahp/70615931/" constant="no"/>
+<attribute name="ARROW_PART_NUMBER" value="CRCW120610K0FKEAHP" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/crcw120610k0fkeahp/vishay" constant="no"/>
+<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 1/2watt 10Kohms 1% 100ppm High Power" constant="no"/>
+<attribute name="HEIGHT" value="0.65mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW120610K0FKEAHP" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="8121789P" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8121789P" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1482,7 +1485,6 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <part name="C1" library="T491A106K016AT" deviceset="T491A106K016AT" device="" value="10uF"/>
 <part name="IC2" library="MIC5239-5.0YS_TR" deviceset="MIC5239-5.0YS_TR" device=""/>
 <part name="IC3" library="MCP25625-E_ML" deviceset="MCP25625-E_ML" device=""/>
-<part name="R1" library="CPF0201D10KC1" deviceset="CPF0201D10KC1" device="" value="10KΩ"/>
 <part name="DOTSTAR" library="APA102–2020" deviceset="COM-14608" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="AVR_SPI_PROG_3X2" device="NS"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
@@ -1504,7 +1506,6 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <part name="C4" library="T491A106K016AT" deviceset="T491A106K016AT" device="" value="10uF"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R2" library="CPF0201D10KC1" deviceset="CPF0201D10KC1" device="" value="10KΩ"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -1554,6 +1555,8 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <part name="R4" library="CRCW1206499RFKEAHP(499ohm resistor)" deviceset="CRCW1206499RFKEAHP" device="" value="500Ohm"/>
 <part name="R5" library="CRCW1206499RFKEAHP(499ohm resistor)" deviceset="CRCW1206499RFKEAHP" device="" value="500Ohm"/>
 <part name="R3" library="CRCW1206499RFKEAHP(499ohm resistor)" deviceset="CRCW1206499RFKEAHP" device="" value="500Ohm"/>
+<part name="R6" library="CRCW120610K0FKEAHP(10K Ohm)" deviceset="CRCW120610K0FKEAHP" device="" value="10K Ohm"/>
+<part name="R1" library="CRCW120610K0FKEAHP(10K Ohm)" deviceset="CRCW120610K0FKEAHP" device="" value="10K Ohm"/>
 </parts>
 <sheets>
 <sheet>
@@ -1583,10 +1586,6 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <instance part="IC3" gate="G$1" x="193.04" y="50.8" smashed="yes">
 <attribute name="NAME" x="201.93" y="88.9" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="201.93" y="86.36" size="1.778" layer="96" align="center-left"/>
-</instance>
-<instance part="R1" gate="G$1" x="182.88" y="154.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="176.53" y="168.91" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="179.07" y="168.91" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="DOTSTAR" gate="G$1" x="193.04" y="-55.88" smashed="yes">
 <attribute name="NAME" x="217.17" y="-48.26" size="1.778" layer="95" align="center-left"/>
@@ -1657,10 +1656,6 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </instance>
 <instance part="GND6" gate="1" x="-33.02" y="142.24" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="-30.48" y="139.7" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="R2" gate="G$1" x="162.56" y="50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="156.21" y="64.77" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="158.75" y="64.77" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="GND7" gate="1" x="162.56" y="25.4" smashed="yes">
 <attribute name="VALUE" x="160.02" y="22.86" size="1.778" layer="96"/>
@@ -1830,6 +1825,14 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <attribute name="NAME" x="87.63" y="-87.63" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="87.63" y="-85.09" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
+<instance part="R6" gate="G$1" x="182.88" y="157.48" smashed="yes" rot="R90">
+<attribute name="NAME" x="184.15" y="166.37" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="184.15" y="168.91" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="R1" gate="G$1" x="162.56" y="50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="163.83" y="62.23" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="163.83" y="64.77" size="1.778" layer="96" align="center-left"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1843,8 +1846,7 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="G$1" pin="5V"/>
-<wire x1="182.88" y1="172.72" x2="182.88" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="5V"/>
@@ -1873,8 +1875,8 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </segment>
 <segment>
 <pinref part="SUPPLY5" gate="G$1" pin="5V"/>
-<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="71.12" x2="162.56" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="VDDA"/>
@@ -2087,12 +2089,12 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 </segment>
 <segment>
 <wire x1="190.5" y1="152.4" x2="182.88" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="152.4" x2="182.88" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="152.4" x2="182.88" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="152.4" x2="167.64" y2="152.4" width="0.1524" layer="91"/>
 <junction x="182.88" y="152.4"/>
 <label x="167.64" y="154.94" size="1.778" layer="95" rot="R180"/>
 <pinref part="RES_PAD1" gate="1" pin="P"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC6_(!RESET!/PCINT14)"/>
@@ -2231,13 +2233,13 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <net name="MCP_RESET" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="RESET"/>
-<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="48.26" x2="162.56" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="48.26" x2="162.56" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="48.26" x2="162.56" y2="45.72" width="0.1524" layer="91"/>
 <junction x="162.56" y="48.26"/>
 <label x="170.18" y="50.8" size="1.778" layer="95" rot="R180"/>
 <pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="MCU_OSC1" class="0">
