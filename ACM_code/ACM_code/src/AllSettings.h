@@ -18,33 +18,18 @@
 // 1. Analog read settings:
 namespace AnalogReadSettings
 {
-/*-----------Changable variables-----------*/
   const uint8_t referenceType = EXTERNAL;           //Voltage applied to the AREF pin (0 to 5V) is used as reference.
   const uint8_t resolutionBits = 12;                //Returns analogRead() values between 0 and (2^RESOLUTION_BITS)-1.
   const uint8_t averagingTimes = 32;                //Number of samples to average
-/*---------End changable variables---------*/
 }
 
 
 // 2. Voltagemeter settings, include voltage devider ratio:
 namespace VoltageDividerReadSettings
 {
-/*-----------Changable variables-----------*/
-  const float voltageCheck = 4.9;
-  const float voltageRealMax = 5.0;                 //Max real voltage from DC/DC converter
-  const float voltageTeensyReadMax = 3.3;           //Max voltage Teensy 3.2 can read with analogRead
-  const uint32_t r1 = 20000;                        //in ohms, first resistor from Vin. Resistor connected to node r2 and Vout.
-  const uint32_t r2 = 30000;                        // in ohms, second resistor from node r1 and Vout to GND.
-  const float voltageDividerCalibrationValue = 0.00;
-
-  const float voltageDividerRatioDenominator = r1 + r2;
-  const float voltageDividerRatio = r2/voltageDividerRatioDenominator;
-  const float voltageDividerMax = voltageDividerRatio*voltageRealMax; //Max real voltage multiply by voltage-devider ratio formula r2/r1+r2
-  const float voltageRealMaxOverDeviderMax = voltageRealMax/voltageDividerMax;
-  const float voltageResolutionBits = pow(2, AnalogReadSettings::resolutionBits);
-  const float voltageTeensyMaxOverResolutionBits = voltageTeensyReadMax/voltageResolutionBits;
-
-  const float voltageTransferVariable = voltageRealMaxOverDeviderMax*voltageTeensyMaxOverResolutionBits;
+  
+  const float voltageReal = 5.0;                 //er
+  
 }
 // 3. Calibrated sensor values:
 namespace CalibratedSensors
@@ -89,12 +74,9 @@ namespace AnalogReadResolutionSettings
 }
 
 //4. RGBLed settings
-const uint8_t NUMPIXELS = 1;
 namespace StatusLEDSettings
 {
-  const bool typeLED = 0;
-    //0: for dotStar LED, 1: for RGB LED.
-
+  //PWM value definitions
   const uint8_t minLEDValue = 0;
   const uint8_t maxLEDValue = 255;
 
