@@ -2689,7 +2689,7 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="F1" library="0154005(Fuseholder)DRT" deviceset="0154005.DRT" device=""/>
+<part name="FUSE" library="0154005(Fuseholder)DRT" deviceset="0154005.DRT" device=""/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
@@ -2700,8 +2700,8 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="12V" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1" value="12V"/>
-<part name="I/O_CANH" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1" value="I/O_CANH"/>
-<part name="I/O_CANL" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1" value="I/O_CANH"/>
+<part name="CANH" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1" value="I/O_CANH"/>
+<part name="CANL" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1" value="I/O_CANH"/>
 <part name="I/O_PWM1_INT1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1" value="I/O_PWM0_INT"/>
 <part name="C5" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="C0603" package3d_urn="urn:adsk.eagle:package:13262/1" value="22pF"/>
 <part name="C6" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="C0603" package3d_urn="urn:adsk.eagle:package:13262/1" value="0.1uF"/>
@@ -2741,13 +2741,17 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <part name="R6" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R0603" package3d_urn="urn:adsk.eagle:package:13302/1" value="200Ohm"/>
 <part name="R7" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R0603" package3d_urn="urn:adsk.eagle:package:13302/1" value="200Ohm"/>
 <part name="R8" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R0603" package3d_urn="urn:adsk.eagle:package:13302/1" value="200Ohm"/>
-<part name="R9" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R0603" package3d_urn="urn:adsk.eagle:package:13302/1" value="200Ohm"/>
-<part name="R10" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R0603" package3d_urn="urn:adsk.eagle:package:13302/1" value="200Ohm"/>
+<part name="R9" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R0603" package3d_urn="urn:adsk.eagle:package:13302/1" value="3kOhm"/>
+<part name="R10" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R0603" package3d_urn="urn:adsk.eagle:package:13302/1" value="2kOhm"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="C0603" package3d_urn="urn:adsk.eagle:package:13262/1" value="0.1uF"/>
 <part name="GND" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1" value="GND"/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND30" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1" value="GND"/>
+<part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="5V" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,0" device="" package3d_urn="urn:adsk.eagle:package:30828/1" value="5V"/>
+<part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2855,7 +2859,7 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <instance part="GND21" gate="1" x="335.28" y="114.3">
 <attribute name="VALUE" x="332.74" y="111.76" size="1.778" layer="96"/>
 </instance>
-<instance part="F1" gate="G$1" x="-63.5" y="162.56">
+<instance part="FUSE" gate="G$1" x="-63.5" y="162.56">
 <attribute name="NAME" x="-57.15" y="167.64" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-57.15" y="170.18" size="1.778" layer="96" align="center-left"/>
 </instance>
@@ -2889,8 +2893,8 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <instance part="12V" gate="P" x="-73.66" y="175.26" rot="R270">
 <attribute name="NAME" x="-71.8058" y="176.403" size="1.778" layer="95" rot="R270"/>
 </instance>
-<instance part="I/O_CANH" gate="P" x="238.76" y="5.08" rot="R180"/>
-<instance part="I/O_CANL" gate="P" x="238.76" y="2.54" rot="R180"/>
+<instance part="CANH" gate="P" x="238.76" y="5.08" rot="R180"/>
+<instance part="CANL" gate="P" x="238.76" y="2.54" rot="R180"/>
 <instance part="I/O_PWM1_INT1" gate="P" x="-10.16" y="30.48">
 <attribute name="NAME" x="-11.557" y="29.7942" size="1.778" layer="95" rot="MR0"/>
 </instance>
@@ -3043,6 +3047,18 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <instance part="GND29" gate="1" x="-73.66" y="142.24" rot="MR0">
 <attribute name="VALUE" x="-71.12" y="139.7" size="1.778" layer="96" rot="MR0"/>
 </instance>
+<instance part="GND30" gate="P" x="-66.04" y="149.86" rot="R270">
+<attribute name="VALUE" x="-69.342" y="151.003" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND31" gate="1" x="-66.04" y="142.24" rot="MR0">
+<attribute name="VALUE" x="-63.5" y="139.7" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="5V" gate="P" x="-58.42" y="149.86" rot="R270">
+<attribute name="VALUE" x="-61.722" y="151.003" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY3" gate="G$1" x="-58.42" y="144.78" rot="R180">
+<attribute name="VALUE" x="-58.42" y="141.986" size="1.778" layer="96" rot="R180" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3154,6 +3170,11 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <pinref part="SUPPLY15" gate="G$1" pin="5V"/>
 <wire x1="236.22" y1="-93.98" x2="271.78" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="-93.98" x2="271.78" y2="-86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY3" gate="G$1" pin="5V"/>
+<pinref part="5V" gate="P" pin="P"/>
+<wire x1="-58.42" y1="144.78" x2="-58.42" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3324,6 +3345,11 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <pinref part="GND29" gate="1" pin="GND"/>
 <wire x1="-73.66" y1="147.32" x2="-73.66" y2="144.78" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND30" gate="P" pin="P"/>
+<pinref part="GND31" gate="1" pin="GND"/>
+<wire x1="-66.04" y1="147.32" x2="-66.04" y2="144.78" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="RESET_MCU" class="0">
 <segment>
@@ -3380,7 +3406,7 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <wire x1="210.82" y1="17.78" x2="210.82" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="2.54" x2="236.22" y2="2.54" width="0.1524" layer="91"/>
 <label x="238.76" y="0" size="1.778" layer="95"/>
-<pinref part="I/O_CANL" gate="P" pin="P"/>
+<pinref part="CANL" gate="P" pin="P"/>
 </segment>
 </net>
 <net name="CANH" class="0">
@@ -3389,7 +3415,7 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <wire x1="213.36" y1="17.78" x2="213.36" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="5.08" x2="213.36" y2="5.08" width="0.1524" layer="91"/>
 <label x="238.76" y="7.62" size="1.778" layer="95"/>
-<pinref part="I/O_CANH" gate="P" pin="P"/>
+<pinref part="CANH" gate="P" pin="P"/>
 </segment>
 </net>
 <net name="CAN_CS" class="0">
@@ -3497,7 +3523,7 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 </net>
 <net name="12V_FUSED" class="0">
 <segment>
-<pinref part="F1" gate="G$1" pin="2"/>
+<pinref part="FUSE" gate="G$1" pin="2"/>
 <wire x1="-43.18" y1="162.56" x2="-33.02" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="IN"/>
 <wire x1="-33.02" y1="162.56" x2="-33.02" y2="160.02" width="0.1524" layer="91"/>
@@ -3523,7 +3549,7 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 </net>
 <net name="12V_UNFUSED" class="0">
 <segment>
-<pinref part="F1" gate="G$1" pin="1"/>
+<pinref part="FUSE" gate="G$1" pin="1"/>
 <wire x1="-63.5" y1="162.56" x2="-73.66" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="162.56" x2="-73.66" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="12V" gate="P" pin="P"/>
