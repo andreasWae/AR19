@@ -164,19 +164,6 @@
 <wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
-<library name="wirepad_edit">
-<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="2,54/2,0(HALFHOLE)H+V">
-<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
-<text x="-1.905" y="1.651" size="0.762" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.032" y="-2.429" size="0.762" layer="27">&gt;VALUE</text>
-<hole x="0" y="0" drill="2.032"/>
-<pad name="P$1" x="0" y="0" drill="2.032" diameter="3.048" rot="R90"/>
-</package>
-</packages>
-</library>
 <library name="0154005(Fuseholder)DRT">
 <description>&lt;Littelfuse 5A T Surface Mount Fuse, 125V ac/dc&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -403,12 +390,33 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
 <text x="-0.8" y="-2.4" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 </package>
+<package name="2,54/1,0" urn="urn:adsk.eagle:footprint:30810/1" library_version="1">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="0.762" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-0.762" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-0.762" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="-1.27" x2="1.27" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="-0.762" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="1.016" width="0.1524" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="2.54" shape="octagon"/>
+<text x="-1.27" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="1" size="0.0254" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SMD1,27-2,54" urn="urn:adsk.eagle:package:30839/1" type="box" library_version="1">
 <description>SMD PAD</description>
 <packageinstances>
 <packageinstance name="SMD1,27-2,54"/>
+</packageinstances>
+</package3d>
+<package3d name="2,54/1,0" urn="urn:adsk.eagle:package:30828/1" type="box" library_version="1">
+<description>THROUGH-HOLE PAD</description>
+<packageinstances>
+<packageinstance name="2,54/1,0"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -709,7 +717,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="12V" library="wirepad_edit" package="2,54/2,0(HALFHOLE)H+V" value="12V" x="-6.35" y="44.45">
+<element name="12V" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,0" package3d_urn="urn:adsk.eagle:package:30828/1" value="12V" x="-6.35" y="44.45">
 <attribute name="NAME" x="-8.255" y="46.101" size="0.762" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-8.382" y="42.021" size="0.762" layer="27"/>
 </element>
@@ -727,15 +735,15 @@ design rules under a new name.</description>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/2196260P" x="33.02" y="25.4" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="9.4113" y="42.933" size="1.27" layer="27" align="center"/>
 </element>
-<element name="I/O_CANH" library="wirepad_edit" package="2,54/2,0(HALFHOLE)H+V" value="I/O_CANH" x="-36.83" y="26.67">
+<element name="I/O_CANH" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,0" package3d_urn="urn:adsk.eagle:package:30828/1" value="I/O_CANH" x="-36.83" y="26.67">
 <attribute name="NAME" x="-38.735" y="28.321" size="0.762" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-38.862" y="24.241" size="0.762" layer="27"/>
 </element>
-<element name="I/O_CANL" library="wirepad_edit" package="2,54/2,0(HALFHOLE)H+V" value="I/O_CANH" x="-43.18" y="26.67">
+<element name="I/O_CANL" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,0" package3d_urn="urn:adsk.eagle:package:30828/1" value="I/O_CANH" x="-43.18" y="26.67">
 <attribute name="NAME" x="-45.085" y="28.321" size="0.762" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-45.212" y="24.241" size="0.762" layer="27"/>
 </element>
-<element name="I/O_PWM1_INT1" library="wirepad_edit" package="2,54/2,0(HALFHOLE)H+V" value="I/O_PWM0_INT" x="-17.78" y="26.67">
+<element name="I/O_PWM1_INT1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,0" package3d_urn="urn:adsk.eagle:package:30828/1" value="I/O_PWM0_INT" x="-17.78" y="26.67">
 <attribute name="NAME" x="-19.685" y="28.321" size="0.762" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-19.812" y="24.241" size="0.762" layer="27"/>
 </element>
@@ -855,27 +863,27 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="-72.6" y="-82.9" size="0.254" layer="27" ratio="1" display="off"/>
 <attribute name="VALUE" x="-73.235" y="-84.805" size="1.27" layer="27"/>
 </element>
-<element name="SCK" library="wirepad_edit" package="2,54/2,0(HALFHOLE)H+V" value="SCK" x="-76.5" y="-82.3">
+<element name="SCK" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,0" package3d_urn="urn:adsk.eagle:package:30828/1" value="SCK" x="-76.5" y="-82.3">
 <attribute name="NAME" x="-78.405" y="-80.649" size="0.762" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-78.532" y="-84.729" size="0.762" layer="27"/>
 </element>
-<element name="MISO" library="wirepad_edit" package="2,54/2,0(HALFHOLE)H+V" value="MISO" x="-81.3" y="-82.3">
+<element name="MISO" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,0" package3d_urn="urn:adsk.eagle:package:30828/1" value="MISO" x="-81.3" y="-82.3">
 <attribute name="NAME" x="-83.205" y="-80.649" size="0.762" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-83.332" y="-84.729" size="0.762" layer="27"/>
 </element>
-<element name="MOSI" library="wirepad_edit" package="2,54/2,0(HALFHOLE)H+V" value="MOSI" x="-86.1" y="-82.3">
+<element name="MOSI" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,0" package3d_urn="urn:adsk.eagle:package:30828/1" value="MOSI" x="-86.1" y="-82.3">
 <attribute name="NAME" x="-88.005" y="-80.649" size="0.762" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-88.132" y="-84.729" size="0.762" layer="27"/>
 </element>
-<element name="I/O_ADC3_SCL" library="wirepad_edit" package="2,54/2,0(HALFHOLE)H+V" value="I/O_ADC3_SCL" x="-100.8" y="-82.3">
+<element name="I/O_ADC3_SCL" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,0" package3d_urn="urn:adsk.eagle:package:30828/1" value="I/O_ADC3_SCL" x="-100.8" y="-82.3">
 <attribute name="NAME" x="-102.705" y="-80.649" size="0.762" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-102.832" y="-84.729" size="0.762" layer="27"/>
 </element>
-<element name="I/O_ADC2_SDA" library="wirepad_edit" package="2,54/2,0(HALFHOLE)H+V" value="I/O_ADC2_SDA" x="-105.6" y="-82.3">
+<element name="I/O_ADC2_SDA" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,0" package3d_urn="urn:adsk.eagle:package:30828/1" value="I/O_ADC2_SDA" x="-105.6" y="-82.3">
 <attribute name="NAME" x="-107.505" y="-80.649" size="0.762" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-107.632" y="-84.729" size="0.762" layer="27"/>
 </element>
-<element name="I/O_AD0" library="wirepad_edit" package="2,54/2,0(HALFHOLE)H+V" value="I/O_AD0" x="-110.4" y="-82.3">
+<element name="I/O_AD0" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,0" package3d_urn="urn:adsk.eagle:package:30828/1" value="I/O_AD0" x="-110.4" y="-82.3">
 <attribute name="NAME" x="-112.305" y="-80.649" size="0.762" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-112.432" y="-84.729" size="0.762" layer="27"/>
 </element>
@@ -957,11 +965,11 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="-130.2" y="-128.8" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-130.835" y="-130.705" size="1.27" layer="27"/>
 </element>
-<element name="I/O_PWM0" library="wirepad_edit" package="2,54/2,0(HALFHOLE)H+V" value="I/O_PWM0" x="-134.1" y="-128.2">
+<element name="I/O_PWM0" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,0" package3d_urn="urn:adsk.eagle:package:30828/1" value="I/O_PWM0" x="-134.1" y="-128.2">
 <attribute name="NAME" x="-136.005" y="-126.549" size="0.762" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-136.132" y="-130.629" size="0.762" layer="27"/>
 </element>
-<element name="I/O_AD1" library="wirepad_edit" package="2,54/2,0(HALFHOLE)H+V" value="I/O_AD1" x="-139" y="-128.2">
+<element name="I/O_AD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,0" package3d_urn="urn:adsk.eagle:package:30828/1" value="I/O_AD1" x="-139" y="-128.2">
 <attribute name="NAME" x="-140.905" y="-126.549" size="0.762" layer="25" ratio="10"/>
 <attribute name="VALUE" x="-141.032" y="-130.629" size="0.762" layer="27"/>
 </element>
@@ -1000,6 +1008,10 @@ design rules under a new name.</description>
 <attribute name="SPICEMODEL" value="NONE" x="-140" y="-158.2" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-140" y="-158.2" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-140.635" y="-160.105" size="1.27" layer="27"/>
+</element>
+<element name="GND" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,54/1,0" package3d_urn="urn:adsk.eagle:package:30828/1" value="GND" x="-139.7" y="-164">
+<attribute name="NAME" x="-140.97" y="-162.476" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="-139.7" y="-163" size="0.0254" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -1076,6 +1088,7 @@ design rules under a new name.</description>
 <contactref element="U2" pad="2"/>
 <contactref element="C1" pad="2"/>
 <contactref element="R10" pad="1"/>
+<contactref element="GND" pad="1"/>
 <wire x1="-109.9" y1="-106.975" x2="-116.6" y2="-111.575" width="0" layer="19" extent="1-1"/>
 <wire x1="-111.45" y1="-102.5" x2="-109.9" y2="-106.975" width="0" layer="19" extent="1-1"/>
 <wire x1="-111.15" y1="-97.6" x2="-111.45" y2="-102.5" width="0" layer="19" extent="1-1"/>
@@ -1092,6 +1105,7 @@ design rules under a new name.</description>
 <wire x1="-71.64" y1="-29.19" x2="-71.75" y2="-32.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-140.85" y1="-153.3" x2="-116.6" y2="-111.575" width="0" layer="19" extent="1-1"/>
 <wire x1="-139.15" y1="-158.2" x2="-140.85" y2="-153.3" width="0" layer="19" extent="1-1"/>
+<wire x1="-139.7" y1="-164" x2="-139.15" y2="-158.2" width="0" layer="19" extent="1-1"/>
 <wire x1="-17.78" y1="3.81" x2="-71.64" y2="-29.19" width="0" layer="19" extent="1-1"/>
 <wire x1="15.24" y1="7.62" x2="-17.78" y2="3.81" width="0" layer="19" extent="1-1"/>
 <wire x1="15.92" y1="17.47" x2="15.24" y2="7.62" width="0" layer="19" extent="1-1"/>
@@ -1125,12 +1139,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="CANL">
 <contactref element="IC3" pad="12"/>
-<contactref element="I/O_CANL" pad="P$1"/>
+<contactref element="I/O_CANL" pad="1"/>
 <wire x1="-43.18" y1="26.67" x2="14.62" y2="17.47" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CANH">
 <contactref element="IC3" pad="13"/>
-<contactref element="I/O_CANH" pad="P$1"/>
+<contactref element="I/O_CANH" pad="1"/>
 <wire x1="-36.83" y1="26.67" x2="15.27" y2="17.47" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_CS">
@@ -1187,12 +1201,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="I/O_D2_INT">
 <contactref element="IC1" pad="1"/>
-<contactref element="I/O_PWM1_INT1" pad="P$1"/>
+<contactref element="I/O_PWM1_INT1" pad="1"/>
 <wire x1="-17.78" y1="26.67" x2="10.65" y2="31.83" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="12V_UNFUSED">
 <contactref element="F1" pad="1"/>
-<contactref element="12V" pad="P$1"/>
+<contactref element="12V" pad="1"/>
 <wire x1="10.7823" y1="46.99" x2="-6.35" y2="44.45" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MISO">
@@ -1225,17 +1239,17 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$5">
 <contactref element="IC1" pad="22"/>
-<contactref element="I/O_AD0" pad="P$1"/>
+<contactref element="I/O_AD0" pad="1"/>
 <wire x1="14.05" y1="32.53" x2="-110.4" y2="-82.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="IC1" pad="23"/>
-<contactref element="I/O_ADC2_SDA" pad="P$1"/>
+<contactref element="I/O_ADC2_SDA" pad="1"/>
 <wire x1="13.6" y1="32.53" x2="-105.6" y2="-82.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="IC1" pad="24"/>
-<contactref element="I/O_ADC3_SCL" pad="P$1"/>
+<contactref element="I/O_ADC3_SCL" pad="1"/>
 <wire x1="13.15" y1="32.53" x2="-100.8" y2="-82.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
@@ -1270,12 +1284,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$2">
 <contactref element="IC1" pad="12"/>
-<contactref element="I/O_PWM0" pad="P$1"/>
+<contactref element="I/O_PWM0" pad="1"/>
 <wire x1="-134.1" y1="-128.2" x2="13.15" y2="28.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="IC1" pad="21"/>
-<contactref element="I/O_AD1" pad="P$1"/>
+<contactref element="I/O_AD1" pad="1"/>
 <wire x1="-139" y1="-128.2" x2="14.75" y2="31.83" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VOLTAGE_CHECK">
@@ -1288,17 +1302,17 @@ design rules under a new name.</description>
 <wire x1="-140.85" y1="-158.2" x2="-139.15" y2="-153.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
-<contactref element="SCK" pad="P$1"/>
+<contactref element="SCK" pad="1"/>
 <contactref element="R6" pad="2"/>
 <wire x1="-139.15" y1="-133.7" x2="-76.5" y2="-82.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
-<contactref element="MISO" pad="P$1"/>
+<contactref element="MISO" pad="1"/>
 <contactref element="R7" pad="2"/>
 <wire x1="-139.15" y1="-138.6" x2="-81.3" y2="-82.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
-<contactref element="MOSI" pad="P$1"/>
+<contactref element="MOSI" pad="1"/>
 <contactref element="R8" pad="2"/>
 <wire x1="-139.15" y1="-143.5" x2="-86.1" y2="-82.3" width="0" layer="19" extent="1-1"/>
 </signal>
