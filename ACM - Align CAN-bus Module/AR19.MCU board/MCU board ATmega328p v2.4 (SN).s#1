@@ -3650,7 +3650,7 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="I/OAD0" class="0">
+<net name="N$5" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC3_(ADC3/PCINT11)"/>
 <wire x1="48.26" y1="50.8" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
@@ -3658,7 +3658,7 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <pinref part="I/O_AD0" gate="1" pin="P"/>
 </segment>
 </net>
-<net name="I/OADC2" class="0">
+<net name="N$6" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC4_(ADC4/SDA/PCINT12)"/>
 <wire x1="45.72" y1="50.8" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
@@ -3666,7 +3666,7 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <pinref part="I/O_ADC2_SDA" gate="1" pin="P"/>
 </segment>
 </net>
-<net name="I/O_ADC3" class="0">
+<net name="N$7" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC5_(ADC5/SCL/PCINT13)"/>
 <wire x1="43.18" y1="50.8" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
