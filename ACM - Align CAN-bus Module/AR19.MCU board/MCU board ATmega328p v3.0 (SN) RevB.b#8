@@ -162,11 +162,11 @@
 <wire x1="45" y1="0" x2="45" y2="25" width="0" layer="20"/>
 <wire x1="45" y1="25" x2="-2" y2="25" width="0" layer="20"/>
 <wire x1="-2" y1="25" x2="-2" y2="0" width="0" layer="20"/>
-<hole x="38" y="-6" drill="2"/>
-<hole x="3" y="2" drill="2"/>
+<hole x="29" y="3" drill="2"/>
+<hole x="4" y="3" drill="2"/>
 <hole x="40" y="29" drill="2"/>
 <dimension x1="-0.5" y1="0" x2="-0.5" y2="25" x3="-7.5" y3="12.5" textsize="0.3048" layer="1"/>
-<dimension x1="0" y1="-1" x2="35" y2="-1" x3="17.5" y3="-11" textsize="0.3048" layer="1"/>
+<dimension x1="0" y1="-1" x2="33" y2="-1" x3="16.5" y3="-5" textsize="0.3048" layer="1"/>
 </plain>
 <libraries>
 <library name="wirepad" urn="urn:adsk.eagle:library:412">
