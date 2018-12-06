@@ -1,0 +1,57 @@
+ PATH  FOUND 
+Scale factor = 1.000000
+ 0) 0.00,158.90
+ PATH  FOUND 
+Scale factor = 1.000000
+ 1) 0.00,133.90
+ PATH  FOUND 
+Scale factor = 1.000000
+ 2) 0.00,250.60
+ PATH  FOUND 
+Scale factor = 1.000000
+ 3) 0.00,0.00
+ PATH  FOUND 
+Scale factor = 1.000000
+ 4) 0.00,0.00
+ PATH  FOUND 
+Scale factor = 1.000000
+ 5) 0.00,0.00
+ PATH  FOUND 
+Scale factor = 1.000000
+ 6) 0.00,0.00
+ PATH  FOUND 
+Scale factor = 1.000000
+ 7) 0.00,0.00
+ PATH  FOUND 
+Scale factor = 1.000000
+ 8) 0.00,0.00
+ PATH  FOUND 
+Scale factor = 1.000000
+ 9) 0.00,0.00
+ PATH  FOUND 
+Scale factor = 1.000000
+10) 0.00,0.00
+ PATH  FOUND 
+Scale factor = 1.000000
+11) 0.00,0.00
+
+Object origin:
+0.000000 125.300000
+
+Eagle Command:
+set wire_bend 2;
+change layer bPlace;
+set width 0.000500;
+poly (R 0.000000 -0.336000) (R 0.000000 -0.336000);
+poly (R 0.000000 -0.086000) (R 0.000000 -0.086000);
+poly (R 0.000000 -1.253000) (R 0.000000 -1.253000);
+poly (R 0.000000 1.253000) (R 0.000000 1.253000);
+poly (R 0.000000 1.253000) (R 0.000000 1.253000);
+poly (R 0.000000 1.253000) (R 0.000000 1.253000);
+poly (R 0.000000 1.253000) (R 0.000000 1.253000);
+poly (R 0.000000 1.253000) (R 0.000000 1.253000);
+poly (R 0.000000 1.253000) (R 0.000000 1.253000);
+poly (R 0.000000 1.253000) (R 0.000000 1.253000);
+poly (R 0.000000 1.253000) (R 0.000000 1.253000);
+poly (R 0.000000 1.253000) (R 0.000000 1.253000);
+
