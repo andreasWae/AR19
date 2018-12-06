@@ -1159,7 +1159,9 @@ design rules under a new name.</description>
 <wire x1="11.79" y1="3.46" x2="11.57" y2="3.68" width="0.8128" layer="1"/>
 <wire x1="11.57" y1="3.68" x2="8.73" y2="3.68" width="0.8128" layer="1"/>
 <wire x1="8.71" y1="3.66" x2="8.73" y2="3.68" width="0.8128" layer="1"/>
-<wire x1="8.71" y1="3.66" x2="13.01" y2="5.3" width="0" layer="19" extent="1-1"/>
+<wire x1="13.01" y1="5.3" x2="13.01" y2="4.97" width="0.2" layer="1"/>
+<wire x1="13.01" y1="4.97" x2="11.79" y2="3.75" width="0.2" layer="1"/>
+<wire x1="11.79" y1="3.75" x2="11.79" y2="3.46" width="0.2" layer="1"/>
 </signal>
 <signal name="SCK">
 <contactref element="IC3" pad="26"/>

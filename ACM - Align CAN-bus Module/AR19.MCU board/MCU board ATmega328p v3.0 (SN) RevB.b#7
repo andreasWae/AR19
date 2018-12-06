@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.1">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1335,10 +1335,8 @@ design rules under a new name.</description>
 <wire x1="18.546" y1="10.78805625" x2="18.546" y2="9.746" width="0.2" layer="2"/>
 <wire x1="26" y1="10.6" x2="19.64205625" y2="10.6" width="0.2" layer="2"/>
 <wire x1="19.64205625" y1="10.6" x2="19.18805625" y2="11.054" width="0.2" layer="2"/>
-<wire x1="18" y1="9.2" x2="8.64205625" y2="9.2" width="0.2" layer="2"/>
-<wire x1="8.64205625" y1="9.2" x2="8.48805625" y2="9.354" width="0.2" layer="2"/>
-<wire x1="8.48805625" y1="9.354" x2="4.054" y2="9.354" width="0.2" layer="2"/>
-<wire x1="4.054" y1="9.354" x2="0.9" y2="6.2" width="0.2" layer="2"/>
+<wire x1="18" y1="9.2" x2="3.9" y2="9.2" width="0.2" layer="2"/>
+<wire x1="3.9" y1="9.2" x2="0.9" y2="6.2" width="0.2" layer="2"/>
 <wire x1="0.9" y1="6.2" x2="0.05" y2="6.2" width="0.2" layer="2"/>
 <wire x1="0.05" y1="6.2" x2="0" y2="6.15" width="0.2" layer="2"/>
 </signal>
