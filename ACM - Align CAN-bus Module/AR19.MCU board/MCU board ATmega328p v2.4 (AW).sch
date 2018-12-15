@@ -2660,7 +2660,7 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 </classes>
 <parts>
 <part name="IC1" library="ATMEGA328P-MMH" deviceset="ATMEGA328P-MMH" device=""/>
-<part name="IC2" library="MIC5239-5.0YS_TR" deviceset="MIC5239-5.0YS_TR" device=""/>
+<part name="LDO" library="MIC5239-5.0YS_TR" deviceset="MIC5239-5.0YS_TR" device=""/>
 <part name="IC3" library="MCP25625-E_ML" deviceset="MCP25625-E_ML" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="AVR_SPI_PROG_3X2" device="NS"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
@@ -2702,7 +2702,7 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <part name="12V" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1" value="12V"/>
 <part name="CANH" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1" value="I/O_CANH"/>
 <part name="CANL" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1" value="I/O_CANH"/>
-<part name="PWM1_INT1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1" value="PWM0_INT"/>
+<part name="PWM1_INT1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1" value="PWM1"/>
 <part name="C5" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="C0603" package3d_urn="urn:adsk.eagle:package:13262/1" value="22pF"/>
 <part name="C6" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="C0603" package3d_urn="urn:adsk.eagle:package:13262/1" value="0.1uF"/>
 <part name="R1" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R0603" package3d_urn="urn:adsk.eagle:package:13302/1" value="10kOhm"/>
@@ -2718,9 +2718,9 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <part name="SCK" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1" value="SCK"/>
 <part name="MISO" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1" value="MISO"/>
 <part name="MOSI" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1" value="MOSI"/>
-<part name="I/O_ADC3_SCL" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1" value="I/O_ADC3_SCL"/>
-<part name="I/O_ADC2_SDA" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1" value="I/O_ADC2_SDA"/>
-<part name="I/O_AD0" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1" value="I/O_AD0"/>
+<part name="ADC3_SCL" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1" value="ADC3_SCL"/>
+<part name="ADC2_SDA" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1" value="ADC2_SDA"/>
+<part name="AD0" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1" value="AD0"/>
 <part name="C2" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="C0603" package3d_urn="urn:adsk.eagle:package:13262/1" value="22pF"/>
 <part name="C3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="C0603" package3d_urn="urn:adsk.eagle:package:13262/1" value="22pF"/>
 <part name="C9" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="C" device="C0603" package3d_urn="urn:adsk.eagle:package:13262/1" value="22pF"/>
@@ -2737,7 +2737,7 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="PWM0" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1" value="PWM0"/>
-<part name="I/O_AD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1" value="I/O_AD1"/>
+<part name="AD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1" value="AD1"/>
 <part name="R6" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R0603" package3d_urn="urn:adsk.eagle:package:13302/1" value="200Ohm"/>
 <part name="R7" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R0603" package3d_urn="urn:adsk.eagle:package:13302/1" value="200Ohm"/>
 <part name="R8" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R0603" package3d_urn="urn:adsk.eagle:package:13302/1" value="200Ohm"/>
@@ -2752,6 +2752,8 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="5V" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1" value="5V"/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
+<part name="GND32" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND"/>
+<part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2769,7 +2771,7 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <attribute name="NAME" x="31.75" y="83.82" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="31.75" y="86.36" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="IC2" gate="G$1" x="-17.78" y="162.56">
+<instance part="LDO" gate="G$1" x="-17.78" y="162.56">
 <attribute name="NAME" x="-13.97" y="167.64" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="-13.97" y="170.18" size="1.778" layer="96" align="center-left"/>
 </instance>
@@ -2945,13 +2947,13 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <instance part="MOSI" gate="1" x="106.68" y="-86.36" rot="R180">
 <attribute name="VALUE" x="108.077" y="-87.122" size="1.778" layer="96"/>
 </instance>
-<instance part="I/O_ADC3_SCL" gate="1" x="91.44" y="63.5" rot="R180">
+<instance part="ADC3_SCL" gate="1" x="91.44" y="63.5" rot="R180">
 <attribute name="NAME" x="92.837" y="62.8142" size="1.778" layer="95"/>
 </instance>
-<instance part="I/O_ADC2_SDA" gate="1" x="91.44" y="58.42" rot="R180">
+<instance part="ADC2_SDA" gate="1" x="91.44" y="58.42" rot="R180">
 <attribute name="NAME" x="92.837" y="57.7342" size="1.778" layer="95"/>
 </instance>
-<instance part="I/O_AD0" gate="1" x="91.44" y="53.34" rot="R180">
+<instance part="AD0" gate="1" x="91.44" y="53.34" rot="R180">
 <attribute name="NAME" x="92.837" y="52.6542" size="1.778" layer="95"/>
 </instance>
 <instance part="C2" gate="G$1" x="335.28" y="129.54">
@@ -3008,7 +3010,7 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <instance part="PWM0" gate="1" x="20.32" y="-71.12">
 <attribute name="NAME" x="18.923" y="-71.8058" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="I/O_AD1" gate="1" x="91.44" y="48.26" rot="R180">
+<instance part="AD1" gate="1" x="91.44" y="48.26" rot="R180">
 <attribute name="VALUE" x="92.837" y="47.498" size="1.778" layer="96"/>
 </instance>
 <instance part="R6" gate="G$1" x="96.52" y="-71.12">
@@ -3059,6 +3061,12 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <instance part="SUPPLY3" gate="G$1" x="-58.42" y="144.78" rot="R180">
 <attribute name="VALUE" x="-58.42" y="141.986" size="1.778" layer="96" rot="R180" align="bottom-center"/>
 </instance>
+<instance part="GND32" gate="1" x="-81.28" y="149.86" rot="R270">
+<attribute name="VALUE" x="-84.582" y="151.003" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND33" gate="1" x="-81.28" y="142.24" rot="MR0">
+<attribute name="VALUE" x="-78.74" y="139.7" size="1.778" layer="96" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3081,7 +3089,7 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <pinref part="C17" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="OUT"/>
+<pinref part="LDO" gate="G$1" pin="OUT"/>
 <wire x1="7.62" y1="162.56" x2="17.78" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="5V"/>
 <wire x1="17.78" y1="162.56" x2="17.78" y2="172.72" width="0.1524" layer="91"/>
@@ -3192,7 +3200,7 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="IC2" gate="G$1" pin="GND"/>
+<pinref part="LDO" gate="G$1" pin="GND"/>
 <wire x1="-17.78" y1="160.02" x2="-22.86" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="160.02" x2="-22.86" y2="144.78" width="0.1524" layer="91"/>
 </segment>
@@ -3303,7 +3311,7 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <wire x1="111.76" y1="-12.7" x2="111.76" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="TAB"/>
+<pinref part="LDO" gate="G$1" pin="TAB"/>
 <wire x1="7.62" y1="160.02" x2="10.16" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="10.16" y1="160.02" x2="10.16" y2="144.78" width="0.1524" layer="91"/>
@@ -3349,6 +3357,11 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <pinref part="GND30" gate="1" pin="P"/>
 <pinref part="GND31" gate="1" pin="GND"/>
 <wire x1="-66.04" y1="147.32" x2="-66.04" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND32" gate="1" pin="P"/>
+<pinref part="GND33" gate="1" pin="GND"/>
+<wire x1="-81.28" y1="147.32" x2="-81.28" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET_MCU" class="0">
@@ -3525,7 +3538,7 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <segment>
 <pinref part="FUSE" gate="G$1" pin="2"/>
 <wire x1="-43.18" y1="162.56" x2="-33.02" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="IN"/>
+<pinref part="LDO" gate="G$1" pin="IN"/>
 <wire x1="-33.02" y1="162.56" x2="-33.02" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="162.56" x2="-33.02" y2="162.56" width="0.1524" layer="91"/>
 <junction x="-33.02" y="162.56"/>
@@ -3631,7 +3644,7 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <pinref part="IC1" gate="G$1" pin="PC3_(ADC3/PCINT11)"/>
 <wire x1="48.26" y1="50.8" x2="48.26" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="53.34" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="I/O_AD0" gate="1" pin="P"/>
+<pinref part="AD0" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -3639,7 +3652,7 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <pinref part="IC1" gate="G$1" pin="PC4_(ADC4/SDA/PCINT12)"/>
 <wire x1="45.72" y1="50.8" x2="45.72" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="I/O_ADC2_SDA" gate="1" pin="P"/>
+<pinref part="ADC2_SDA" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -3647,7 +3660,7 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <pinref part="IC1" gate="G$1" pin="PC5_(ADC5/SCL/PCINT13)"/>
 <wire x1="43.18" y1="50.8" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="63.5" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="I/O_ADC3_SCL" gate="1" pin="P"/>
+<pinref part="ADC3_SCL" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -3729,7 +3742,7 @@ Source: &lt;a href="http://www.rohm.com/web/global/datasheet/SMLP36RGB2W(R)"&gt;
 <wire x1="76.2" y1="12.7" x2="81.28" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="12.7" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="48.26" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="I/O_AD1" gate="1" pin="P"/>
+<pinref part="AD1" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="VOLTAGE_CHECK" class="0">
