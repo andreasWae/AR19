@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--/245409/67802/2.34/2/5/Resistor/-->
+<!--/804864/67802/2.36/2/5/Capacitor/-->
 <!DOCTYPE curve SYSTEM "eagle.dtd">
 <eagle version="7.7.0">
 <drawing>
@@ -57,64 +57,61 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;Thick Film Resistors - SMD 1/2watt 10Kohms 1% 100ppm High Power&lt;/b&gt;&lt;p&gt;
+<description>&lt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 100V 220pF C0G 0603 2% Tol&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="RESC3116X65N">
-<description>&lt;b&gt;CRCW1206HP&lt;/b&gt;&lt;br&gt;
+<package name="CAPC1608X90N">
+<description>&lt;b&gt;0603-1&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-1.45" y="0" dx="1.8" dy="1.1" layer="1" rot="R90"/>
-<smd name="2" x="1.45" y="0" dx="1.8" dy="1.1" layer="1" rot="R90"/>
+<smd name="1" x="-0.7" y="0" dx="0.99" dy="0.78" layer="1" rot="R90"/>
+<smd name="2" x="0.7" y="0" dx="0.99" dy="0.78" layer="1" rot="R90"/>
 <text x="0" y="0" align="center" size="1.27" layer="25" rot="R0" >&gt;NAME</text>
 <text x="0" y="0" align="center" size="1.27" layer="27" rot="R0" >&gt;VALUE</text>
-<wire x1="-2.25" y1="1.15" x2="2.25" y2="1.15" width="0.05" layer="51"/>
-<wire x1="2.25" y1="1.15" x2="2.25" y2="-1.15" width="0.05" layer="51"/>
-<wire x1="2.25" y1="-1.15" x2="-2.25" y2="-1.15" width="0.05" layer="51"/>
-<wire x1="-2.25" y1="-1.15" x2="-2.25" y2="1.15" width="0.05" layer="51"/>
-<wire x1="-1.55" y1="0.8" x2="1.55" y2="0.8" width="0.1" layer="51"/>
-<wire x1="1.55" y1="0.8" x2="1.55" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="1.55" y1="-0.8" x2="-1.55" y2="-0.8" width="0.1" layer="51"/>
-<wire x1="-1.55" y1="-0.8" x2="-1.55" y2="0.8" width="0.1" layer="51"/>
-<wire x1="0" y1="0.7" x2="0" y2="-0.7" width="0.2" layer="21"/>
+<wire x1="-1.24" y1="0.65" x2="1.24" y2="0.65" width="0.05" layer="51"/>
+<wire x1="1.24" y1="0.65" x2="1.24" y2="-0.65" width="0.05" layer="51"/>
+<wire x1="1.24" y1="-0.65" x2="-1.24" y2="-0.65" width="0.05" layer="51"/>
+<wire x1="-1.24" y1="-0.65" x2="-1.24" y2="0.65" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="0.405" x2="0.8" y2="0.405" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.405" x2="0.8" y2="-0.405" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.405" x2="-0.8" y2="-0.405" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.405" x2="-0.8" y2="0.405" width="0.1" layer="51"/>
 </package>
 </packages>
 <symbols>
-<symbol name="CRCW120610K0FKEAHP">
-<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<text x="13.97" y="6.35" align="center-left" size="1.778" layer="95">&gt;NAME</text>
-<text x="13.97" y="3.81" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
+<symbol name="06031A221GAT2A">
+<wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
+<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" align="center-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="8.89" y="3.81" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="1" x="0" y="0" visible="pad" length="middle" direction="io" rot="R0"/>
-<pin name="2" x="17.78" y="0" visible="pad" length="middle" direction="io" rot="R180"/>
+<pin name="2" x="12.7" y="0" visible="pad" length="middle" direction="io" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CRCW120610K0FKEAHP" prefix="R">
-<description>&lt;b&gt;Thick Film Resistors - SMD 1/2watt 10Kohms 1% 100ppm High Power&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/CRCW120610K0FKEAHP.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="06031A221GAT2A" prefix="C">
+<description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 100V 220pF C0G 0603 2% Tol&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="CRCW120610K0FKEAHP" x="0" y="0"/>
+<gate name="G$1" symbol="06031A221GAT2A" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="RESC3116X65N">
+<device name="" package="CAPC1608X90N">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="Manufacturer_Name" value="Vishay" constant="no"/>
-<attribute name="Manufacturer_Part_Number" value="CRCW120610K0FKEAHP" constant="no"/>
-<attribute name="RS_Part_Number" value="8121789P" constant="no"/>
-<attribute name="RS_Price-Stock" value="http://uk.rs-online.com/web/p/products/8121789P" constant="no"/>
-<attribute name="Allied_Number" value="70615931" constant="no"/>
-<attribute name="Allied_Price-Stock" value="https://www.alliedelec.com/vishay-dale-crcw120610k0fkeahp/70615931/" constant="no"/>
-<attribute name="Arrow_Part_Number" value="CRCW120610K0FKEAHP" constant="no"/>
-<attribute name="Arrow_Price-Stock" value="https://www.arrow.com/en/products/crcw120610k0fkeahp/vishay" constant="no"/>
-<attribute name="Description" value="Thick Film Resistors - SMD 1/2watt 10Kohms 1% 100ppm High Power" constant="no"/>
-<attribute name="Height" value="0.65mm" constant="no"/>
+<attribute name="Manufacturer_Name" value="AVX" constant="no"/>
+<attribute name="Manufacturer_Part_Number" value="06031A221GAT2A" constant="no"/>
+<attribute name="RS_Part_Number" value="" constant="no"/>
+<attribute name="RS_Price-Stock" value="" constant="no"/>
+<attribute name="Mouser_Part_Number" value="581-06031A221GAT2A" constant="no"/>
+<attribute name="Mouser_Price-Stock" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-06031A221GAT2A" constant="no"/>
+<attribute name="Description" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 100V 220pF C0G 0603 2% Tol" constant="no"/>
+<attribute name="Height" value="0.9mm" constant="no"/>
 </technology>
 </technologies>
 </device>
