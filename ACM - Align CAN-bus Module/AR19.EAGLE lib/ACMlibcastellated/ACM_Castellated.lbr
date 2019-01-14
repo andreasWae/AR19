@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -160,10 +160,10 @@
 <packages>
 <package name="ACM_CAS_FP">
 <smd name="GND30" x="0" y="3.61" dx="2.54" dy="1.27" layer="1"/>
-<smd name="PWM1_INT1" x="0" y="6.15" dx="2.54" dy="1.27" layer="1"/>
-<smd name="PWM0" x="0" y="8.69" dx="2.54" dy="1.27" layer="1"/>
-<smd name="CANH" x="0" y="11.23" dx="2.54" dy="1.27" layer="1"/>
-<smd name="CANL" x="0" y="13.77" dx="2.54" dy="1.27" layer="1"/>
+<smd name="PWM1_INT1" x="0" y="11.23" dx="2.54" dy="1.27" layer="1"/>
+<smd name="PWM0" x="0" y="13.77" dx="2.54" dy="1.27" layer="1"/>
+<smd name="CANH" x="0" y="6.15" dx="2.54" dy="1.27" layer="1"/>
+<smd name="CANL" x="0" y="8.69" dx="2.54" dy="1.27" layer="1"/>
 <smd name="5V" x="0" y="16.31" dx="2.54" dy="1.27" layer="1"/>
 <smd name="GND" x="0" y="18.85" dx="2.54" dy="1.27" layer="1"/>
 <smd name="12V" x="0" y="21.39" dx="2.54" dy="1.27" layer="1"/>
@@ -192,10 +192,10 @@
 <text x="-4.064" y="5.08" size="2.54" layer="95">ACM</text>
 <pin name="GND" x="-20.32" y="6.35" length="middle"/>
 <pin name="5V" x="-20.32" y="3.81" length="middle"/>
-<pin name="CANL" x="-20.32" y="1.27" length="middle"/>
-<pin name="CANH" x="-20.32" y="-1.27" length="middle"/>
-<pin name="PWM0" x="-20.32" y="-3.81" length="middle"/>
-<pin name="PWM1_INT1" x="-20.32" y="-6.35" length="middle"/>
+<pin name="CANL" x="-20.32" y="-3.81" length="middle"/>
+<pin name="CANH" x="-20.32" y="-6.35" length="middle"/>
+<pin name="PWM0" x="-20.32" y="1.27" length="middle"/>
+<pin name="PWM1_INT1" x="-20.32" y="-1.27" length="middle"/>
 <pin name="GND30" x="-20.32" y="-8.89" length="middle"/>
 <pin name="5V1" x="25.4" y="-8.89" length="middle" rot="R180"/>
 <pin name="SCK" x="25.4" y="-6.35" length="middle" rot="R180"/>
