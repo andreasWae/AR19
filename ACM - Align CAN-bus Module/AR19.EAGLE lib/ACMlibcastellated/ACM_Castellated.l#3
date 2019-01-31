@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -184,35 +184,54 @@
 </packages>
 <symbols>
 <symbol name="ACM_CAS_SCH">
-<pin name="P$1" x="7.62" y="8.89" length="middle"/>
-<pin name="P$2" x="7.62" y="6.35" length="middle"/>
-<pin name="P$3" x="7.62" y="3.81" length="middle"/>
-<pin name="P$4" x="7.62" y="1.27" length="middle"/>
-<pin name="P$5" x="7.62" y="-1.27" length="middle"/>
-<pin name="P$6" x="7.62" y="-3.81" length="middle"/>
-<pin name="P$7" x="7.62" y="-6.35" length="middle"/>
-<pin name="P$8" x="7.62" y="-8.89" length="middle"/>
-<pin name="P$9" x="-7.62" y="-8.89" length="middle" rot="R180"/>
-<pin name="P$10" x="-7.62" y="-6.35" length="middle" rot="R180"/>
-<pin name="P$11" x="-7.62" y="-3.81" length="middle" rot="R180"/>
-<pin name="P$12" x="-7.62" y="-1.27" length="middle" rot="R180"/>
-<pin name="P$13" x="-7.62" y="1.27" length="middle" rot="R180"/>
-<pin name="P$14" x="-7.62" y="3.81" length="middle" rot="R180"/>
-<pin name="P$15" x="-7.62" y="6.35" length="middle" rot="R180"/>
-<pin name="P$16" x="-7.62" y="8.89" length="middle" rot="R180"/>
-<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
-<text x="-4.064" y="5.08" size="2.54" layer="94">ACM</text>
+<pin name="12V" x="-20.32" y="8.89" length="middle"/>
+<wire x1="-15.24" y1="-10.16" x2="20.32" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-10.16" x2="20.32" y2="10.16" width="0.254" layer="94"/>
+<wire x1="20.32" y1="10.16" x2="-15.24" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="10.16" x2="-15.24" y2="-10.16" width="0.254" layer="94"/>
+<text x="-4.064" y="5.08" size="2.54" layer="95">ACM</text>
+<pin name="GND" x="-20.32" y="6.35" length="middle"/>
+<pin name="5V" x="-20.32" y="3.81" length="middle"/>
+<pin name="CANL" x="-20.32" y="1.27" length="middle"/>
+<pin name="CANH" x="-20.32" y="-1.27" length="middle"/>
+<pin name="PWM0" x="-20.32" y="-3.81" length="middle"/>
+<pin name="PWM1_INT1" x="-20.32" y="-6.35" length="middle"/>
+<pin name="GND30" x="-20.32" y="-8.89" length="middle"/>
+<pin name="5V1" x="25.4" y="-8.89" length="middle" rot="R180"/>
+<pin name="SCK" x="25.4" y="-6.35" length="middle" rot="R180"/>
+<pin name="MOSI" x="25.4" y="-3.81" length="middle" rot="R180"/>
+<pin name="MISO" x="25.4" y="-1.27" length="middle" rot="R180"/>
+<pin name="I/O_AD3_SCL" x="25.4" y="1.27" length="middle" rot="R180"/>
+<pin name="I/O_AD2_SDA" x="25.4" y="3.81" length="middle" rot="R180"/>
+<pin name="I/O_AD1" x="25.4" y="6.35" length="middle" rot="R180"/>
+<pin name="I/O_AD0" x="25.4" y="8.89" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="ACM_CASTELLATED">
 <gates>
+<gate name="G$1" symbol="ACM_CAS_SCH" x="0" y="0"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="ACM_CAS_FP">
+<connects>
+<connect gate="G$1" pin="12V" pad="12V"/>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="5V1" pad="5V1"/>
+<connect gate="G$1" pin="CANH" pad="CANH"/>
+<connect gate="G$1" pin="CANL" pad="CANL"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND30" pad="GND30"/>
+<connect gate="G$1" pin="I/O_AD0" pad="I/O_AD0"/>
+<connect gate="G$1" pin="I/O_AD1" pad="I/O_AD1"/>
+<connect gate="G$1" pin="I/O_AD2_SDA" pad="I/O_AD2_SDA"/>
+<connect gate="G$1" pin="I/O_AD3_SCL" pad="I/O_AD3_SCL"/>
+<connect gate="G$1" pin="MISO" pad="MISO"/>
+<connect gate="G$1" pin="MOSI" pad="MOSI"/>
+<connect gate="G$1" pin="PWM0" pad="PWM0"/>
+<connect gate="G$1" pin="PWM1_INT1" pad="PWM1_INT1"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
