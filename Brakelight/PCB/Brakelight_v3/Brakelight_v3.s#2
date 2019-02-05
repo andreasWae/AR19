@@ -503,6 +503,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/HC9-100-R.pdf
 <part name="GND" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,1" device="" package3d_urn="urn:adsk.eagle:package:30836/1"/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="VSET" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,54/1,1" device="" package3d_urn="urn:adsk.eagle:package:30836/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -690,6 +691,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/HC9-100-R.pdf
 </instance>
 <instance part="GND3" gate="1" x="-55.88" y="-12.7" smashed="yes">
 <attribute name="VALUE" x="-58.42" y="-15.24" size="1.778" layer="96"/>
+</instance>
+<instance part="VSET" gate="1" x="-48.26" y="-17.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="-50.1142" y="-18.923" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-44.958" y="-18.923" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -1063,6 +1068,13 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/HC9-100-R.pdf
 <wire x1="-48.26" y1="0" x2="-48.26" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="-30.48" y1="17.78" x2="-48.26" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="VSET"/>
+<pinref part="VSET" gate="1" pin="P"/>
+<wire x1="-48.26" y1="-7.62" x2="-48.26" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

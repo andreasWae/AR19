@@ -80,15 +80,14 @@
 <package name="SSL-LX5093SGC/B">
 <description>&lt;b&gt;SSL-LX5093SGC/B&lt;/b&gt;&lt;br&gt;
 </description>
-<pad name="1" x="1.27" y="0" drill="0.91" diameter="1.4"/>
-<pad name="2" x="-1.27" y="0" drill="0.91" diameter="1.4"/>
-<text x="-0.497" y="-0.097" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-0.497" y="-0.097" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<circle x="0" y="0" radius="2.95" width="0.2" layer="51"/>
-<circle x="0" y="0" radius="2.95" width="0.2" layer="25"/>
-<wire x1="2.365" y1="1.733" x2="2.365" y2="-1.748" width="0.2" layer="51"/>
-<wire x1="2.365" y1="-1.748" x2="2.365" y2="1.733" width="0.2" layer="21"/>
-<circle x="3.515" y="-0.01" radius="0.022" width="0.2" layer="25"/>
+<pad name="1" x="1.27" y="0" drill="0.6" diameter="1"/>
+<pad name="2" x="-1.27" y="0" drill="0.6" diameter="1"/>
+<text x="0" y="3.513" size="0.508" layer="27" align="center">&gt;VALUE</text>
+<circle x="0" y="0" radius="2.8" width="0.2" layer="51"/>
+<circle x="0" y="0" radius="2.8" width="0.2" layer="25"/>
+<wire x1="2.165" y1="1.733" x2="2.165" y2="-1.748" width="0.2" layer="51"/>
+<wire x1="2.165" y1="-1.748" x2="2.165" y2="1.733" width="0.2" layer="21"/>
+<circle x="3.215" y="0" radius="0.022" width="0.2" layer="25"/>
 </package>
 </packages>
 <symbols>

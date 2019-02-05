@@ -967,7 +967,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/HC9-100-R.pdf
 <label x="-53.34" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$36" class="0">
+<net name="LEDK" class="0">
 <segment>
 <pinref part="LED51" gate="G$1" pin="K"/>
 <pinref part="LED48" gate="G$1" pin="K"/>
