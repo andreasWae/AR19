@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.1">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -158,10 +158,11 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="259.06" y2="0" width="0" layer="20"/>
-<wire x1="259.06" y1="0" x2="259.07" y2="129.54" width="0" layer="20"/>
-<wire x1="259.07" y1="129.54" x2="0.01" y2="129.54" width="0" layer="20"/>
-<wire x1="0.01" y1="129.54" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="240.01" y2="0" width="0" layer="20"/>
+<wire x1="240.01" y1="0" x2="240.02" y2="106.68" width="0" layer="20"/>
+<wire x1="240.02" y1="106.68" x2="0.01" y2="106.68" width="0" layer="20"/>
+<wire x1="0.01" y1="106.68" x2="0" y2="0" width="0" layer="20"/>
+<dimension x1="0" y1="0" x2="0" y2="14.986" x3="-4.191" y3="7.493" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="ACM_Pindown">
@@ -384,16 +385,16 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="U$1" library="ACM_Pindown" package="ACM_CAS_FP" value="ACM_CASTELLATED" x="62.23" y="29.21" smashed="yes"/>
-<element name="U$10" library="ACM_Pindown" package="ACM_CAS_FP" value="ACM_CASTELLATED" x="195.58" y="30.48" smashed="yes"/>
-<element name="U$2" library="ACM_Pindown" package="ACM_CAS_FP" value="ACM_CASTELLATED" x="17.78" y="29.21" smashed="yes"/>
-<element name="U$3" library="ACM_Pindown" package="ACM_CAS_FP" value="ACM_CASTELLATED" x="62.23" y="69.85" smashed="yes"/>
-<element name="U$4" library="ACM_Pindown" package="ACM_CAS_FP" value="ACM_CASTELLATED" x="17.78" y="69.85" smashed="yes"/>
-<element name="U$5" library="ACM_Pindown" package="ACM_CAS_FP" value="ACM_CASTELLATED" x="151.13" y="29.21" smashed="yes"/>
-<element name="U$6" library="ACM_Pindown" package="ACM_CAS_FP" value="ACM_CASTELLATED" x="106.68" y="29.21" smashed="yes"/>
-<element name="U$7" library="ACM_Pindown" package="ACM_CAS_FP" value="ACM_CASTELLATED" x="151.13" y="69.85" smashed="yes"/>
-<element name="U$8" library="ACM_Pindown" package="ACM_CAS_FP" value="ACM_CASTELLATED" x="106.68" y="69.85" smashed="yes"/>
-<element name="U$9" library="ACM_Pindown" package="ACM_CAS_FP" value="ACM_CASTELLATED" x="195.58" y="69.85" smashed="yes"/>
+<element name="U$1" library="ACM_Pindown" package="ACM_CAS_FP" value="ACM_CASTELLATED" x="59.69" y="13.97" smashed="yes"/>
+<element name="U$10" library="ACM_Pindown" package="ACM_CAS_FP" value="ACM_CASTELLATED" x="193.04" y="15.24" smashed="yes"/>
+<element name="U$2" library="ACM_Pindown" package="ACM_CAS_FP" value="ACM_CASTELLATED" x="15.24" y="13.97" smashed="yes"/>
+<element name="U$3" library="ACM_Pindown" package="ACM_CAS_FP" value="ACM_CASTELLATED" x="59.69" y="54.61" smashed="yes"/>
+<element name="U$4" library="ACM_Pindown" package="ACM_CAS_FP" value="ACM_CASTELLATED" x="15.24" y="54.61" smashed="yes"/>
+<element name="U$5" library="ACM_Pindown" package="ACM_CAS_FP" value="ACM_CASTELLATED" x="148.59" y="13.97" smashed="yes"/>
+<element name="U$6" library="ACM_Pindown" package="ACM_CAS_FP" value="ACM_CASTELLATED" x="104.14" y="13.97" smashed="yes"/>
+<element name="U$7" library="ACM_Pindown" package="ACM_CAS_FP" value="ACM_CASTELLATED" x="148.59" y="54.61" smashed="yes"/>
+<element name="U$8" library="ACM_Pindown" package="ACM_CAS_FP" value="ACM_CASTELLATED" x="104.14" y="54.61" smashed="yes"/>
+<element name="U$9" library="ACM_Pindown" package="ACM_CAS_FP" value="ACM_CASTELLATED" x="193.04" y="54.61" smashed="yes"/>
 </elements>
 <signals>
 </signals>
