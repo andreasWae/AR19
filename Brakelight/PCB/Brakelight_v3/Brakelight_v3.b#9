@@ -530,77 +530,77 @@ design rules under a new name.</description>
 <attribute name="NAME" x="16.6566125" y="48.985240625" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="16.6566125" y="48.985240625" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED22" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-74.93" y="39.37" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.427" y="39.273" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-75.427" y="39.273" size="0.4064" layer="27" align="center"/>
+<element name="LED22" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="31.07" y="46.37" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="106" y="7" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="106" y="7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="106" y="7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="106" y="7" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="106" y="7" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="30.573" y="46.273" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="30.573" y="46.273" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED23" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-19.05" y="45.72" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-19.547" y="45.623" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-19.547" y="45.623" size="0.4064" layer="27" align="center"/>
+<element name="LED23" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="40.95" y="48.72" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="60" y="3" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="60" y="3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="60" y="3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="60" y="3" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="60" y="3" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="40.453" y="48.623" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="40.453" y="50.623" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED24" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-33.02" y="45.72" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-33.517" y="45.623" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-33.517" y="45.623" size="0.4064" layer="27" align="center"/>
+<element name="LED24" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="51.98" y="48.72" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="85" y="3" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="85" y="3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="85" y="3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="85" y="3" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="85" y="3" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="51.483" y="48.623" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="51.483" y="48.623" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED25" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-46.99" y="45.72" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-47.487" y="45.623" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-47.487" y="45.623" size="0.4064" layer="27" align="center"/>
+<element name="LED25" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="33.01" y="39.72" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="80" y="-6" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="80" y="-6" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="80" y="-6" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="80" y="-6" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="80" y="-6" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="32.513" y="39.623" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="32.513" y="39.623" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED26" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-60.96" y="45.72" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-61.457" y="45.623" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-61.457" y="45.623" size="0.4064" layer="27" align="center"/>
+<element name="LED26" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="40.04" y="41.72" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="101" y="-4" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="101" y="-4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="101" y="-4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="101" y="-4" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="101" y="-4" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="39.543" y="41.623" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="42.543" y="37.623" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED27" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-74.93" y="45.72" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.427" y="45.623" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-75.427" y="45.623" size="0.4064" layer="27" align="center"/>
+<element name="LED27" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="49.07" y="41.72" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="124" y="-4" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="124" y="-4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="124" y="-4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="124" y="-4" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="124" y="-4" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="48.573" y="41.623" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="48.573" y="41.623" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED28" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-19.05" y="52.07" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-19.547" y="51.973" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-19.547" y="51.973" size="0.4064" layer="27" align="center"/>
+<element name="LED28" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="34.95" y="32.07" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="54" y="-20" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="54" y="-20" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="54" y="-20" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="54" y="-20" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="54" y="-20" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="34.453" y="31.973" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="36.453" y="33.973" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED29" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-33.02" y="52.07" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-33.517" y="51.973" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-33.517" y="51.973" size="0.4064" layer="27" align="center"/>
+<element name="LED29" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="43.98" y="32.07" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="77" y="-20" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="77" y="-20" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="77" y="-20" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="77" y="-20" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="77" y="-20" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="43.483" y="31.973" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="43.483" y="31.973" size="0.4064" layer="27" align="center"/>
 </element>
 <element name="LED3" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="17.494878125" y="2.5" smashed="yes">
 <attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="36.544878125" y="-17.82" size="1.778" layer="27" display="off"/>
@@ -611,95 +611,95 @@ design rules under a new name.</description>
 <attribute name="NAME" x="16.997878125" y="2.403" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="19.537878125" y="-15.377" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED30" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-46.99" y="52.07" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-47.487" y="51.973" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-47.487" y="51.973" size="0.4064" layer="27" align="center"/>
+<element name="LED30" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="53.01" y="32.07" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="100" y="-20" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="100" y="-20" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="100" y="-20" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="100" y="-20" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="100" y="-20" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="52.513" y="31.973" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="52.513" y="31.973" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED31" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-60.96" y="52.07" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-61.457" y="51.973" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-61.457" y="51.973" size="0.4064" layer="27" align="center"/>
+<element name="LED31" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="37.04" y="24.07" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="98" y="-28" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="98" y="-28" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="98" y="-28" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="98" y="-28" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="98" y="-28" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="36.543" y="23.973" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="36.543" y="23.973" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED32" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-74.93" y="52.07" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.427" y="51.973" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-75.427" y="51.973" size="0.4064" layer="27" align="center"/>
+<element name="LED32" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="44.07" y="24.07" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="119" y="-28" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="119" y="-28" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="119" y="-28" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="119" y="-28" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="119" y="-28" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="43.573" y="23.973" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="43.573" y="23.973" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED33" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-19.05" y="58.42" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-19.547" y="58.323" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-19.547" y="58.323" size="0.4064" layer="27" align="center"/>
+<element name="LED33" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="51.95" y="25.42" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="71" y="-33" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="71" y="-33" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="71" y="-33" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="71" y="-33" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="71" y="-33" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="51.453" y="25.323" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="58.453" y="23.323" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED34" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-33.02" y="58.42" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-33.517" y="58.323" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-33.517" y="58.323" size="0.4064" layer="27" align="center"/>
+<element name="LED34" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="38.98" y="17.42" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="72" y="-41" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="72" y="-41" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="72" y="-41" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="72" y="-41" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="72" y="-41" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="38.483" y="17.323" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="38.483" y="17.323" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED35" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-46.99" y="58.42" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-47.487" y="58.323" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-47.487" y="58.323" size="0.4064" layer="27" align="center"/>
+<element name="LED35" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="46.01" y="18.42" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="93" y="-40" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="93" y="-40" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="93" y="-40" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="93" y="-40" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="93" y="-40" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="45.513" y="18.323" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="49.513" y="15.323" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED36" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-60.96" y="58.42" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-61.457" y="58.323" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-61.457" y="58.323" size="0.4064" layer="27" align="center"/>
+<element name="LED36" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="55.04" y="18.42" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="116" y="-40" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="116" y="-40" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="116" y="-40" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="116" y="-40" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="116" y="-40" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="54.543" y="18.323" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="58.543" y="17.323" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED37" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-74.93" y="58.42" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.427" y="58.323" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-75.427" y="58.323" size="0.4064" layer="27" align="center"/>
+<element name="LED37" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="43.07" y="10.42" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="118" y="-48" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="118" y="-48" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="118" y="-48" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="118" y="-48" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="118" y="-48" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="42.573" y="10.323" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="47.573" y="6.323" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED38" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-19.05" y="64.77" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-19.547" y="64.673" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-19.547" y="64.673" size="0.4064" layer="27" align="center"/>
+<element name="LED38" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="50.95" y="10.77" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="70" y="-54" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="70" y="-54" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="70" y="-54" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="70" y="-54" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="70" y="-54" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="52.453" y="5.673" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="52.453" y="14.673" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED39" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-33.02" y="64.77" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-33.517" y="64.673" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-33.517" y="64.673" size="0.4064" layer="27" align="center"/>
+<element name="LED39" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="59.98" y="10.77" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="93" y="-54" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="93" y="-54" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="93" y="-54" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="93" y="-54" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="93" y="-54" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="59.483" y="10.673" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="59.483" y="10.673" size="0.4064" layer="27" align="center"/>
 </element>
 <element name="LED4" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="5.466025" y="8.32278125" smashed="yes">
 <attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="38.486025" y="-11.99721875" size="1.778" layer="27" display="off"/>
@@ -710,95 +710,95 @@ design rules under a new name.</description>
 <attribute name="NAME" x="4.969025" y="8.22578125" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="4.969025" y="11.22578125" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED40" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-46.99" y="64.77" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-47.487" y="64.673" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-47.487" y="64.673" size="0.4064" layer="27" align="center"/>
+<element name="LED40" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="45.01" y="2.77" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="92" y="-62" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="92" y="-62" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="92" y="-62" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="92" y="-62" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="92" y="-62" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="44.513" y="2.673" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="44.513" y="2.673" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED41" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-60.96" y="64.77" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-61.457" y="64.673" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-61.457" y="64.673" size="0.4064" layer="27" align="center"/>
+<element name="LED41" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="54.04" y="2.77" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="115" y="-62" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="115" y="-62" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="115" y="-62" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="115" y="-62" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="115" y="-62" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="53.543" y="2.673" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="53.543" y="2.673" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED42" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-74.93" y="64.77" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.427" y="64.673" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-75.427" y="64.673" size="0.4064" layer="27" align="center"/>
+<element name="LED42" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="65.07" y="1.77" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="140" y="-63" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="140" y="-63" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="140" y="-63" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="140" y="-63" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="140" y="-63" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="64.573" y="1.673" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="64.573" y="1.673" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED43" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-19.05" y="71.12" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-19.547" y="71.023" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-19.547" y="71.023" size="0.4064" layer="27" align="center"/>
+<element name="LED43" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="47.95" y="-5.88" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="67" y="-77" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="67" y="-77" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="67" y="-77" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="67" y="-77" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="67" y="-77" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="47.453" y="-5.977" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="47.453" y="-5.977" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED44" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-33.02" y="71.12" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-33.517" y="71.023" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-33.517" y="71.023" size="0.4064" layer="27" align="center"/>
+<element name="LED44" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="56.98" y="-5.88" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="90" y="-77" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="90" y="-77" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="90" y="-77" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="90" y="-77" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="90" y="-77" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="56.483" y="-5.977" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="56.483" y="-5.977" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED45" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-46.99" y="71.12" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-47.487" y="71.023" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-47.487" y="71.023" size="0.4064" layer="27" align="center"/>
+<element name="LED45" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="66.01" y="-5.88" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="113" y="-77" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="113" y="-77" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="113" y="-77" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="113" y="-77" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="113" y="-77" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="65.513" y="-5.977" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="65.513" y="-5.977" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED46" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-60.96" y="71.12" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-61.457" y="71.023" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-61.457" y="71.023" size="0.4064" layer="27" align="center"/>
+<element name="LED46" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="51.04" y="-14.88" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="112" y="-86" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="112" y="-86" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="112" y="-86" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="112" y="-86" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="112" y="-86" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="50.543" y="-14.977" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="50.543" y="-14.977" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED47" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-74.93" y="71.12" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.427" y="71.023" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-75.427" y="71.023" size="0.4064" layer="27" align="center"/>
+<element name="LED47" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="59.07" y="-14.88" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="134" y="-86" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="134" y="-86" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="134" y="-86" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="134" y="-86" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="134" y="-86" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="58.573" y="-14.977" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="58.573" y="-14.977" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED48" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-19.05" y="77.47" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-19.547" y="77.373" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-19.547" y="77.373" size="0.4064" layer="27" align="center"/>
+<element name="LED48" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="69.95" y="-15.53" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="89" y="-93" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="89" y="-93" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="89" y="-93" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="89" y="-93" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="89" y="-93" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="69.453" y="-15.627" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="69.453" y="-15.627" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED49" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-33.02" y="77.47" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="0" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-33.517" y="77.373" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-33.517" y="77.373" size="0.4064" layer="27" align="center"/>
+<element name="LED49" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="39.98" y="78.47" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="73" y="1" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="73" y="1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="73" y="1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="73" y="1" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="73" y="1" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="39.483" y="78.373" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="39.483" y="78.373" size="0.4064" layer="27" align="center"/>
 </element>
 <element name="LED5" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="12.362984375" y="8.48914375" smashed="yes">
 <attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="59.352984375" y="-11.83085625" size="1.778" layer="27" display="off"/>
@@ -809,23 +809,23 @@ design rules under a new name.</description>
 <attribute name="NAME" x="11.865984375" y="8.39214375" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="14.865984375" y="9.39214375" size="0.4064" layer="27" align="center"/>
 </element>
-<element name="LED50" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-74.93" y="88.9" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="-121.92" y="166.37" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="mm" x="-121.92" y="166.37" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="-121.92" y="166.37" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="-121.92" y="166.37" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="-121.92" y="166.37" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-74.433" y="88.997" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="VALUE" x="-74.433" y="88.997" size="0.4064" layer="27" rot="R180" align="center"/>
+<element name="LED50" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="52.07" y="76.9" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="5.08" y="154.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="mm" x="5.08" y="154.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="5.08" y="154.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="5.08" y="154.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="5.08" y="154.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="52.567" y="76.997" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="VALUE" x="54.567" y="79.997" size="0.4064" layer="27" rot="R180" align="center"/>
 </element>
-<element name="LED51" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="-90.17" y="87.63" smashed="yes">
-<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="-29.21" y="10.16" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="mm" x="-29.21" y="10.16" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Lumex" x="-29.21" y="10.16" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="-29.21" y="10.16" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="-29.21" y="10.16" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-90.667" y="87.533" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-89.397" y="93.883" size="0.4064" layer="27" align="center"/>
+<element name="LED51" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="61.83" y="70.63" smashed="yes">
+<attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="122.79" y="-6.84" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="mm" x="122.79" y="-6.84" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Lumex" x="122.79" y="-6.84" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SSL-LX5093TC" x="122.79" y="-6.84" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="696-SSL-LX5093TC" x="122.79" y="-6.84" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="61.333" y="70.533" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="62.603" y="76.883" size="0.4064" layer="27" align="center"/>
 </element>
 <element name="LED6" library="5mm (T-1 34) Round LED" package="SSL-LX5093SGC/B" value="SSL-LX5093TC" x="19.20794375" y="8.48914375" smashed="yes">
 <attribute name="DESCRIPTION" value="Lumex SSL-LX5093TC Turquoise LED, 5mm (T-1 3/4) Clear, Dome Lens Through Hole Package" x="80.16794375" y="-11.83085625" size="1.778" layer="27" display="off"/>
@@ -968,102 +968,102 @@ design rules under a new name.</description>
 <signal name="N$15">
 <contactref element="LED23" pad="2"/>
 <contactref element="LED22" pad="1"/>
-<wire x1="-20.32" y1="45.72" x2="-73.66" y2="39.37" width="0" layer="19" extent="1-1"/>
+<wire x1="32.34" y1="46.37" x2="39.68" y2="48.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 <contactref element="LED23" pad="1"/>
 <contactref element="LED24" pad="2"/>
-<wire x1="-34.29" y1="45.72" x2="-17.78" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="42.22" y1="48.72" x2="50.71" y2="48.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$17">
 <contactref element="LED26" pad="2"/>
 <contactref element="LED25" pad="1"/>
-<wire x1="-45.72" y1="45.72" x2="-62.23" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="34.28" y1="39.72" x2="38.77" y2="41.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="LED26" pad="1"/>
 <contactref element="LED27" pad="2"/>
-<wire x1="-59.69" y1="45.72" x2="-76.2" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="41.31" y1="41.72" x2="47.8" y2="41.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="LED29" pad="2"/>
 <contactref element="LED28" pad="1"/>
-<wire x1="-34.29" y1="52.07" x2="-17.78" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="36.22" y1="32.07" x2="42.71" y2="32.07" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$20">
 <contactref element="LED29" pad="1"/>
 <contactref element="LED30" pad="2"/>
-<wire x1="-48.26" y1="52.07" x2="-31.75" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="45.25" y1="32.07" x2="51.74" y2="32.07" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$21">
 <contactref element="LED32" pad="2"/>
 <contactref element="LED31" pad="1"/>
-<wire x1="-59.69" y1="52.07" x2="-76.2" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="38.31" y1="24.07" x2="42.8" y2="24.07" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$22">
 <contactref element="LED32" pad="1"/>
 <contactref element="LED33" pad="2"/>
-<wire x1="-73.66" y1="52.07" x2="-20.32" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="45.34" y1="24.07" x2="50.68" y2="25.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$23">
 <contactref element="LED35" pad="2"/>
 <contactref element="LED34" pad="1"/>
-<wire x1="-48.26" y1="58.42" x2="-31.75" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="40.25" y1="17.42" x2="44.74" y2="18.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$24">
 <contactref element="LED35" pad="1"/>
 <contactref element="LED36" pad="2"/>
-<wire x1="-62.23" y1="58.42" x2="-45.72" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="47.28" y1="18.42" x2="53.77" y2="18.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$25">
 <contactref element="LED38" pad="2"/>
 <contactref element="LED37" pad="1"/>
-<wire x1="-73.66" y1="58.42" x2="-20.32" y2="64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="44.34" y1="10.42" x2="49.68" y2="10.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$26">
 <contactref element="LED38" pad="1"/>
 <contactref element="LED39" pad="2"/>
-<wire x1="-34.29" y1="64.77" x2="-17.78" y2="64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="52.22" y1="10.77" x2="58.71" y2="10.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$27">
 <contactref element="LED41" pad="2"/>
 <contactref element="LED40" pad="1"/>
-<wire x1="-62.23" y1="64.77" x2="-45.72" y2="64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="46.28" y1="2.77" x2="52.77" y2="2.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$28">
 <contactref element="LED41" pad="1"/>
 <contactref element="LED42" pad="2"/>
-<wire x1="-59.69" y1="64.77" x2="-76.2" y2="64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="55.31" y1="2.77" x2="63.8" y2="1.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$29">
 <contactref element="LED44" pad="2"/>
 <contactref element="LED43" pad="1"/>
-<wire x1="-34.29" y1="71.12" x2="-17.78" y2="71.12" width="0" layer="19" extent="1-1"/>
+<wire x1="49.22" y1="-5.88" x2="55.71" y2="-5.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$30">
 <contactref element="LED44" pad="1"/>
 <contactref element="LED45" pad="2"/>
-<wire x1="-48.26" y1="71.12" x2="-31.75" y2="71.12" width="0" layer="19" extent="1-1"/>
+<wire x1="58.25" y1="-5.88" x2="64.74" y2="-5.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$31">
 <contactref element="LED47" pad="2"/>
 <contactref element="LED46" pad="1"/>
-<wire x1="-76.2" y1="71.12" x2="-59.69" y2="71.12" width="0" layer="19" extent="1-1"/>
+<wire x1="52.31" y1="-14.88" x2="57.8" y2="-14.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$32">
 <contactref element="LED47" pad="1"/>
 <contactref element="LED48" pad="2"/>
-<wire x1="-73.66" y1="71.12" x2="-20.32" y2="77.47" width="0" layer="19" extent="1-1"/>
+<wire x1="60.34" y1="-14.88" x2="68.68" y2="-15.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$33">
 <contactref element="LED50" pad="2"/>
 <contactref element="LED49" pad="1"/>
-<wire x1="-73.66" y1="88.9" x2="-31.75" y2="77.47" width="0" layer="19" extent="1-1"/>
+<wire x1="53.34" y1="76.9" x2="41.25" y2="78.47" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$34">
 <contactref element="LED50" pad="1"/>
 <contactref element="LED51" pad="2"/>
-<wire x1="-91.44" y1="87.63" x2="-76.2" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="60.56" y1="70.63" x2="50.8" y2="76.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ISENSE">
 <contactref element="LED49" pad="2"/>
@@ -1085,24 +1085,24 @@ design rules under a new name.</description>
 <contactref element="LED1" pad="2"/>
 <contactref element="R1" pad="2"/>
 <contactref element="U1" pad="2"/>
-<wire x1="12.5443" y1="37.43668125" x2="16.666" y2="70.545" width="0" layer="19" extent="16-16"/>
+<wire x1="29.8" y1="46.37" x2="16.666" y2="70.545" width="0" layer="19" extent="16-16"/>
+<wire x1="31.74" y1="39.72" x2="29.8" y2="46.37" width="0" layer="19" extent="1-1"/>
+<wire x1="33.68" y1="32.07" x2="31.74" y2="39.72" width="0" layer="19" extent="1-1"/>
+<wire x1="35.77" y1="24.07" x2="33.68" y2="32.07" width="0" layer="19" extent="1-1"/>
+<wire x1="37.71" y1="17.42" x2="35.77" y2="24.07" width="0" layer="19" extent="1-1"/>
+<wire x1="41.8" y1="10.42" x2="37.71" y2="17.42" width="0" layer="19" extent="1-1"/>
+<wire x1="43.74" y1="2.77" x2="41.8" y2="10.42" width="0" layer="19" extent="1-1"/>
+<wire x1="46.68" y1="-5.88" x2="43.74" y2="2.77" width="0" layer="19" extent="1-1"/>
+<wire x1="49.77" y1="-14.88" x2="46.68" y2="-5.88" width="0" layer="19" extent="1-1"/>
+<wire x1="12.5443" y1="37.43668125" x2="31.74" y2="39.72" width="0" layer="19" extent="1-1"/>
 <wire x1="10.87464375" y1="31.6139" x2="12.5443" y2="37.43668125" width="0" layer="19" extent="1-1"/>
 <wire x1="9.204990625" y1="25.79111875" x2="10.87464375" y2="31.6139" width="0" layer="19" extent="1-1"/>
 <wire x1="7.535334375" y1="19.968340625" x2="9.204990625" y2="25.79111875" width="0" layer="19" extent="1-1"/>
 <wire x1="5.865678125" y1="14.145559375" x2="7.535334375" y2="19.968340625" width="0" layer="19" extent="1-1"/>
 <wire x1="4.196025" y1="8.32278125" x2="5.865678125" y2="14.145559375" width="0" layer="19" extent="1-1"/>
 <wire x1="2.52636875" y1="2.5" x2="4.196025" y2="8.32278125" width="0" layer="19" extent="1-1"/>
-<wire x1="-20.32" y1="52.07" x2="12.5443" y2="37.43668125" width="0" layer="19" extent="1-1"/>
-<wire x1="-34.29" y1="58.42" x2="-20.32" y2="52.07" width="0" layer="19" extent="1-1"/>
-<wire x1="-48.26" y1="64.77" x2="-34.29" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-62.23" y1="71.12" x2="-48.26" y2="64.77" width="0" layer="19" extent="1-1"/>
-<wire x1="-20.32" y1="71.12" x2="-34.29" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.36" y1="82.55" x2="-20.32" y2="71.12" width="0" layer="19" extent="16-16"/>
-<wire x1="-34.29" y1="77.47" x2="-24.36" y2="82.55" width="0" layer="19" extent="16-16"/>
-<wire x1="-76.2" y1="58.42" x2="-62.23" y2="71.12" width="0" layer="19" extent="1-1"/>
-<wire x1="-62.23" y1="52.07" x2="-76.2" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-48.26" y1="45.72" x2="-62.23" y2="52.07" width="0" layer="19" extent="1-1"/>
-<wire x1="-76.2" y1="39.37" x2="-62.23" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.36" y1="82.55" x2="16.666" y2="70.545" width="0" layer="19" extent="16-16"/>
+<wire x1="38.71" y1="78.47" x2="-24.36" y2="82.55" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$36">
 <contactref element="LED51" pad="1"/>
@@ -1123,23 +1123,23 @@ design rules under a new name.</description>
 <contactref element="LED6" pad="1"/>
 <contactref element="LED3" pad="1"/>
 <contactref element="L1" pad="1"/>
-<wire x1="22.21978125" y1="38.434871875" x2="18.4236125" y2="49.082240625" width="0" layer="19" extent="1-1"/>
-<wire x1="25.61714375" y1="25.79111875" x2="22.21978125" y2="38.434871875" width="0" layer="19" extent="1-1"/>
+<wire x1="50.34" y1="41.72" x2="53.25" y2="48.72" width="0" layer="19" extent="1-1"/>
+<wire x1="54.28" y1="32.07" x2="50.34" y2="41.72" width="0" layer="19" extent="1-1"/>
+<wire x1="53.22" y1="25.42" x2="54.28" y2="32.07" width="0" layer="19" extent="1-1"/>
+<wire x1="56.31" y1="18.42" x2="53.22" y2="25.42" width="0" layer="19" extent="1-1"/>
+<wire x1="61.25" y1="10.77" x2="56.31" y2="18.42" width="0" layer="19" extent="1-1"/>
+<wire x1="66.34" y1="1.77" x2="61.25" y2="10.77" width="0" layer="19" extent="1-1"/>
+<wire x1="67.28" y1="-5.88" x2="66.34" y2="1.77" width="0" layer="19" extent="1-1"/>
+<wire x1="71.22" y1="-15.53" x2="67.28" y2="-5.88" width="0" layer="19" extent="1-1"/>
+<wire x1="25.61714375" y1="25.79111875" x2="53.22" y2="25.42" width="0" layer="19" extent="1-1"/>
 <wire x1="23.904078125" y1="19.968340625" x2="25.61714375" y2="25.79111875" width="0" layer="19" extent="1-1"/>
 <wire x1="22.1910125" y1="14.145559375" x2="23.904078125" y2="19.968340625" width="0" layer="19" extent="1-1"/>
 <wire x1="20.47794375" y1="8.48914375" x2="22.1910125" y2="14.145559375" width="0" layer="19" extent="1-1"/>
 <wire x1="24.96" y1="4.58" x2="20.47794375" y2="8.48914375" width="0" layer="19" extent="16-16"/>
 <wire x1="18.764878125" y1="2.5" x2="20.47794375" y2="8.48914375" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.78" y1="58.42" x2="18.4236125" y2="49.082240625" width="0" layer="19" extent="1-1"/>
-<wire x1="-31.75" y1="64.77" x2="-17.78" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-45.72" y1="71.12" x2="-31.75" y2="64.77" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.78" y1="77.47" x2="-31.75" y2="64.77" width="0" layer="19" extent="1-1"/>
-<wire x1="-31.75" y1="45.72" x2="-17.78" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-45.72" y1="52.07" x2="-31.75" y2="45.72" width="0" layer="19" extent="1-1"/>
-<wire x1="-59.69" y1="58.42" x2="-45.72" y2="52.07" width="0" layer="19" extent="1-1"/>
-<wire x1="-73.66" y1="64.77" x2="-59.69" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-73.66" y1="45.72" x2="-59.69" y2="58.42" width="0" layer="19" extent="1-1"/>
-<wire x1="-88.9" y1="87.63" x2="-73.66" y2="64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="22.21978125" y1="38.434871875" x2="25.61714375" y2="25.79111875" width="0" layer="19" extent="1-1"/>
+<wire x1="18.4236125" y1="49.082240625" x2="22.21978125" y2="38.434871875" width="0" layer="19" extent="1-1"/>
+<wire x1="63.1" y1="70.63" x2="18.4236125" y2="49.082240625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$37">
 <contactref element="L1" pad="2"/>
