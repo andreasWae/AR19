@@ -1480,6 +1480,11 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 <wire x1="10.16" y1="78.74" x2="0" y2="78.74" width="0.1524" layer="91"/>
 <label x="0" y="78.74" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="5V1"/>
+<wire x1="50.8" y1="29.21" x2="70.358" y2="29.21" width="0.1524" layer="91"/>
+<label x="70.358" y="29.21" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PWM0" class="0">
 <segment>
@@ -1644,11 +1649,6 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 </segment>
 </net>
 <net name="5V1" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="5V1"/>
-<wire x1="50.8" y1="29.21" x2="70.358" y2="29.21" width="0.1524" layer="91"/>
-<label x="70.358" y="29.21" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="76.2" x2="0" y2="76.2" width="0.1524" layer="91"/>
