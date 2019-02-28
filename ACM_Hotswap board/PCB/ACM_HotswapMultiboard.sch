@@ -1476,9 +1476,19 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 <label x="-10.414" y="41.91" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="2"/>
-<wire x1="10.16" y1="78.74" x2="0" y2="78.74" width="0.1524" layer="91"/>
-<label x="0" y="78.74" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="5V1"/>
+<wire x1="50.8" y1="29.21" x2="70.358" y2="29.21" width="0.1524" layer="91"/>
+<label x="70.358" y="29.21" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="5"/>
+<wire x1="10.16" y1="86.36" x2="0" y2="86.36" width="0.1524" layer="91"/>
+<label x="0" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="4"/>
+<wire x1="10.16" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
+<label x="0" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM0" class="0">
@@ -1488,14 +1498,14 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 <label x="-10.414" y="39.37" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="4"/>
-<wire x1="10.16" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
-<label x="0" y="83.82" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="-27.94" y1="5.08" x2="-20.32" y2="5.08" width="0.1524" layer="91"/>
 <label x="-27.94" y="5.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="76.2" x2="0" y2="76.2" width="0.1524" layer="91"/>
+<label x="0" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM1" class="0">
@@ -1505,14 +1515,14 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 <label x="-10.414" y="36.83" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="5"/>
-<wire x1="10.16" y1="86.36" x2="0" y2="86.36" width="0.1524" layer="91"/>
-<label x="0" y="86.36" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="-27.94" y1="0" x2="-20.574" y2="0" width="0.1524" layer="91"/>
 <label x="-27.94" y="0" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="2"/>
+<wire x1="10.16" y1="78.74" x2="0" y2="78.74" width="0.1524" layer="91"/>
+<label x="0" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CANL" class="0">
@@ -1641,18 +1651,6 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 <pinref part="U$2" gate="G$1" pin="6"/>
 <wire x1="10.16" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
 <label x="0" y="88.9" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="5V1" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="5V1"/>
-<wire x1="50.8" y1="29.21" x2="70.358" y2="29.21" width="0.1524" layer="91"/>
-<label x="70.358" y="29.21" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="1"/>
-<wire x1="10.16" y1="76.2" x2="0" y2="76.2" width="0.1524" layer="91"/>
-<label x="0" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
