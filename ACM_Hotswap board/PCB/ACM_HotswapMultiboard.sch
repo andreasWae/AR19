@@ -809,25 +809,6 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/NGD8201N-D.PDF"&gt; Dat
 </device>
 </devices>
 </deviceset>
-<deviceset name="2,15/1,0" urn="urn:adsk.eagle:component:30850/1" prefix="PAD" uservalue="yes" library_version="1">
-<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="PAD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="2,15/1,0">
-<connects>
-<connect gate="1" pin="P" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30831/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 <library name="supply1" urn="urn:adsk.eagle:library:371">
@@ -1095,34 +1076,34 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 <library name="12P_Connector holes">
 <packages>
 <package name="16P_CONNECTOR_FP">
-<pad name="P$1" x="0" y="0" drill="1" shape="octagon"/>
-<pad name="P$2" x="2.54" y="0" drill="1" shape="octagon"/>
-<pad name="P$3" x="5.08" y="0" drill="1" shape="octagon"/>
-<pad name="P$4" x="7.62" y="0" drill="1" shape="octagon"/>
-<pad name="P$5" x="10.16" y="0" drill="1" shape="octagon"/>
-<pad name="P$6" x="12.7" y="0" drill="1" shape="octagon"/>
-<pad name="P$9" x="0" y="-2.54" drill="1" shape="octagon"/>
-<pad name="P$10" x="2.54" y="-2.54" drill="1" shape="octagon"/>
-<pad name="P$11" x="5.08" y="-2.54" drill="1" shape="octagon"/>
-<pad name="P$12" x="7.62" y="-2.54" drill="1" shape="octagon"/>
-<pad name="P$13" x="10.16" y="-2.54" drill="1" shape="octagon"/>
-<pad name="P$14" x="12.7" y="-2.54" drill="1" shape="octagon"/>
+<pad name="1" x="0" y="0" drill="1" shape="octagon"/>
+<pad name="2" x="2.54" y="0" drill="1" shape="octagon"/>
+<pad name="3" x="5.08" y="0" drill="1" shape="octagon"/>
+<pad name="4" x="7.62" y="0" drill="1" shape="octagon"/>
+<pad name="5" x="10.16" y="0" drill="1" shape="octagon"/>
+<pad name="6" x="12.7" y="0" drill="1" shape="octagon"/>
+<pad name="7" x="0" y="-2.54" drill="1" shape="octagon"/>
+<pad name="8" x="2.54" y="-2.54" drill="1" shape="octagon"/>
+<pad name="9" x="5.08" y="-2.54" drill="1" shape="octagon"/>
+<pad name="10" x="7.62" y="-2.54" drill="1" shape="octagon"/>
+<pad name="11" x="10.16" y="-2.54" drill="1" shape="octagon"/>
+<pad name="12" x="12.7" y="-2.54" drill="1" shape="octagon"/>
 </package>
 </packages>
 <symbols>
 <symbol name="16P_CONNECTOR_SB">
-<pin name="P$1" x="0" y="12.7" length="middle" rot="R270"/>
-<pin name="P$2" x="2.54" y="12.7" length="middle" rot="R270"/>
-<pin name="P$3" x="5.08" y="12.7" length="middle" rot="R270"/>
-<pin name="P$4" x="7.62" y="12.7" length="middle" rot="R270"/>
-<pin name="P$5" x="10.16" y="12.7" length="middle" rot="R270"/>
-<pin name="P$6" x="12.7" y="12.7" length="middle" rot="R270"/>
-<pin name="P$9" x="0" y="-12.7" length="middle" rot="R90"/>
-<pin name="P$10" x="2.54" y="-12.7" length="middle" rot="R90"/>
-<pin name="P$11" x="5.08" y="-12.7" length="middle" rot="R90"/>
-<pin name="P$12" x="7.62" y="-12.7" length="middle" rot="R90"/>
-<pin name="P$13" x="10.16" y="-12.7" length="middle" rot="R90"/>
-<pin name="P$14" x="12.7" y="-12.7" length="middle" rot="R90"/>
+<pin name="1" x="0" y="12.7" length="middle" rot="R270"/>
+<pin name="2" x="2.54" y="12.7" length="middle" rot="R270"/>
+<pin name="3" x="5.08" y="12.7" length="middle" rot="R270"/>
+<pin name="4" x="7.62" y="12.7" length="middle" rot="R270"/>
+<pin name="5" x="10.16" y="12.7" length="middle" rot="R270"/>
+<pin name="6" x="12.7" y="12.7" length="middle" rot="R270"/>
+<pin name="7" x="0" y="-12.7" length="middle" rot="R90"/>
+<pin name="8" x="2.54" y="-12.7" length="middle" rot="R90"/>
+<pin name="9" x="5.08" y="-12.7" length="middle" rot="R90"/>
+<pin name="10" x="7.62" y="-12.7" length="middle" rot="R90"/>
+<pin name="11" x="10.16" y="-12.7" length="middle" rot="R90"/>
+<pin name="12" x="12.7" y="-12.7" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1133,18 +1114,18 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 <devices>
 <device name="" package="16P_CONNECTOR_FP">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$10" pad="P$10"/>
-<connect gate="G$1" pin="P$11" pad="P$11"/>
-<connect gate="G$1" pin="P$12" pad="P$12"/>
-<connect gate="G$1" pin="P$13" pad="P$13"/>
-<connect gate="G$1" pin="P$14" pad="P$14"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-<connect gate="G$1" pin="P$3" pad="P$3"/>
-<connect gate="G$1" pin="P$4" pad="P$4"/>
-<connect gate="G$1" pin="P$5" pad="P$5"/>
-<connect gate="G$1" pin="P$6" pad="P$6"/>
-<connect gate="G$1" pin="P$9" pad="P$9"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1154,21 +1135,21 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 </deviceset>
 </devicesets>
 </library>
-<library name="4P_Connector holes - Copy">
+<library name="4P_Connector holes">
 <packages>
 <package name="16P_CONNECTOR_FP">
-<pad name="12V" x="0" y="0" drill="1" shape="octagon"/>
-<pad name="CANH" x="2.54" y="0" drill="1" shape="octagon"/>
-<pad name="CANL" x="0" y="-2.54" drill="1" shape="octagon"/>
-<pad name="GND" x="2.54" y="-2.54" drill="1" shape="octagon"/>
+<pad name="1" x="0" y="0" drill="1" shape="octagon"/>
+<pad name="2" x="2.54" y="0" drill="1" shape="octagon"/>
+<pad name="3" x="0" y="-2.54" drill="1" shape="octagon"/>
+<pad name="4" x="2.54" y="-2.54" drill="1" shape="octagon"/>
 </package>
 </packages>
 <symbols>
 <symbol name="16P_CONNECTOR_SB">
-<pin name="12V" x="0" y="0" length="middle"/>
-<pin name="CANH" x="0" y="-2.54" length="middle"/>
-<pin name="CANL" x="0" y="-5.08" length="middle"/>
-<pin name="GND" x="0" y="-7.62" length="middle"/>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="2" x="0" y="-2.54" length="middle"/>
+<pin name="3" x="0" y="-5.08" length="middle"/>
+<pin name="4" x="0" y="-7.62" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1179,10 +1160,10 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 <devices>
 <device name="" package="16P_CONNECTOR_FP">
 <connects>
-<connect gate="G$1" pin="12V" pad="12V"/>
-<connect gate="G$1" pin="CANH" pad="CANH"/>
-<connect gate="G$1" pin="CANL" pad="CANL"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1218,11 +1199,10 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 <part name="S1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1" value=""/>
 <part name="D1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="WIREPAD" device="SMD5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1" value=""/>
 <part name="U$1" library="ACM_Pindown" deviceset="ACM_CASTELLATED" device=""/>
-<part name="MOS0" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1"/>
-<part name="MOS1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1"/>
 <part name="U$2" library="12P_Connector holes" deviceset="16P_CONNECTOR" device=""/>
-<part name="U$3" library="4P_Connector holes - Copy" deviceset="16P_CONNECTOR" device=""/>
-<part name="U$4" library="4P_Connector holes - Copy" deviceset="16P_CONNECTOR" device=""/>
+<part name="U$3" library="4P_Connector holes" deviceset="16P_CONNECTOR" device=""/>
+<part name="U$4" library="4P_Connector holes" deviceset="16P_CONNECTOR" device=""/>
+<part name="U$5" library="4P_Connector holes" deviceset="16P_CONNECTOR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1288,17 +1268,10 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 <attribute name="VALUE" x="145.542" y="-67.183" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U$1" gate="G$1" x="25.4" y="38.1" smashed="yes"/>
-<instance part="MOS0" gate="1" x="-30.48" y="5.08" smashed="yes">
-<attribute name="NAME" x="-31.623" y="6.9342" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-31.623" y="1.778" size="1.778" layer="96"/>
-</instance>
-<instance part="MOS1" gate="1" x="-30.48" y="0" smashed="yes">
-<attribute name="NAME" x="-31.623" y="1.8542" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-31.623" y="-3.302" size="1.778" layer="96"/>
-</instance>
-<instance part="U$2" gate="G$1" x="20.32" y="78.74" smashed="yes"/>
-<instance part="U$3" gate="G$1" x="68.58" y="83.82" smashed="yes"/>
-<instance part="U$4" gate="G$1" x="68.58" y="71.12" smashed="yes"/>
+<instance part="U$2" gate="G$1" x="22.86" y="76.2" smashed="yes" rot="R90"/>
+<instance part="U$3" gate="G$1" x="71.12" y="106.68" smashed="yes"/>
+<instance part="U$4" gate="G$1" x="71.12" y="93.98" smashed="yes"/>
+<instance part="U$5" gate="G$1" x="71.12" y="81.28" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -1364,11 +1337,6 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="GND"/>
-<wire x1="68.58" y1="76.2" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
-<label x="58.42" y="76.2" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <wire x1="5.08" y1="44.45" x2="-10.16" y2="44.45" width="0.1524" layer="91"/>
 <label x="-10.16" y="44.45" size="1.778" layer="95"/>
@@ -1379,9 +1347,24 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 <label x="-10.16" y="29.21" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="GND"/>
-<wire x1="68.58" y1="63.5" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
-<label x="58.42" y="63.5" size="1.778" layer="95"/>
+<pinref part="U$3" gate="G$1" pin="4"/>
+<wire x1="71.12" y1="99.06" x2="63.5" y2="99.06" width="0.1524" layer="91"/>
+<label x="63.5" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="3"/>
+<wire x1="71.12" y1="88.9" x2="63.5" y2="88.9" width="0.1524" layer="91"/>
+<label x="63.5" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="2"/>
+<wire x1="71.12" y1="78.74" x2="63.5" y2="78.74" width="0.1524" layer="91"/>
+<label x="63.5" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="3"/>
+<wire x1="10.16" y1="81.28" x2="0" y2="81.28" width="0.1524" layer="91"/>
+<label x="0" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GATE1" class="0">
@@ -1471,14 +1454,19 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 <label x="-10.414" y="46.99" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="12V"/>
-<wire x1="68.58" y1="83.82" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
-<label x="58.42" y="83.82" size="1.778" layer="95"/>
+<pinref part="U$3" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="106.68" x2="63.5" y2="106.68" width="0.1524" layer="91"/>
+<label x="63.5" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="12V"/>
-<wire x1="68.58" y1="71.12" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
-<label x="58.42" y="71.12" size="1.778" layer="95"/>
+<pinref part="U$4" gate="G$1" pin="2"/>
+<wire x1="71.12" y1="91.44" x2="63.5" y2="91.44" width="0.1524" layer="91"/>
+<label x="63.5" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="3"/>
+<wire x1="71.12" y1="76.2" x2="63.5" y2="76.2" width="0.1524" layer="91"/>
+<label x="63.5" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -1487,6 +1475,11 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 <wire x1="5.08" y1="41.91" x2="-10.414" y2="41.91" width="0.1524" layer="91"/>
 <label x="-10.414" y="41.91" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="2"/>
+<wire x1="10.16" y1="78.74" x2="0" y2="78.74" width="0.1524" layer="91"/>
+<label x="0" y="78.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PWM0" class="0">
 <segment>
@@ -1494,12 +1487,32 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 <wire x1="5.08" y1="39.37" x2="-10.414" y2="39.37" width="0.1524" layer="91"/>
 <label x="-10.414" y="39.37" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="4"/>
+<wire x1="10.16" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
+<label x="0" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="-27.94" y1="5.08" x2="-20.32" y2="5.08" width="0.1524" layer="91"/>
+<label x="-27.94" y="5.08" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PWM1" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PWM1_INT1"/>
 <wire x1="5.08" y1="36.83" x2="-10.414" y2="36.83" width="0.1524" layer="91"/>
 <label x="-10.414" y="36.83" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="5"/>
+<wire x1="10.16" y1="86.36" x2="0" y2="86.36" width="0.1524" layer="91"/>
+<label x="0" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="-27.94" y1="0" x2="-20.574" y2="0" width="0.1524" layer="91"/>
+<label x="-27.94" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CANL" class="0">
@@ -1509,14 +1522,19 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 <label x="-10.16" y="34.29" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="CANL"/>
-<wire x1="68.58" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
-<label x="58.42" y="78.74" size="1.778" layer="95"/>
+<pinref part="U$3" gate="G$1" pin="3"/>
+<wire x1="71.12" y1="101.6" x2="63.5" y2="101.6" width="0.1524" layer="91"/>
+<label x="63.5" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="CANL"/>
-<wire x1="68.58" y1="66.04" x2="58.42" y2="66.04" width="0.1524" layer="91"/>
-<label x="58.42" y="66.04" size="1.778" layer="95"/>
+<pinref part="U$4" gate="G$1" pin="4"/>
+<wire x1="71.12" y1="86.36" x2="63.5" y2="86.36" width="0.1524" layer="91"/>
+<label x="63.5" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="81.28" x2="63.5" y2="81.28" width="0.1524" layer="91"/>
+<label x="63.5" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CANH" class="0">
@@ -1526,14 +1544,19 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 <label x="-9.652" y="31.75" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="CANH"/>
-<wire x1="68.58" y1="81.28" x2="58.42" y2="81.28" width="0.1524" layer="91"/>
-<label x="58.42" y="81.28" size="1.778" layer="95"/>
+<pinref part="U$3" gate="G$1" pin="2"/>
+<wire x1="71.12" y1="104.14" x2="63.5" y2="104.14" width="0.1524" layer="91"/>
+<label x="63.5" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$4" gate="G$1" pin="CANH"/>
-<wire x1="68.58" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
-<label x="58.42" y="68.58" size="1.778" layer="95"/>
+<pinref part="U$4" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="93.98" x2="63.5" y2="93.98" width="0.1524" layer="91"/>
+<label x="63.5" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="4"/>
+<wire x1="71.12" y1="73.66" x2="63.5" y2="73.66" width="0.1524" layer="91"/>
+<label x="63.5" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AD0" class="0">
@@ -1542,12 +1565,22 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 <wire x1="50.8" y1="46.99" x2="71.374" y2="46.99" width="0.1524" layer="91"/>
 <label x="71.12" y="46.99" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="12"/>
+<wire x1="35.56" y1="88.9" x2="40.64" y2="88.9" width="0.1524" layer="91"/>
+<label x="40.64" y="88.9" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="AD1" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="I/O_AD1"/>
 <wire x1="50.8" y1="44.45" x2="70.866" y2="44.45" width="0.1524" layer="91"/>
 <label x="70.866" y="44.45" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="11"/>
+<wire x1="35.56" y1="86.36" x2="40.64" y2="86.36" width="0.1524" layer="91"/>
+<label x="40.64" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AD2" class="0">
@@ -1556,12 +1589,22 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 <wire x1="50.8" y1="41.91" x2="70.866" y2="41.91" width="0.1524" layer="91"/>
 <label x="70.866" y="41.91" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="10"/>
+<wire x1="35.56" y1="83.82" x2="40.64" y2="83.82" width="0.1524" layer="91"/>
+<label x="40.64" y="83.82" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="AD3" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="I/O_AD3_SCL"/>
 <wire x1="50.8" y1="39.37" x2="71.12" y2="39.37" width="0.1524" layer="91"/>
 <label x="71.12" y="39.37" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="9"/>
+<wire x1="35.56" y1="81.28" x2="40.64" y2="81.28" width="0.1524" layer="91"/>
+<label x="40.64" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -1570,12 +1613,22 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 <wire x1="50.8" y1="36.83" x2="70.358" y2="36.83" width="0.1524" layer="91"/>
 <label x="70.358" y="36.83" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="8"/>
+<wire x1="35.56" y1="78.74" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
+<label x="40.64" y="78.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="MOSI"/>
 <wire x1="50.8" y1="34.29" x2="70.358" y2="34.29" width="0.1524" layer="91"/>
 <label x="70.358" y="34.29" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="7"/>
+<wire x1="35.56" y1="76.2" x2="40.64" y2="76.2" width="0.1524" layer="91"/>
+<label x="40.64" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -1584,6 +1637,11 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 <wire x1="50.8" y1="31.75" x2="69.85" y2="31.75" width="0.1524" layer="91"/>
 <label x="69.85" y="31.75" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="6"/>
+<wire x1="10.16" y1="88.9" x2="0" y2="88.9" width="0.1524" layer="91"/>
+<label x="0" y="88.9" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="5V1" class="0">
 <segment>
@@ -1591,91 +1649,10 @@ Source: &lt;a href="https://toshiba.semicon-storage.com/info/docget.jsp?did=6217
 <wire x1="50.8" y1="29.21" x2="70.358" y2="29.21" width="0.1524" layer="91"/>
 <label x="70.358" y="29.21" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="N$1" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="MOS0" gate="1" pin="P"/>
-<wire x1="-27.94" y1="5.08" x2="-20.32" y2="5.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="MOS1" gate="1" pin="P"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="-27.94" y1="0" x2="-20.574" y2="0" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="P$1"/>
-<wire x1="20.32" y1="91.44" x2="20.32" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="P$2"/>
-<wire x1="22.86" y1="91.44" x2="22.86" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="P$3"/>
-<wire x1="25.4" y1="91.44" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="P$4"/>
-<wire x1="27.94" y1="91.44" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="P$5"/>
-<wire x1="30.48" y1="91.44" x2="30.48" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="P$6"/>
-<wire x1="33.02" y1="91.44" x2="33.02" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="P$9"/>
-<wire x1="20.32" y1="66.04" x2="20.32" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="P$10"/>
-<wire x1="22.86" y1="66.04" x2="22.86" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="P$11"/>
-<wire x1="25.4" y1="66.04" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$20" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="P$12"/>
-<wire x1="27.94" y1="66.04" x2="27.94" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="P$13"/>
-<wire x1="30.48" y1="66.04" x2="30.48" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="P$14"/>
-<wire x1="33.02" y1="66.04" x2="33.02" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="76.2" x2="0" y2="76.2" width="0.1524" layer="91"/>
+<label x="0" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
