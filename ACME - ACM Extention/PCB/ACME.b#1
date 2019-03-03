@@ -610,27 +610,27 @@ design rules under a new name.</description>
 <attribute name="RS_PART_NUMBER" value="0186022P" x="22.4" y="20.85" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/0186022P" x="22.4" y="20.85" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="R3" library="ERA-3AEB2262V(0603 Resistor)" package="RESC1608X55N" value="200 Ohm" x="18.6" y="22.26" smashed="yes" rot="MR270">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 0603 22.6Kohm 0.1% 25ppm" x="18.6" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="HEIGHT" value="0.55mm" x="18.6" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="18.6" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB2262V" x="18.6" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERA-3AEB2262V" x="18.6" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-3AEB2262V" x="18.6" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="20.39" y="22.41" size="1.27" layer="26" rot="MR180" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="18.6" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="18.6" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<element name="R3" library="ERA-3AEB2262V(0603 Resistor)" package="RESC1608X55N" value="200 Ohm" x="16.08" y="22.26" smashed="yes" rot="MR270">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 0603 22.6Kohm 0.1% 25ppm" x="16.08" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="16.08" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="16.08" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB2262V" x="16.08" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERA-3AEB2262V" x="16.08" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-3AEB2262V" x="16.08" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="14.07" y="22.66" size="1.27" layer="26" rot="MR180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="16.08" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="16.08" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="R4" library="ERA-3AEB2262V(0603 Resistor)" package="RESC1608X55N" value="200 Ohm" x="23.66" y="22.3" smashed="yes" rot="SMR270">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 0603 22.6Kohm 0.1% 25ppm" x="23.66" y="22.3" size="1.778" layer="28" rot="SMR270" display="off"/>
-<attribute name="HEIGHT" value="0.55mm" x="23.66" y="22.3" size="1.778" layer="28" rot="SMR270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="23.66" y="22.3" size="1.778" layer="28" rot="SMR270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB2262V" x="23.66" y="22.3" size="1.778" layer="28" rot="SMR270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERA-3AEB2262V" x="23.66" y="22.3" size="1.778" layer="28" rot="SMR270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-3AEB2262V" x="23.66" y="22.3" size="1.778" layer="28" rot="SMR270" display="off"/>
-<attribute name="NAME" x="25.47" y="22.44" size="1.27" layer="26" rot="SMR0" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="23.66" y="22.3" size="1.778" layer="28" rot="SMR270" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="23.66" y="22.3" size="1.778" layer="28" rot="SMR270" display="off"/>
+<element name="R4" library="ERA-3AEB2262V(0603 Resistor)" package="RESC1608X55N" value="200 Ohm" x="28.72" y="20.96" smashed="yes" rot="SMR270">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 0603 22.6Kohm 0.1% 25ppm" x="28.72" y="20.96" size="1.778" layer="28" rot="SMR270" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="28.72" y="20.96" size="1.778" layer="28" rot="SMR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="28.72" y="20.96" size="1.778" layer="28" rot="SMR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB2262V" x="28.72" y="20.96" size="1.778" layer="28" rot="SMR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERA-3AEB2262V" x="28.72" y="20.96" size="1.778" layer="28" rot="SMR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-3AEB2262V" x="28.72" y="20.96" size="1.778" layer="28" rot="SMR270" display="off"/>
+<attribute name="NAME" x="30.53" y="21.1" size="1.27" layer="26" rot="SMR0" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="28.72" y="20.96" size="1.778" layer="28" rot="SMR270" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="28.72" y="20.96" size="1.778" layer="28" rot="SMR270" display="off"/>
 </element>
 <element name="R5" library="ERA-3AEB2262V(0603 Resistor)" package="RESC1608X55N" value="1K Ohm" x="16.96" y="15.09" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 0603 22.6Kohm 0.1% 25ppm" x="16.96" y="15.09" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -729,6 +729,7 @@ design rules under a new name.</description>
 <vertex x="37" y="-4"/>
 <vertex x="9" y="-4"/>
 </polygon>
+<wire x1="26.21" y1="24.66" x2="21.13" y2="24.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GATE1">
 <contactref element="Q2" pad="1"/>
@@ -763,14 +764,15 @@ design rules under a new name.</description>
 <signal name="N$2">
 <contactref element="IC1" pad="1"/>
 <contactref element="R3" pad="1"/>
-<wire x1="18.6" y1="23.06" x2="18.6" y2="24.65" width="1" layer="16"/>
-<wire x1="18.6" y1="24.65" x2="18.59" y2="24.66" width="1" layer="16"/>
+<wire x1="18.59" y1="24.66" x2="16.99" y2="23.06" width="1" layer="16"/>
+<wire x1="16.99" y1="23.06" x2="16.08" y2="23.06" width="1" layer="16"/>
 </signal>
 <signal name="N$6">
 <contactref element="IC1" pad="3"/>
 <contactref element="R4" pad="1"/>
-<wire x1="23.66" y1="23.1" x2="23.66" y2="24.65" width="1" layer="16"/>
-<wire x1="23.66" y1="24.65" x2="23.67" y2="24.66" width="1" layer="16"/>
+<wire x1="28.72" y1="21.76" x2="24.84" y2="21.76" width="1" layer="16"/>
+<wire x1="24.84" y1="21.76" x2="23.67" y2="22.93" width="1" layer="16"/>
+<wire x1="23.67" y1="24.66" x2="23.67" y2="22.93" width="1" layer="16"/>
 </signal>
 <signal name="N$7">
 <contactref element="IC1" pad="8"/>
@@ -833,19 +835,19 @@ design rules under a new name.</description>
 <wire x1="45.4268" y1="22.01409375" x2="45.4268" y2="17.1068" width="0.5" layer="16"/>
 <wire x1="45.4268" y1="17.1068" x2="43.64" y2="15.32" width="0.5" layer="16"/>
 <wire x1="45.4268" y1="22.01409375" x2="44.40409375" y2="23.0368" width="0.5" layer="16"/>
-<wire x1="18.6" y1="21.46" x2="14.49219375" y2="21.46" width="0.85" layer="16"/>
+<wire x1="16.08" y1="21.46" x2="14.49219375" y2="21.46" width="0.85" layer="16"/>
 <wire x1="6.69219375" y1="13.66" x2="6.69" y2="13.66" width="0.85" layer="16"/>
 <wire x1="14.49219375" y1="21.46" x2="6.69219375" y2="13.66" width="0.85" layer="16"/>
-<wire x1="18.6" y1="21.46" x2="18.6211" y2="21.4811" width="0.85" layer="16"/>
-<wire x1="22.5021" y1="25.1437625" x2="23.1862375" y2="25.8279" width="0.85" layer="16"/>
-<wire x1="23.1862375" y1="25.8279" x2="24.1537625" y2="25.8279" width="0.85" layer="16"/>
-<wire x1="24.1537625" y1="25.8279" x2="24.8379" y2="25.1437625" width="0.85" layer="16"/>
+<wire x1="16.08" y1="21.46" x2="16.1011" y2="21.4811" width="0.85" layer="16"/>
+<wire x1="22.3921" y1="25.3137625" x2="23.0862375" y2="26.0079" width="0.85" layer="16"/>
+<wire x1="23.0862375" y1="26.0079" x2="24.1737625" y2="26.0079" width="0.85" layer="16"/>
+<wire x1="24.1737625" y1="26.0079" x2="24.9579" y2="25.2237625" width="0.85" layer="16"/>
 <wire x1="36" y1="23.1718" x2="25.97324375" y2="23.1718" width="0.85" layer="16"/>
-<wire x1="22.5021" y1="23.8882375" x2="22.5021" y2="25.1437625" width="0.85" layer="16"/>
-<wire x1="24.8379" y1="25.1437625" x2="24.8379" y2="24.30714375" width="0.85" layer="16"/>
-<wire x1="24.8379" y1="24.30714375" x2="25.97324375" y2="23.1718" width="0.85" layer="16"/>
-<wire x1="18.6211" y1="21.4811" x2="20.0949625" y2="21.4811" width="0.85" layer="16"/>
-<wire x1="20.0949625" y1="21.4811" x2="22.5021" y2="23.8882375" width="0.85" layer="16"/>
+<wire x1="22.3921" y1="23.7782375" x2="22.3921" y2="25.3137625" width="0.85" layer="16"/>
+<wire x1="24.9579" y1="25.2237625" x2="24.9579" y2="24.18714375" width="0.85" layer="16"/>
+<wire x1="24.9579" y1="24.18714375" x2="25.97324375" y2="23.1718" width="0.85" layer="16"/>
+<wire x1="16.1011" y1="21.4811" x2="20.0949625" y2="21.4811" width="0.85" layer="16"/>
+<wire x1="20.0949625" y1="21.4811" x2="22.3921" y2="23.7782375" width="0.85" layer="16"/>
 <wire x1="44.40409375" y1="23.0368" x2="36.135" y2="23.0368" width="0.5" layer="16"/>
 <wire x1="36.135" y1="23.0368" x2="36" y2="23.1718" width="0.5" layer="16"/>
 </signal>
@@ -858,14 +860,15 @@ design rules under a new name.</description>
 <wire x1="44.7579" y1="21.7251875" x2="44.7579" y2="19.0648125" width="0.5" layer="16"/>
 <wire x1="44.7579" y1="19.0648125" x2="43.64" y2="17.9469125" width="0.5" layer="16"/>
 <wire x1="44.0551875" y1="22.4279" x2="36.2696625" y2="22.4279" width="0.5" layer="16"/>
-<wire x1="8.17" y1="13.73" x2="14.0911" y2="19.6511" width="0.85" layer="16"/>
+<wire x1="8.17" y1="13.73" x2="14.5611" y2="20.1211" width="0.85" layer="16"/>
 <wire x1="8.17" y1="12" x2="7.29" y2="11.12" width="0.85" layer="16"/>
 <wire x1="6.69" y1="11.12" x2="7.29" y2="11.12" width="0.85" layer="16"/>
 <wire x1="8.17" y1="12" x2="8.17" y2="13.73" width="0.85" layer="16"/>
-<wire x1="14.0911" y1="19.6511" x2="21.8111" y2="19.6511" width="0.85" layer="16"/>
-<wire x1="21.8111" y1="19.6511" x2="23.66" y2="21.5" width="0.85" layer="16"/>
-<wire x1="35.4017625" y1="21.56" x2="23.72" y2="21.56" width="0.85" layer="16"/>
-<wire x1="23.72" y1="21.56" x2="23.66" y2="21.5" width="0.85" layer="16"/>
+<wire x1="14.5611" y1="20.1211" x2="28.6811" y2="20.1211" width="0.85" layer="16"/>
+<wire x1="28.6811" y1="20.1211" x2="28.72" y2="20.16" width="0.85" layer="16"/>
+<wire x1="35.4017625" y1="21.56" x2="31.18" y2="21.56" width="0.85" layer="16"/>
+<wire x1="31.18" y1="21.56" x2="29.78" y2="20.16" width="0.85" layer="16"/>
+<wire x1="29.78" y1="20.16" x2="28.72" y2="20.16" width="0.85" layer="16"/>
 <wire x1="36.2696625" y1="22.4279" x2="35.4017625" y2="21.56" width="0.5" layer="16"/>
 </signal>
 <signal name="CANL">
