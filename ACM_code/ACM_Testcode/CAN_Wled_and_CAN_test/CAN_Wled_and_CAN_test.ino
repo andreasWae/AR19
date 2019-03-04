@@ -30,21 +30,31 @@ void setup() {
   canMsg2.data[6] = 0x00;
   canMsg2.data[7] = 0xA0;
 
-
   digitalWrite(5, HIGH);
   digitalWrite(6, HIGH);
-  digitalWrite(9, LOW);
+  digitalWrite(9, HIGH);
   
   pinMode(5, OUTPUT);
   pinMode(6, OUTPUT);
   pinMode(9, OUTPUT);
+
+  digitalWrite(5, LOW);
+  delay(300);
+  digitalWrite(5, HIGH);
+  delay(300);
+  digitalWrite(6, LOW);
+  delay(300);
+  digitalWrite(6, HIGH);
+  delay(300);
+  digitalWrite(9, LOW);
+  delay(300);
   
   while (!Serial);
   Serial.begin(115200);
   SPI.begin();
   
   mcp2515.reset();
-  mcp2515.setBitrate(CAN_125KBPS, MCP_8MHZ);
+  mcp2515.setBitrate(CAN_125KBPS, MCP_16MHZ);
   mcp2515.setNormalMode();
   
   Serial.println("Example: Write to CAN");
