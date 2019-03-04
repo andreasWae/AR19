@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -166,22 +166,195 @@
 <text x="21.32" y="2.61" size="4" layer="25" distance="0" align="center">-</text>
 <text x="14.63" y="2.35" size="4" layer="25" distance="0" align="center">+</text>
 <text x="34.24" y="2.61" size="4" layer="25" distance="0" align="center">-</text>
-<text x="2.96" y="28.01" size="1" layer="25">12V</text>
-<text x="10.07" y="28.32" size="1" layer="25">CANH</text>
-<text x="1.94" y="25.34" size="1" layer="25">CANL</text>
-<text x="10.18" y="25.58" size="1" layer="25">GND</text>
-<text x="34.48" y="28.04" size="1" layer="25">CANH</text>
-<text x="43.15" y="28.08" size="1" layer="25">12V</text>
-<text x="35.37" y="25.61" size="1" layer="25">GND</text>
-<text x="43.38" y="25.59" size="1" layer="25">CANL</text>
+<text x="5.46" y="28.51" size="1" layer="25" align="center-right">12V</text>
+<text x="10" y="28.5" size="1" layer="25" align="center-left">CANH</text>
+<text x="5.44" y="25.84" size="1" layer="25" align="center-right">CANL</text>
+<text x="10" y="26" size="1" layer="25" align="center-left">GND</text>
+<text x="38.5" y="28.5" size="1" layer="25" align="center-right">CANH</text>
+<text x="43" y="28.5" size="1" layer="25" align="center-left">12V</text>
+<text x="38.5" y="26" size="1" layer="25" align="center-right">GND</text>
+<text x="43" y="26" size="1" layer="25" align="center-left">CANL</text>
 <hole x="10.69" y="2.89" drill="2"/>
 <hole x="46" y="31" drill="3"/>
 <hole x="3" y="31" drill="3"/>
 <hole x="46" y="3" drill="3"/>
 <text x="18.08" y="2.35" size="1.778" layer="25" align="center">A</text>
 <text x="30.94" y="2.32" size="1.778" layer="25" align="center">B</text>
-<text x="24.5" y="32" size="1.778" layer="25" align="center">ACM Extention</text>
+<text x="24.5" y="32" size="1.778" layer="25" align="center">ACME - ACM Extention</text>
 <text x="42.01" y="1.49" size="1" layer="25" align="center">Rev. A</text>
+<text x="44.5" y="7.7" size="1" layer="25" align="center-left">5V</text>
+<text x="44.5" y="10.23" size="1" layer="25" align="center-left">5V</text>
+<text x="44.5" y="12.77" size="1" layer="25" align="center-left">GND</text>
+<text x="44.5" y="15.25" size="1" layer="25" align="center-left">PWM0</text>
+<text x="44.5" y="17.77" size="1" layer="25" align="center-left">PWM1</text>
+<text x="44.5" y="20.42" size="1" layer="25" align="center-left">AD0</text>
+<text x="41.17" y="6.95" size="1" layer="25" align="top-center">SCK</text>
+<text x="41.17" y="9.48" size="1" layer="25" align="top-center">MOSI</text>
+<text x="41.17" y="11.99" size="1" layer="25" align="top-center">MISO</text>
+<text x="41.17" y="14.55" size="1" layer="25" align="top-center">AD3</text>
+<text x="41.17" y="17.09" size="1" layer="25" align="top-center">AD2</text>
+<text x="41.17" y="19.63" size="1" layer="25" align="top-center">AD1</text>
+<text x="44.5" y="7.74" size="1" layer="26" rot="MR0" align="center-right">5V</text>
+<text x="44.5" y="10.23" size="1" layer="26" rot="MR0" align="center-right">5V</text>
+<text x="44.5" y="12.77" size="1" layer="26" rot="MR0" align="center-right">GND</text>
+<text x="44.5" y="15.25" size="1" layer="26" rot="MR0" align="center-right">PWM0</text>
+<text x="44.5" y="17.89" size="1" layer="26" rot="MR0" align="center-right">PWM1</text>
+<text x="44.5" y="20.47" size="1" layer="26" rot="MR0" align="center-right">AD0</text>
+<text x="41.1413125" y="6.91" size="1" layer="26" rot="MR0" align="top-center">SCK</text>
+<text x="41.141315625" y="9.46" size="1" layer="26" rot="MR0" align="top-center">MOSI</text>
+<text x="41.141315625" y="12.47" size="1" layer="26" rot="MR0" align="top-center">MISO</text>
+<text x="41.141315625" y="14.53" size="1" layer="26" rot="MR0" align="top-center">AD3</text>
+<text x="41.141315625" y="17.07" size="1" layer="26" rot="MR0" align="top-center">AD2</text>
+<text x="41.141315625" y="19.61" size="1" layer="26" rot="MR0" align="top-center">AD1</text>
+<polygon width="0.1" layer="22">
+<vertex x="30.840309375" y="32.836540625"/>
+<vertex x="29.950146875" y="32.836525"/>
+<vertex x="29.908503125" y="32.832490625"/>
+<vertex x="29.87311875" y="32.823071875"/>
+<vertex x="29.839596875" y="32.808334375"/>
+<vertex x="29.808715625" y="32.78865"/>
+<vertex x="29.7811375" y="32.76455625"/>
+<vertex x="29.754409375" y="32.73236875"/>
+<vertex x="29.7357625" y="32.700853125"/>
+<vertex x="29.7219875" y="32.666921875"/>
+<vertex x="29.71344375" y="32.6313125"/>
+<vertex x="29.710696875" y="32.605290625"/>
+<vertex x="29.710790625" y="32.579121875"/>
+<vertex x="29.713709375" y="32.553115625"/>
+<vertex x="29.7193875" y="32.527571875"/>
+<vertex x="30.396953125" y="30.21615625"/>
+<vertex x="31.07309375" y="32.521065625"/>
+<vertex x="31.0803875" y="32.55160625"/>
+<vertex x="31.0834625" y="32.57759375"/>
+<vertex x="31.083715625" y="32.603759375"/>
+<vertex x="31.08111875" y="32.6298"/>
+<vertex x="31.07571875" y="32.655403125"/>
+<vertex x="31.0675875" y="32.680278125"/>
+<vertex x="31.056846875" y="32.704140625"/>
+<vertex x="31.04070625" y="32.73106875"/>
+<vertex x="31.024734375" y="32.7518"/>
+<vertex x="31.006659375" y="32.770725"/>
+<vertex x="30.986671875" y="32.787615625"/>
+<vertex x="30.96499375" y="32.80226875"/>
+<vertex x="30.94185" y="32.8144875"/>
+<vertex x="30.91751875" y="32.8241125"/>
+<vertex x="30.89228125" y="32.83103125"/>
+<vertex x="30.866440625" y="32.835171875"/>
+</polygon>
+<polygon width="0.1" layer="22">
+<vertex x="34.05691875" y="32.839996875"/>
+<vertex x="31.8527375" y="32.839784375"/>
+<vertex x="31.826690625" y="32.8372875"/>
+<vertex x="31.79601875" y="32.83060625"/>
+<vertex x="31.76646875" y="32.82000625"/>
+<vertex x="31.7385375" y="32.805684375"/>
+<vertex x="31.712678125" y="32.787884375"/>
+<vertex x="31.693015625" y="32.770621875"/>
+<vertex x="31.672021875" y="32.74728125"/>
+<vertex x="31.654190625" y="32.72145"/>
+<vertex x="31.639803125" y="32.693546875"/>
+<vertex x="31.629075" y="32.66404375"/>
+<vertex x="29.71821875" y="26.1424125"/>
+<vertex x="29.711665625" y="26.106390625"/>
+<vertex x="29.71068125" y="26.069790625"/>
+<vertex x="29.7153375" y="26.033475"/>
+<vertex x="29.727375" y="25.9934125"/>
+<vertex x="29.743434375" y="25.96050625"/>
+<vertex x="29.76755" y="25.926321875"/>
+<vertex x="29.7971125" y="25.896725"/>
+<vertex x="29.82680625" y="25.8753"/>
+<vertex x="29.8545875" y="25.86069375"/>
+<vertex x="29.88405" y="25.849853125"/>
+<vertex x="29.914675" y="25.8429625"/>
+<vertex x="29.95116875" y="25.84000625"/>
+<vertex x="32.155359375" y="25.84014375"/>
+<vertex x="32.186603125" y="25.843196875"/>
+<vertex x="32.2172" y="25.85020625"/>
+<vertex x="32.24665" y="25.861084375"/>
+<vertex x="32.269953125" y="25.872978125"/>
+<vertex x="32.2960375" y="25.89044375"/>
+<vertex x="32.31964375" y="25.9111375"/>
+<vertex x="32.3403625" y="25.93471875"/>
+<vertex x="32.35515" y="25.956303125"/>
+<vertex x="32.36965" y="25.984146875"/>
+<vertex x="32.380371875" y="26.01365"/>
+<vertex x="34.293590625" y="32.540040625"/>
+<vertex x="34.29905625" y="32.570953125"/>
+<vertex x="34.30053125" y="32.597078125"/>
+<vertex x="34.29915625" y="32.62320625"/>
+<vertex x="34.294934375" y="32.649028125"/>
+<vertex x="34.287925" y="32.6742375"/>
+<vertex x="34.27823125" y="32.698540625"/>
+<vertex x="34.26599375" y="32.721665625"/>
+<vertex x="34.248153125" y="32.747496875"/>
+<vertex x="34.23086875" y="32.767140625"/>
+<vertex x="34.2075125" y="32.788115625"/>
+<vertex x="34.18611875" y="32.80318125"/>
+<vertex x="34.163221875" y="32.815846875"/>
+<vertex x="34.1390875" y="32.82595"/>
+<vertex x="34.113996875" y="32.833365625"/>
+<vertex x="34.08825" y="32.838034375"/>
+</polygon>
+<polygon width="0.1" layer="22">
+<vertex x="35.371484375" y="32.839996875"/>
+<vertex x="35.073053125" y="32.839940625"/>
+<vertex x="35.041778125" y="32.837234375"/>
+<vertex x="35.011115625" y="32.83050625"/>
+<vertex x="34.986409375" y="32.821896875"/>
+<vertex x="34.962778125" y="32.8106625"/>
+<vertex x="34.940496875" y="32.79694375"/>
+<vertex x="34.919828125" y="32.780903125"/>
+<vertex x="34.897490625" y="32.758840625"/>
+<vertex x="34.881203125" y="32.73836875"/>
+<vertex x="34.867228125" y="32.716246875"/>
+<vertex x="34.855740625" y="32.6927375"/>
+<vertex x="34.8453875" y="32.6631"/>
+<vertex x="33.86803125" y="29.332359375"/>
+<vertex x="34.84101875" y="26.011221875"/>
+<vertex x="34.850159375" y="25.98670625"/>
+<vertex x="34.86451875" y="25.9587875"/>
+<vertex x="34.882346875" y="25.93295"/>
+<vertex x="34.8996375" y="25.9133125"/>
+<vertex x="34.918925" y="25.89563125"/>
+<vertex x="34.935640625" y="25.883028125"/>
+<vertex x="34.953375" y="25.8719"/>
+<vertex x="34.976775" y="25.860184375"/>
+<vertex x="34.996309375" y="25.8526625"/>
+<vertex x="35.021525" y="25.84566875"/>
+<vertex x="35.04214375" y="25.84205625"/>
+<vertex x="35.068234375" y="25.8400625"/>
+<vertex x="37.28289375" y="25.840003125"/>
+<vertex x="37.31939375" y="25.84291875"/>
+<vertex x="37.350028125" y="25.849771875"/>
+<vertex x="37.3698375" y="25.85654375"/>
+<vertex x="37.393640625" y="25.86740625"/>
+<vertex x="37.411746875" y="25.87791875"/>
+<vertex x="37.432984375" y="25.893203125"/>
+<vertex x="37.448715625" y="25.907015625"/>
+<vertex x="37.46663125" y="25.926084375"/>
+<vertex x="37.4794375" y="25.94265"/>
+<vertex x="37.4933875" y="25.964784375"/>
+<vertex x="37.504896875" y="25.988284375"/>
+<vertex x="37.5122375" y="26.0078875"/>
+<vertex x="37.518978125" y="26.033171875"/>
+<vertex x="37.522353125" y="26.053834375"/>
+<vertex x="37.523896875" y="26.0747125"/>
+<vertex x="37.523221875" y="26.10086875"/>
+<vertex x="37.520628125" y="26.121640625"/>
+<vertex x="37.514871875" y="26.147165625"/>
+<vertex x="35.60386875" y="32.6687625"/>
+<vertex x="35.587978125" y="32.7074625"/>
+<vertex x="35.56885625" y="32.7386875"/>
+<vertex x="35.5415875" y="32.7704125"/>
+<vertex x="35.51359375" y="32.794009375"/>
+<vertex x="35.482384375" y="32.813159375"/>
+<vertex x="35.443671875" y="32.829015625"/>
+<vertex x="35.40799375" y="32.837240625"/>
+</polygon>
+<text x="29" y="32" size="1.5" layer="26" rot="MR0" align="center-left">ACME - ACM Extention</text>
+<text x="29" y="30.5" size="1" layer="26" rot="MR0" align="center-left">v3.2</text>
+<text x="29" y="29" size="1" layer="26" rot="MR0" align="center-left">Rev. A</text>
+<text x="2" y="12.5" size="1.1" layer="26" rot="MR270" align="center">*Designed by Humans from Earth*</text>
 </plain>
 <libraries>
 <library name="wirepad" urn="urn:adsk.eagle:library:412">
@@ -556,7 +729,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="NGD8201ANT4G" x="-4.36" y="-26.4435" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="7470901" x="-4.36" y="-26.4435" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7470901" x="-4.36" y="-26.4435" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="14.402" y="9.1765" size="1.27" layer="26" rot="MR90" align="center"/>
+<attribute name="NAME" x="17.342" y="10.6365" size="1.27" layer="26" rot="MR90" align="center"/>
 <attribute name="RS_PART_NUMBER" value="7470901" x="-4.36" y="-26.4435" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7470901" x="-4.36" y="-26.4435" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="43.9" y="-2.3135" size="1.27" layer="28" rot="MR0" align="center"/>
@@ -570,7 +743,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="NGD8201ANT4G" x="-5.643" y="-26.4435" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="7470901" x="-5.643" y="-26.4435" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7470901" x="-5.643" y="-26.4435" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="26.273" y="10.4285" size="1.27" layer="26" rot="MR90" align="center"/>
+<attribute name="NAME" x="31.353" y="10.4785" size="1.27" layer="26" rot="MR90" align="center"/>
 <attribute name="RS_PART_NUMBER" value="7470901" x="-5.643" y="-26.4435" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7470901" x="-5.643" y="-26.4435" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="33.03" y="10.5835" size="1.27" layer="28" rot="MR90" align="center"/>
@@ -582,7 +755,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB2262V" x="36.66" y="10.3865" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="667-ERA-3AEB2262V" x="36.66" y="10.3865" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-3AEB2262V" x="36.66" y="10.3865" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="36.23" y="13.7365" size="1.27" layer="26" rot="MR0" align="center"/>
+<attribute name="NAME" x="36.86" y="12.5765" size="1.27" layer="26" rot="MR0" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="36.66" y="10.3865" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="36.66" y="10.3865" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="32.04" y="9.5765" size="1.27" layer="28" rot="MR0" align="center"/>
@@ -594,7 +767,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB2262V" x="22.66" y="10.3865" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="667-ERA-3AEB2262V" x="22.66" y="10.3865" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-3AEB2262V" x="22.66" y="10.3865" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="25.66" y="10.4265" size="1.27" layer="26" rot="MR180" align="center"/>
+<attribute name="NAME" x="22.95" y="12.5765" size="1.27" layer="26" rot="MR180" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="22.66" y="10.3865" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="22.66" y="10.3865" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="24.62" y="7.3565" size="1.27" layer="28" rot="MR270" align="center"/>
@@ -610,27 +783,27 @@ design rules under a new name.</description>
 <attribute name="RS_PART_NUMBER" value="0186022P" x="22.4" y="20.85" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/0186022P" x="22.4" y="20.85" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="R3" library="ERA-3AEB2262V(0603 Resistor)" package="RESC1608X55N" value="200 Ohm" x="17.47" y="22.54" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 0603 22.6Kohm 0.1% 25ppm" x="17.47" y="22.54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="HEIGHT" value="0.55mm" x="17.47" y="22.54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="17.47" y="22.54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB2262V" x="17.47" y="22.54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERA-3AEB2262V" x="17.47" y="22.54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-3AEB2262V" x="17.47" y="22.54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="17.62" y="21.07" size="1.27" layer="26" rot="MR0" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="17.47" y="22.54" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="17.47" y="22.54" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="R3" library="ERA-3AEB2262V(0603 Resistor)" package="RESC1608X55N" value="200 Ohm" x="16.08" y="22.26" smashed="yes" rot="MR270">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 0603 22.6Kohm 0.1% 25ppm" x="16.08" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="16.08" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="16.08" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB2262V" x="16.08" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERA-3AEB2262V" x="16.08" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-3AEB2262V" x="16.08" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="14.07" y="22.66" size="1.27" layer="26" rot="MR180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="16.08" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="16.08" y="22.26" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="R4" library="ERA-3AEB2262V(0603 Resistor)" package="RESC1608X55N" value="200 Ohm" x="23.09" y="22.78" smashed="yes" rot="SMR0">
-<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 0603 22.6Kohm 0.1% 25ppm" x="23.09" y="22.78" size="1.778" layer="28" rot="SMR0" display="off"/>
-<attribute name="HEIGHT" value="0.55mm" x="23.09" y="22.78" size="1.778" layer="28" rot="SMR0" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Panasonic" x="23.09" y="22.78" size="1.778" layer="28" rot="SMR0" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB2262V" x="23.09" y="22.78" size="1.778" layer="28" rot="SMR0" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="667-ERA-3AEB2262V" x="23.09" y="22.78" size="1.778" layer="28" rot="SMR0" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-3AEB2262V" x="23.09" y="22.78" size="1.778" layer="28" rot="SMR0" display="off"/>
-<attribute name="NAME" x="23.02" y="21.16" size="1.27" layer="26" rot="SMR0" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="23.09" y="22.78" size="1.778" layer="28" rot="SMR0" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="23.09" y="22.78" size="1.778" layer="28" rot="SMR0" display="off"/>
+<element name="R4" library="ERA-3AEB2262V(0603 Resistor)" package="RESC1608X55N" value="200 Ohm" x="28.72" y="20.96" smashed="yes" rot="SMR270">
+<attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 0603 22.6Kohm 0.1% 25ppm" x="28.72" y="20.96" size="1.778" layer="28" rot="SMR270" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="28.72" y="20.96" size="1.778" layer="28" rot="SMR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Panasonic" x="28.72" y="20.96" size="1.778" layer="28" rot="SMR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB2262V" x="28.72" y="20.96" size="1.778" layer="28" rot="SMR270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="667-ERA-3AEB2262V" x="28.72" y="20.96" size="1.778" layer="28" rot="SMR270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-3AEB2262V" x="28.72" y="20.96" size="1.778" layer="28" rot="SMR270" display="off"/>
+<attribute name="NAME" x="30.53" y="21.1" size="1.27" layer="26" rot="SMR0" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="28.72" y="20.96" size="1.778" layer="28" rot="SMR270" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="28.72" y="20.96" size="1.778" layer="28" rot="SMR270" display="off"/>
 </element>
 <element name="R5" library="ERA-3AEB2262V(0603 Resistor)" package="RESC1608X55N" value="1K Ohm" x="16.96" y="15.09" smashed="yes" rot="MR0">
 <attribute name="DESCRIPTION" value="Thin Film Resistors - SMD 0603 22.6Kohm 0.1% 25ppm" x="16.96" y="15.09" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -655,19 +828,19 @@ design rules under a new name.</description>
 <attribute name="RS_PRICE-STOCK" value="" x="25.19" y="15.08" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="D0" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="" x="14.71" y="3.65" smashed="yes" rot="MR180">
-<attribute name="NAME" x="14.2" y="-1.368" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="16.44" y="1.342" size="1.27" layer="26" ratio="10" rot="MR180"/>
 <attribute name="VALUE" x="14.61" y="0.85" size="0.0254" layer="28" rot="MR180"/>
 </element>
 <element name="S0" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="" x="21.231" y="3.637" smashed="yes" rot="MR0">
-<attribute name="NAME" x="20.559" y="-1.529" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="22.889" y="1.471" size="1.27" layer="26" ratio="10" rot="MR180"/>
 <attribute name="VALUE" x="21.331" y="6.437" size="0.0254" layer="28" rot="MR0"/>
 </element>
 <element name="S1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="" x="34.156" y="3.74" smashed="yes" rot="MR180">
-<attribute name="NAME" x="33.42" y="-1.232" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="35.89" y="1.638" size="1.27" layer="26" ratio="10" rot="MR180"/>
 <attribute name="VALUE" x="34.056" y="0.94" size="0.0254" layer="28" rot="MR180"/>
 </element>
 <element name="D1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="5-2,5" package3d_urn="urn:adsk.eagle:package:30845/1" value="" x="27.39" y="3.59" smashed="yes" rot="MR180">
-<attribute name="NAME" x="26.55" y="-1.658" size="1.27" layer="26" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="29.02" y="1.392" size="1.27" layer="26" ratio="10" rot="MR180"/>
 <attribute name="VALUE" x="27.29" y="0.79" size="0.0254" layer="28" rot="MR180"/>
 </element>
 <element name="U$1" library="ACM_Pindown" package="ACM_CAS_FP" value="ACM_CASTELLATED" x="6.69" y="-0.11" smashed="yes"/>
@@ -720,22 +893,6 @@ design rules under a new name.</description>
 <vertex x="-11" y="40"/>
 </polygon>
 <contactref element="U$2" pad="9"/>
-<via x="32" y="26" extent="1-16" drill="0.2"/>
-<via x="33" y="25" extent="1-16" drill="0.2"/>
-<via x="30" y="24" extent="1-16" drill="0.2"/>
-<via x="29" y="25" extent="1-16" drill="0.2"/>
-<via x="17" y="25" extent="1-16" drill="0.2"/>
-<via x="17" y="24" extent="1-16" drill="0.2"/>
-<via x="14" y="25" extent="1-16" drill="0.2"/>
-<via x="14.59" y="26.04" extent="1-16" drill="0.2"/>
-<wire x1="33" y1="25" x2="32" y2="24" width="0.5" layer="1"/>
-<wire x1="32" y1="24" x2="30" y2="24" width="0.5" layer="1"/>
-<wire x1="32" y1="26" x2="31" y2="25" width="0.5" layer="1"/>
-<wire x1="31" y1="25" x2="29" y2="25" width="0.5" layer="1"/>
-<wire x1="14.59" y1="26.04" x2="15.63" y2="25" width="0.5" layer="1"/>
-<wire x1="15.63" y1="25" x2="17" y2="25" width="0.5" layer="1"/>
-<wire x1="14" y1="25" x2="15" y2="24" width="0.5" layer="1"/>
-<wire x1="15" y1="24" x2="17" y2="24" width="0.5" layer="1"/>
 <polygon width="0.5" layer="16" pour="cutout">
 <vertex x="8" y="-3"/>
 <vertex x="8" y="13"/>
@@ -745,7 +902,7 @@ design rules under a new name.</description>
 <vertex x="37" y="-4"/>
 <vertex x="9" y="-4"/>
 </polygon>
-<wire x1="32" y1="26" x2="33" y2="25" width="0.5" layer="16"/>
+<wire x1="26.21" y1="24.66" x2="21.13" y2="24.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GATE1">
 <contactref element="Q2" pad="1"/>
@@ -780,14 +937,15 @@ design rules under a new name.</description>
 <signal name="N$2">
 <contactref element="IC1" pad="1"/>
 <contactref element="R3" pad="1"/>
-<wire x1="18.27" y1="22.54" x2="18.27" y2="24.34" width="0.85" layer="16"/>
-<wire x1="18.27" y1="24.34" x2="18.59" y2="24.66" width="0.85" layer="16"/>
+<wire x1="18.59" y1="24.66" x2="16.99" y2="23.06" width="1" layer="16"/>
+<wire x1="16.99" y1="23.06" x2="16.08" y2="23.06" width="1" layer="16"/>
 </signal>
 <signal name="N$6">
 <contactref element="IC1" pad="3"/>
 <contactref element="R4" pad="1"/>
-<wire x1="23.89" y1="22.78" x2="23.89" y2="24.44" width="0.85" layer="16"/>
-<wire x1="23.89" y1="24.44" x2="23.67" y2="24.66" width="0.85" layer="16"/>
+<wire x1="28.72" y1="21.76" x2="24.84" y2="21.76" width="1" layer="16"/>
+<wire x1="24.84" y1="21.76" x2="23.67" y2="22.93" width="1" layer="16"/>
+<wire x1="23.67" y1="24.66" x2="23.67" y2="22.93" width="1" layer="16"/>
 </signal>
 <signal name="N$7">
 <contactref element="IC1" pad="8"/>
@@ -833,14 +991,6 @@ design rules under a new name.</description>
 <wire x1="38.69" y1="3.5" x2="40.44" y2="3.5" width="1" layer="1"/>
 <wire x1="43.64" y1="6.7" x2="43.64" y2="7.7" width="1" layer="1"/>
 <wire x1="43.64" y1="6.7" x2="40.44" y2="3.5" width="1" layer="1"/>
-<via x="4" y="13" extent="1-16" drill="0.2"/>
-<via x="5" y="12" extent="1-16" drill="0.2"/>
-<via x="4" y="7" extent="1-16" drill="0.2"/>
-<via x="3" y="8" extent="1-16" drill="0.2"/>
-<wire x1="3" y1="8" x2="4" y2="9" width="0.5" layer="16"/>
-<wire x1="4" y1="9" x2="4" y2="13" width="0.5" layer="16"/>
-<wire x1="4" y1="7" x2="5" y2="8" width="0.5" layer="16"/>
-<wire x1="5" y1="8" x2="5" y2="12" width="0.5" layer="16"/>
 <polygon width="0.5" layer="1" pour="cutout">
 <vertex x="8" y="-3"/>
 <vertex x="8" y="13"/>
@@ -855,37 +1005,44 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="PWM0_P"/>
 <contactref element="R3" pad="2"/>
 <contactref element="U$2" pad="10"/>
-<wire x1="15.57" y1="22.54" x2="16.67" y2="22.54" width="0.85" layer="16"/>
-<wire x1="32.8948625" y1="23.0368" x2="44.40409375" y2="23.0368" width="0.5" layer="16"/>
 <wire x1="45.4268" y1="22.01409375" x2="45.4268" y2="17.1068" width="0.5" layer="16"/>
 <wire x1="45.4268" y1="17.1068" x2="43.64" y2="15.32" width="0.5" layer="16"/>
-<wire x1="44.40409375" y1="23.0368" x2="45.4268" y2="22.01409375" width="0.5" layer="16"/>
-<wire x1="27.1716625" y1="28.76" x2="32.8948625" y2="23.0368" width="0.5" layer="16"/>
-<wire x1="15.57" y1="22.54" x2="15.57" y2="26.28" width="0.85" layer="16"/>
-<wire x1="15.57" y1="26.28" x2="18.05" y2="28.76" width="0.85" layer="16"/>
-<wire x1="18.05" y1="28.76" x2="27.1716625" y2="28.76" width="0.85" layer="16"/>
-<wire x1="6.69" y1="13.66" x2="15.57" y2="22.54" width="0.85" layer="16"/>
+<wire x1="45.4268" y1="22.01409375" x2="44.40409375" y2="23.0368" width="0.5" layer="16"/>
+<wire x1="16.08" y1="21.46" x2="14.49219375" y2="21.46" width="0.85" layer="16"/>
+<wire x1="6.69219375" y1="13.66" x2="6.69" y2="13.66" width="0.85" layer="16"/>
+<wire x1="14.49219375" y1="21.46" x2="6.69219375" y2="13.66" width="0.85" layer="16"/>
+<wire x1="16.08" y1="21.46" x2="16.1011" y2="21.4811" width="0.85" layer="16"/>
+<wire x1="22.3921" y1="25.3137625" x2="23.0862375" y2="26.0079" width="0.85" layer="16"/>
+<wire x1="23.0862375" y1="26.0079" x2="24.1737625" y2="26.0079" width="0.85" layer="16"/>
+<wire x1="24.1737625" y1="26.0079" x2="24.9579" y2="25.2237625" width="0.85" layer="16"/>
+<wire x1="36" y1="23.1718" x2="25.97324375" y2="23.1718" width="0.85" layer="16"/>
+<wire x1="22.3921" y1="23.7782375" x2="22.3921" y2="25.3137625" width="0.85" layer="16"/>
+<wire x1="24.9579" y1="25.2237625" x2="24.9579" y2="24.18714375" width="0.85" layer="16"/>
+<wire x1="24.9579" y1="24.18714375" x2="25.97324375" y2="23.1718" width="0.85" layer="16"/>
+<wire x1="16.1011" y1="21.4811" x2="20.0949625" y2="21.4811" width="0.85" layer="16"/>
+<wire x1="20.0949625" y1="21.4811" x2="22.3921" y2="23.7782375" width="0.85" layer="16"/>
+<wire x1="44.40409375" y1="23.0368" x2="36.135" y2="23.0368" width="0.5" layer="16"/>
+<wire x1="36.135" y1="23.0368" x2="36" y2="23.1718" width="0.5" layer="16"/>
 </signal>
 <signal name="PWM1">
 <contactref element="U$1" pad="PWM1_INT1_P"/>
 <contactref element="R4" pad="2"/>
 <contactref element="U$2" pad="11"/>
-<wire x1="21.3917625" y1="22.78" x2="22.29" y2="22.78" width="0.85" layer="16"/>
-<wire x1="19.5778625" y1="20.9661" x2="21.3917625" y2="22.78" width="0.85" layer="16"/>
-<wire x1="22.8839" y1="20.8361" x2="22.29" y2="21.43" width="0.85" layer="16"/>
-<wire x1="22.29" y1="22.78" x2="22.29" y2="21.43" width="0.85" layer="16"/>
-<wire x1="22.8839" y1="20.8361" x2="24.7178625" y2="20.8361" width="0.85" layer="16"/>
-<wire x1="24.7178625" y1="20.8361" x2="26.2896625" y2="22.4079" width="0.85" layer="16"/>
-<wire x1="44.0751875" y1="22.4079" x2="44.7579" y2="21.7251875" width="0.5" layer="16"/>
+<wire x1="44.0551875" y1="22.4279" x2="44.7579" y2="21.7251875" width="0.5" layer="16"/>
 <wire x1="43.64" y1="17.9469125" x2="43.64" y2="17.86" width="0.85" layer="16"/>
 <wire x1="44.7579" y1="21.7251875" x2="44.7579" y2="19.0648125" width="0.5" layer="16"/>
 <wire x1="44.7579" y1="19.0648125" x2="43.64" y2="17.9469125" width="0.5" layer="16"/>
-<wire x1="26.2896625" y1="22.4079" x2="44.0751875" y2="22.4079" width="0.5" layer="16"/>
-<wire x1="8.17" y1="13.73" x2="15.4061" y2="20.9661" width="0.85" layer="16"/>
-<wire x1="15.4061" y1="20.9661" x2="19.5778625" y2="20.9661" width="0.85" layer="16"/>
+<wire x1="44.0551875" y1="22.4279" x2="36.2696625" y2="22.4279" width="0.5" layer="16"/>
+<wire x1="8.17" y1="13.73" x2="14.5611" y2="20.1211" width="0.85" layer="16"/>
 <wire x1="8.17" y1="12" x2="7.29" y2="11.12" width="0.85" layer="16"/>
 <wire x1="6.69" y1="11.12" x2="7.29" y2="11.12" width="0.85" layer="16"/>
 <wire x1="8.17" y1="12" x2="8.17" y2="13.73" width="0.85" layer="16"/>
+<wire x1="14.5611" y1="20.1211" x2="28.6811" y2="20.1211" width="0.85" layer="16"/>
+<wire x1="28.6811" y1="20.1211" x2="28.72" y2="20.16" width="0.85" layer="16"/>
+<wire x1="35.4017625" y1="21.56" x2="31.18" y2="21.56" width="0.85" layer="16"/>
+<wire x1="31.18" y1="21.56" x2="29.78" y2="20.16" width="0.85" layer="16"/>
+<wire x1="29.78" y1="20.16" x2="28.72" y2="20.16" width="0.85" layer="16"/>
+<wire x1="36.2696625" y1="22.4279" x2="35.4017625" y2="21.56" width="0.5" layer="16"/>
 </signal>
 <signal name="CANL">
 <contactref element="U$1" pad="CANL_P"/>
