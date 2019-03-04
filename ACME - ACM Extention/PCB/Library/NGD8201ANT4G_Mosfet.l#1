@@ -103,6 +103,7 @@
 <text x="34.29" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="34.29" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 <pin name="G" x="0" y="0" length="middle"/>
+<pin name="C_(NOPAD)" x="0" y="-2.54" length="middle"/>
 <pin name="E" x="38.1" y="0" length="middle" rot="R180"/>
 <pin name="C_(TAB)" x="38.1" y="-2.54" length="middle" rot="R180"/>
 </symbol>
