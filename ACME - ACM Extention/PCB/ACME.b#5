@@ -33,7 +33,7 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
@@ -357,10 +357,10 @@
 <text x="29" y="32" size="1.5" layer="26" rot="MR0" align="center-left">ACME - ACM Extention</text>
 <text x="29" y="30.5" size="1" layer="26" rot="MR0" align="center-left">v3.2</text>
 <text x="29" y="29" size="1" layer="26" rot="MR0" align="center-left">Rev. A</text>
-<text x="2" y="12.5" size="1.1" layer="26" rot="MR270" align="center">*Designed by Humans from Earth*</text>
+<text x="2" y="18.5" size="1.1" layer="26" rot="MR270" align="center">*Designed by Humans from Earth*</text>
 <text x="19.5" y="31" size="1" layer="25" align="center-left">with dual mosfet switch</text>
 <wire x1="19.5" y1="30.5" x2="34" y2="30.5" width="0.1" layer="25"/>
-<hole x="32" y="20.5" drill="3"/>
+<hole x="35" y="20.5" drill="3"/>
 <dimension x1="10.5" y1="7" x2="7.5" y2="7" x3="9" y3="7" textsize="0.45" layer="22" width="0.03" visible="yes"/>
 <dimension x1="35" y1="6.5" x2="38" y2="6.5" x3="36.5" y3="6.5" textsize="0.45" layer="22" width="0.03" visible="yes"/>
 <wire x1="35" y1="5.5" x2="35" y2="7.5" width="0.1" layer="22"/>
@@ -785,7 +785,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="NGD8201ANT4G" x="-6.523" y="-26.4535" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="7470901" x="-6.523" y="-26.4535" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7470901" x="-6.523" y="-26.4535" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="30.473" y="10.4685" size="1.27" layer="26" rot="MR90" align="center"/>
+<attribute name="NAME" x="30.403" y="10.3685" size="1.27" layer="26" rot="MR90" align="center"/>
 <attribute name="RS_PART_NUMBER" value="7470901" x="-6.523" y="-26.4535" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7470901" x="-6.523" y="-26.4535" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="32.15" y="10.5735" size="1.27" layer="28" rot="MR90" align="center"/>
@@ -797,7 +797,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB2262V" x="33.86" y="10.3765" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="667-ERA-3AEB2262V" x="33.86" y="10.3765" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-3AEB2262V" x="33.86" y="10.3765" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="34.06" y="12.5665" size="1.27" layer="26" rot="MR0" align="center"/>
+<attribute name="NAME" x="32.07" y="10.4565" size="1.27" layer="26" rot="MR0" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="33.86" y="10.3765" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="33.86" y="10.3765" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="29.24" y="9.5665" size="1.27" layer="28" rot="MR0" align="center"/>
@@ -809,7 +809,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB2262V" x="21.41" y="10.4865" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="667-ERA-3AEB2262V" x="21.41" y="10.4865" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-3AEB2262V" x="21.41" y="10.4865" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="21.7" y="12.6765" size="1.27" layer="26" rot="MR180" align="center"/>
+<attribute name="NAME" x="19.7" y="10.5165" size="1.27" layer="26" rot="MR180" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="21.41" y="10.4865" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="21.41" y="10.4865" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="23.37" y="7.4565" size="1.27" layer="28" rot="MR270" align="center"/>
@@ -832,7 +832,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB2262V" x="15.26" y="25.92" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="667-ERA-3AEB2262V" x="15.26" y="25.92" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-3AEB2262V" x="15.26" y="25.92" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="15.66" y="27.93" size="1.27" layer="26" rot="MR270" align="center"/>
+<attribute name="NAME" x="15.26" y="24.42" size="1.27" layer="26" rot="MR180" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="15.26" y="25.92" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="15.26" y="25.92" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -843,7 +843,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB2262V" x="29.54" y="25.72" size="1.778" layer="28" rot="SMR180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="667-ERA-3AEB2262V" x="29.54" y="25.72" size="1.778" layer="28" rot="SMR180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-3AEB2262V" x="29.54" y="25.72" size="1.778" layer="28" rot="SMR180" display="off"/>
-<attribute name="NAME" x="29.4" y="27.53" size="1.27" layer="26" rot="SMR270" align="center"/>
+<attribute name="NAME" x="29.53" y="24.1" size="1.27" layer="26" rot="SMR0" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="29.54" y="25.72" size="1.778" layer="28" rot="SMR180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="29.54" y="25.72" size="1.778" layer="28" rot="SMR180" display="off"/>
 </element>
@@ -854,7 +854,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ERA-3AEB2262V" x="16.05" y="16.3" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="667-ERA-3AEB2262V" x="16.05" y="16.3" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=667-ERA-3AEB2262V" x="16.05" y="16.3" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="13.4" y="16.27" size="1.27" layer="26" rot="MR180" align="center"/>
+<attribute name="NAME" x="15.97" y="14.88" size="1.27" layer="26" rot="MR180" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="16.05" y="16.3" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="16.05" y="16.3" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -934,14 +934,17 @@ design rules under a new name.</description>
 <vertex x="-11" y="40"/>
 </polygon>
 <contactref element="U$2" pad="9"/>
-<polygon width="0.5" layer="16" pour="cutout">
-<vertex x="6.76" y="-1.76"/>
-<vertex x="6.76" y="21"/>
-<vertex x="38.68" y="21"/>
-<vertex x="38.68" y="-4"/>
-<vertex x="9" y="-4"/>
-</polygon>
 <wire x1="26.21" y1="24.66" x2="21.13" y2="24.66" width="0" layer="19" extent="1-1"/>
+<polygon width="0.5" layer="16" pour="cutout">
+<vertex x="36.5" y="-3"/>
+<vertex x="37.72" y="-1.78"/>
+<vertex x="37.72" y="13.53"/>
+<vertex x="30.98" y="20.27"/>
+<vertex x="14.11" y="20.27"/>
+<vertex x="7.7" y="13.86"/>
+<vertex x="7.7" y="-2.11"/>
+<vertex x="8.59" y="-3"/>
+</polygon>
 </signal>
 <signal name="GATE1">
 <contactref element="Q2" pad="1"/>
@@ -1029,11 +1032,12 @@ design rules under a new name.</description>
 <wire x1="43.64" y1="6.7" x2="43.64" y2="7.7" width="1" layer="1"/>
 <wire x1="43.64" y1="6.7" x2="40.44" y2="3.5" width="1" layer="1"/>
 <polygon width="0.5" layer="1" pour="cutout">
-<vertex x="6.73" y="-1.73"/>
-<vertex x="6.73" y="21"/>
-<vertex x="38.71" y="21"/>
-<vertex x="38.71" y="-5.23"/>
-<vertex x="10.23" y="-5.23"/>
+<vertex x="37.76" y="-1.26"/>
+<vertex x="37.76" y="13.49"/>
+<vertex x="30.97" y="20.28"/>
+<vertex x="14.16" y="20.28"/>
+<vertex x="7.7" y="13.82"/>
+<vertex x="7.7" y="-1.26"/>
 </polygon>
 </signal>
 <signal name="PWM0">

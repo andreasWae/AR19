@@ -158,14 +158,18 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="49" y2="0" width="0" layer="20"/>
-<wire x1="49" y1="0" x2="49" y2="34" width="0" layer="20"/>
-<wire x1="49" y1="34" x2="0" y2="34" width="0" layer="20"/>
-<wire x1="0" y1="34" x2="0" y2="0" width="0" layer="20"/>
-<text x="25.91" y="2.35" size="4" layer="25" distance="0" align="center">+</text>
-<text x="20.82" y="2.61" size="4" layer="25" distance="0" align="center">-</text>
-<text x="14.13" y="2.35" size="4" layer="25" distance="0" align="center">+</text>
-<text x="32.74" y="2.61" size="4" layer="25" distance="0" align="center">-</text>
+<wire x1="1" y1="0" x2="48" y2="0" width="0" layer="20"/>
+<wire x1="48" y1="0" x2="49" y2="1" width="0" layer="20" curve="90"/>
+<wire x1="49" y1="1" x2="49" y2="33" width="0" layer="20"/>
+<wire x1="49" y1="33" x2="48" y2="34" width="0" layer="20" curve="90"/>
+<wire x1="48" y1="34" x2="1" y2="34" width="0" layer="20"/>
+<wire x1="1" y1="34" x2="0" y2="33" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="33" x2="0" y2="1" width="0" layer="20"/>
+<wire x1="0" y1="1" x2="1" y2="0" width="0" layer="20" curve="90"/>
+<text x="25.91" y="3.35" size="4" layer="25" distance="0" align="center">+</text>
+<text x="20.32" y="3.61" size="4" layer="25" distance="0" align="center">-</text>
+<text x="14.13" y="3.35" size="4" layer="25" distance="0" align="center">+</text>
+<text x="32.74" y="3.61" size="4" layer="25" distance="0" align="center">-</text>
 <text x="5.46" y="30.51" size="1" layer="25" align="center-right">12V</text>
 <text x="10" y="30.5" size="1" layer="25" align="center-left">CANH</text>
 <text x="5.44" y="27.84" size="1" layer="25" align="center-right">CANL</text>
@@ -177,8 +181,8 @@
 <hole x="10.69" y="2.89" drill="2"/>
 <hole x="3" y="3" drill="3"/>
 <hole x="46" y="3" drill="3"/>
-<text x="17.14" y="2.52" size="1.778" layer="25" align="center">A</text>
-<text x="29.18" y="2.67" size="1.778" layer="25" align="center">B</text>
+<text x="17.14" y="3.02" size="1.778" layer="25" align="center">A</text>
+<text x="29.18" y="3.17" size="1.778" layer="25" align="center">B</text>
 <text x="21" y="32.5" size="1.778" layer="25" align="center">ACME - ACM Extention</text>
 <text x="42.01" y="1.49" size="1" layer="25" align="center">Rev. A</text>
 <text x="44.5" y="7.7" size="1" layer="25" align="center-left">5V</text>
@@ -357,14 +361,6 @@
 <text x="19.5" y="31" size="1" layer="25" align="center-left">with dual mosfet switch</text>
 <wire x1="19.5" y1="30.5" x2="34" y2="30.5" width="0.1" layer="25"/>
 <hole x="32" y="20.5" drill="3"/>
-<polygon width="0.2" layer="20" pour="hatch">
-<vertex x="47.5" y="10"/>
-<vertex x="47" y="10"/>
-<vertex x="46" y="9"/>
-<vertex x="46" y="6.5"/>
-<vertex x="48" y="6.5"/>
-<vertex x="48" y="9.5"/>
-</polygon>
 </plain>
 <libraries>
 <library name="wirepad" urn="urn:adsk.eagle:library:412">
