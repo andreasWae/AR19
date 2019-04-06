@@ -8,7 +8,7 @@ int breakPressure2 = 0 ;
 
 
 //Brakelight settings
-const int minBrakePressure1 = 0;
+const int minBrakePressure1 = 0; //May delete since input is 0 to 255
 const int maxBrakePressure1 = 35;
 const int minBrakePressure2 = 0;
 const int maxBrakePressure2 = 100;

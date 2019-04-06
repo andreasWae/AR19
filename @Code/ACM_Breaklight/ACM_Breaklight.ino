@@ -1,6 +1,18 @@
+/*
+Title: ACM Brakelight Controller
+Description: Main code for brakelight ACM
+v 1.0
+Last Revision Date: 06.04.2019
+
+Created by Simon Nylund on 05.04.2019
+Copyright © 2019 Align Racing UiA. All rights reserved.
+*/
+
+
+//Libraries
 #include <SPI.h>
 #include <mcp2515.h>
-#include "breaklightSettings.h"
+#include "AllSettings.h"
 
 MCP2515 mcp2515(7);
 struct can_frame canMsg;
@@ -41,6 +53,8 @@ void loop() {
       breakPressure2 = canMsg.data[1]; //Trykk i bremsekrets 2 (100 bar)
 
     }
+
+    breakpressurepercent = ((breakPressure1+breakPressure2)/2)*(100/255); //Gjennomsnittet av bremsetrykket fra 0 til 100%
 
     //Kode som produserer en felles bremsetrykk variabel som kan brukes i if setningen under.
     //Ved å bruke begge trykk sensorene for å få en 0 - 100% brems 
