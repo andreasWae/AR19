@@ -10,6 +10,7 @@ Copyright © 2019 Align Racing UiA. All rights reserved.
 
 
 //Libraries
+#include <Arduino.h>
 #include <SPI.h>
 #include <mcp2515.h>
 #include "AllSettings.h"
@@ -18,7 +19,7 @@ MCP2515 mcp2515(7);
 struct can_frame canMsg;
 
 int breakpressurepercent = 0;
-
+bool lightsON = false;
 
 void setup() {
  SPI.begin();
@@ -52,19 +53,27 @@ void loop() {
       breakPressure1 = canMsg.data[0]; //Trykk i bremsekrets 1 (35 bar)
       breakPressure2 = canMsg.data[1]; //Trykk i bremsekrets 2 (100 bar)
 
+    } 
+
+
+    if (breakPressure1 > pressureThresholdOn || breakPressure2 > pressureThresholdOn ) { //Skrur på bremselyset hvis den går forbi bremsethreshold (Vedien 0-255)
+        lightsON = true;
+    }
+    else if (breakPressure1 < pressureThresholdOff || breakPressure2 < pressureThresholdOff ) { //Skrur på bremselyset hvis den går forbi bremsethreshold (Vedien 0-255)
+        lightsON = false;
     }
 
-    breakpressurepercent = ((breakPressure1+breakPressure2)/2)*(100/255); //Gjennomsnittet av bremsetrykket fra 0 til 100%
 
-    //Kode som produserer en felles bremsetrykk variabel som kan brukes i if setningen under.
-    //Ved å bruke begge trykk sensorene for å få en 0 - 100% brems 
+    if (lightsON){       //skru på
 
-    if (breakpressurepercent >= pressureThreshold) {
-      digitalWrite(rled, LOW); //Debug led blir rød
-      digitalWrite(breaklightout, HIGH); //Bremselyset lyser
+          digitalWrite(rled, LOW); //Debug led blir rød
+          digitalWrite(breaklightout, HIGH); //Bremselyset lyser
     }
-    
+    else{      //skru av
 
+          digitalWrite(rled, HIGH); //Debug led blir rød
+          digitalWrite(breaklightout, LOW); //Bremselyset lyser
+    }
 
 
   }
